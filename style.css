@@ -119,9 +119,62 @@
 
 .midsection {
   display: grid;
-  grid-template-columns: 0.4fr 0.6fr;
-  grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+  /* justify-content: center; */
+  /* align-items: center; */
+  grid-template-columns: 0.4fr 0.6fr;   /* 40% width to the first column, 60% to the second */
+  grid-template-rows: repeat(5, 1fr);   /* 5 rows of equal height */
   gap: 0.5px;
+  height: 2500;
+  margin-right: 10px;
+
+}
+
+
+.card{
+  /* width: 30%; */
+  border: none;
+margin:auto;
+}
+.div-in-second-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 2;
+  margin: 10px;
+  grid-column: span 2;
+  border:solid;
+  width: 99%;
+
+}.div-in-third-row {
+  display: flex;
+justify-content: center;
+align-items: center;
+  margin: 10px;
+  grid-row: 3;
+  grid-column: span 2;
+  border:solid;
+  width: 99%;
+
+}.div-in-fourth-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  grid-row: 4;
+  grid-column: span 2;
+  border:solid;
+  width: 99%;
+
+}.div-in-fifth-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  grid-row: 5;
+  border:solid;
+  grid-column: span 2;
+  width: 99%;
+
 }
 
 
@@ -173,6 +226,7 @@
 
 /* Footer CSS */
 .footer {
+
   background-color: #414141;
   width: 100%;
   text-align: left;
@@ -328,6 +382,67 @@
     margin-left: 0;
   }
 }
-/* Footer CSS*/
 
+
+
+body {
+  margin-top: 20px;
+}
+
+
+/* ==============
+Pricing
+===================*/
+
+.plan-card .plan-icon {
+  display: inline-block;
+  font-size: 35px;
+  width: 100px;
+  height: 100px;
+  color: #ffffff;
+  line-height: 76px;
+  overflow: hidden;
+  border: 12px solid #ffffff;
+  border-radius: 50%;
+  background: #67a8e4;
+  box-shadow: 0 0 3px #cccccc;
+  transition: all .3s;
+}
+
+.plan-card .plan-price span {
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.plan-card .plan-features p {
+  line-height: 32px;
+}
+
+.bg-pink {
+  background-color: #f06292 !important;
+}
+
+.bg-teal {
+  background-color: #009688 !important;
+}
+
+.text-pink {
+  color: #f06292 !important;
+}
+
+.text-teal {
+  color: #009688 !important;
+}
+
+.btn-pink {
+  background-color: #f06292;
+  border: 1px solid #f06292;
+  color: #ffffff;
+}
+
+.btn-teal {
+  background-color: #009688;
+  border: 1px solid #009688;
+  color: #ffffff;
+}
 
