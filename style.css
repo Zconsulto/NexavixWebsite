@@ -4,13 +4,16 @@
   justify-content: center;
   align-items: center;
   height: 100vh; /* This will make sure the container fills the viewport height */
+  width: 100%;
 }
 
 .topnav {
   overflow: hidden;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
+  /* border-top: .01px solid #333; */
+  width: 100%;
 }
 
 
@@ -46,7 +49,7 @@
 
 /* Styling for Free Demo and Free Trial links with the star icon */
 .topnav a.special-link {
-  font-weight: bold; 
+  font-weight: bold;
   color: hsl(43, 100%, 47%);
   transition: color 0.3s;
   position: relative;
@@ -111,4 +114,46 @@
     display: block;
     text-align: left;
   }
+}
+ .midsection {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  gap: 0.5px;
+
+}
+
+
+.midsectiontext {
+  background-color: #fff;  /* fixed background color */
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px solid #000;  /* fixed border */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#systempic {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  /* margin-top: 10px; */
+  border: 0.5px solid #000;  /* fixed border */
+}
+
+.midpicture {
+  border: 0.5px solid #000;  /* fixed border */
+}
+
+.midsectiontext p {
+  font-style: normal;
+}
+
+.midsectiontext p, .midsectiontext h1 {
+  background-blend-mode: color-dodge;
+  width: 500px;
+  margin-left: 125px;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
 }
