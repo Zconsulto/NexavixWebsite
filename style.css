@@ -3,13 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
   height: 100vh; /* This will make sure the container fills the viewport height */
   width: 100%;
-=======
-  height: 100vh; 
-  /* This will make sure the container fills the viewport height */
->>>>>>> 59254e7cb7c2a8e16a2b136f4edb3bfd9ca67cd8
 }
 
 .topnav {
@@ -121,7 +116,7 @@
     text-align: left;
   }
 }
-<<<<<<< HEAD
+
  .midsection {
   display: grid;
   grid-template-columns: 0.5fr 1.5fr;
@@ -164,7 +159,6 @@
   margin-left: 125px;
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
 }
-=======
 
 /* Footer CSS */
 .footer {
@@ -324,4 +318,4 @@
   }
 }
 /* Footer CSS*/
->>>>>>> 59254e7cb7c2a8e16a2b136f4edb3bfd9ca67cd8
+
