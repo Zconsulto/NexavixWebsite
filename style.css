@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* This will make sure the container fills the viewport height */
+  height: 100vh; 
+  /* This will make sure the container fills the viewport height */
 }
 
 .topnav {
@@ -12,7 +13,6 @@
   align-items: center; 
   justify-content: center;
 }
-
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -23,20 +23,21 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: bold;
 }
 
 
 /* Change the color of links on hover */
 .topnav a:not(.logo):hover {
   border-bottom: 2px solid hsl(43, 100%, 47%);
-  color: #ddd;
+  color: #898989;
 }
 
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
   border-bottom: 2px solid hsl(43, 100%, 47%);
-  color: #ddd;
+  color: #898989;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -50,6 +51,7 @@
   color: hsl(43, 100%, 47%);
   transition: color 0.3s;
   position: relative;
+  font-weight: bold;
 }
 
 .topnav a.special-link i { /* This targets the star icon */
@@ -72,7 +74,7 @@
 
 /* Hover effect for Free Demo and Free Trial links */
 .topnav a.special-link:hover {
-  color: #ddd;
+  color: #898989;
 }
 
 .topnav a.special-link:hover::after {
@@ -82,7 +84,7 @@
 
 /* Styling for active state of Free Demo and Free Trial links */
 .topnav a.active.special-link {
-  color: #ddd;
+  color: #898989;
 }
 
 .topnav a.active.special-link::after {
@@ -112,3 +114,162 @@
     text-align: left;
   }
 }
+
+/* Footer CSS */
+.footer {
+  background-color: #414141;
+  width: 100%;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+
+.footer .about {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: grey;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-center i {
+  background-color: grey;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer h2 span {
+  color: #0099ff;
+}
+
+.footer .menu {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: hsl(43, 100%, 47%);
+}
+
+.footer .name {
+  color: hsl(43, 100%, 47%);
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+/* Footer CSS*/
