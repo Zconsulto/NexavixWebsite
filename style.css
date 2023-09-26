@@ -6,6 +6,24 @@
   height: 100vh; /* This will make sure the container fills the viewport height */
   width: 100%;
 }
+.top_bar .container{
+  justify-content: center;
+}
+.top_bar {
+  padding: 0px 0;
+  height: auto;
+  overflow: hidden;
+  background-color: #eaeaea;
+  border-bottom: solid 1px #cccccc;
+  position: relative;
+  top: 0px;
+
+  z-index: 4;
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
 
 .topnav {
   overflow: hidden;
@@ -121,58 +139,56 @@
   display: grid;
   /* justify-content: center; */
   /* align-items: center; */
-  grid-template-columns: 0.4fr 0.6fr;   /* 40% width to the first column, 60% to the second */
-  grid-template-rows: repeat(5, 1fr);   /* 5 rows of equal height */
+  grid-template-columns: 0.4fr 0.6fr;
+  grid-template-rows: repeat(4, 1fr);   /* 5 rows of equal height */
   gap: 0.5px;
-  height: 2500;
+  height: auto;
   margin-right: 10px;
 
 }
 
-
 .card{
   /* width: 30%; */
+  height: auto;
   border: none;
-margin:auto;
+  background-color: hsl(43, 100%, 47%);
+/* margin:auto; */
+}
+.div-in-first-row {
+grid-row: 1;
+
 }
 .div-in-second-row {
+  background-color: #ffc107;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  gap: 0.2px;
   grid-row: 2;
   margin: 10px;
   grid-column: span 2;
-  border:solid;
+  border:none;
   width: 99%;
 
 }.div-in-third-row {
   display: flex;
 justify-content: center;
-align-items: center;
+/* align-items: center; */
   margin: 10px;
   grid-row: 3;
   grid-column: span 2;
-  border:solid;
+  border:none;
   width: 99%;
 
 }.div-in-fourth-row {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   margin: 10px;
+
   grid-row: 4;
   grid-column: span 2;
-  border:solid;
-  width: 99%;
-
-}.div-in-fifth-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  grid-row: 5;
-  border:solid;
-  grid-column: span 2;
+  border:none;
   width: 99%;
 
 }
@@ -198,9 +214,19 @@ align-items: center;
   /* margin-top: 10px; */
   border: 0.5px solid #000;  /* fixed border */
 }
-
+.imagewrapper{
+  grid-row: 1;
+  grid-column: span 2;
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  /* align-items: center; */
+}
 .midpicture {
   border: 0.5px solid #000;  /* fixed border */
+  max-width: 100%;
+  height: auto;
+
 }
 
 .midsectiontext p {
@@ -226,13 +252,14 @@ align-items: center;
 
 /* Footer CSS */
 .footer {
-
+height: auto;
   background-color: #414141;
   width: 100%;
   text-align: left;
   font-family: sans-serif;
   font-weight: bold;
   font-size: 16px;
+  columns: span 2;
   padding: 50px;
   margin-top: 50px;
 }
@@ -446,3 +473,10 @@ Pricing
   color: #ffffff;
 }
 
+.carousel-inner{
+  margin-right: 40px;
+  margin:auto;
+}
+* {
+  border: none;
+}
