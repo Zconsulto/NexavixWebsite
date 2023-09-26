@@ -514,8 +514,8 @@ Pricing
   background-color: #e57c00 !important; /* Darker shade for hover effect */
   border-color: #e57c00 !important;
 }
-/* pricing css */
-/* @import url('https://fonts.googleapis.com/css?family=Roboto:300'); */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 body {
   margin: 0;
@@ -531,7 +531,7 @@ section {
 
 }
 
-.card {
+.pricing .card {
   position: relative;
   min-width: 300px;
   height: auto;
@@ -542,20 +542,20 @@ section {
   box-shadow: 0 10px 15px rgba(0,0,0,0.3);
   transition: .5s;
 }
-.card:hover {
+.pricing .card:hover {
   transform:scale(1.1);
 }
-.card_red, .card_red .title .fa {
+.pricing .card_red, .card_red .title .fa {
   background: linear-gradient(-45deg, #ffec61, #f321d7);
 }
-.card_violet, .card_violet .title .fa  {
+.pricing .card_violet, .card_violet .title .fa  {
   background: linear-gradient(-45deg, #f403d1, #64b5f6);
 }
-.card_three, .card_three .title .fa  {
+.pricing .card_three, .card_three .title .fa  {
   background: linear-gradient(-45deg, #24ff72, #9a4eff);
 }
 
-.card:before {
+.pricing .card:before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -567,7 +567,7 @@ section {
   transform: skewY(-5deg) scale(1.5);
 }
 
-.title .fa {
+.pricing .title .fa {
   color: #fff;
   font-size: 60px;
   width: 100px;
@@ -577,7 +577,7 @@ section {
   line-height: 100px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
 }
-.title h2 {
+.pricing .title h2 {
   position: relative;
   margin: 20px 0 0;
   padding: 0;
@@ -595,27 +595,27 @@ section {
   color: #fff;
   font-size: 60px;
 }
-.option {
+.pricing .option {
   position: relative;
   z-index: 2;
 }
-.option ul {
+.pricing .option ul {
   margin: 0;
   padding: 0;
 }
-.option ul li {
+.pricing .option ul li {
   margin: 0 0 10px;
   padding: 0;
   list-style: none;
   color: #fff;
   font-size: 16px;
 }
-.card a {
+.pricing .card a {
   display: block;
   position: relative;
   z-index: 2;
   background-color: #fff;
-  color:#2262ff;
+  color: #262ff;
   width: 150px;
   height: 40px;
   text-align: center;
@@ -627,6 +627,6 @@ section {
   text-decoration: none;
   box-shadow: 0 5px 10px rgba(0,0,0, .1);
 }
-.card a:hover {
+.pricing .card a:hover {
 
 }

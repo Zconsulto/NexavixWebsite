@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   var pricingTemplate = `
     <section>
+    <div class="pricing">
     <div class="container-fluid">
       <div class="container">
         <div class="row">
@@ -66,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
