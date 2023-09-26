@@ -651,3 +651,22 @@ section {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
 }
+.pricing{
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+  max-height: 400px;
+}
+.pricing-placeholder {
+  margin-bottom: 2000px; /* Adjust as needed */
+}
+.pricing .card_three, .card_three .title .fa {
+  background: linear-gradient(90deg, #FF8c00, Transparent);
+}
+.pricing .card_violet, .card_violet .title .fa {
+  background: linear-gradient(90deg, #FF8c00, Transparent);
+
+}
+.pricing .card_red, .card_red .title .fa {
+  background: linear-gradient(180deg, #FF8c00, Transparent);
+}
