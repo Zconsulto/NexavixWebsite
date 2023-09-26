@@ -627,6 +627,20 @@ section {
   text-decoration: none;
   box-shadow: 0 5px 10px rgba(0,0,0, .1);
 }
-.card a:hover {
+.custom-list {
+  list-style-type: none;
+  padding-left: 0;
+}
 
+.custom-list li {
+  position: relative;
+  padding-left: 1.5em;
+}
+
+.custom-list li::before {
+  position: absolute;
+  left: 0;
+  content: '\f00c'; /* Font Awesome check icon */
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
 }
