@@ -16,16 +16,10 @@ body, html {
   font-weight: 600;
 }
 
-.nav-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* This will make sure the container fills the viewport height */
-  width: 100%;
-}
 .top_bar .container{
   justify-content: center;
 }
+
 .top_bar {
   padding: 0px 0;
   height: auto;
