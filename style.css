@@ -480,3 +480,13 @@ Pricing
 * {
   border: none;
 }
+
+.btn-primary {
+  background-color: #FF8C00 !important; /* Overriding Bootstrap's primary color */
+  border-color: #FF8C00 !important;
+}
+
+.btn-primary:hover {
+  background-color: #e57c00 !important; /* Darker shade for hover effect */
+  border-color: #e57c00 !important;
+}
