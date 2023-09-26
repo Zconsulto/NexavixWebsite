@@ -4,9 +4,7 @@ body {
       /* linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), */
 
 }
-.footer{
-  background-image:url('images/orange_background.jpg');
-}
+
 body .top_bar{
   background-image:url('images/topHeader_background2.avif');
 }
@@ -264,8 +262,8 @@ justify-content: center;
 
 /* Footer CSS */
 .footer {
-height: auto;
-  background-color: #414141;
+  background-image:url('images/orange_background.jpg');
+  height: auto;
   width: 100%;
   text-align: left;
   font-family: sans-serif;
@@ -312,6 +310,7 @@ height: auto;
 }
 
 .footer .icons a {
+  background-color: #5f5f5f;
   display: inline-block;
   width: 35px;
   height: 35px;
@@ -334,15 +333,17 @@ height: auto;
 }
 
 .footer .footer-center i {
+  background-color: #5f5f5f;
   color: #ffffff;
   font-size: 25px;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   text-align: center;
   line-height: 42px;
   margin: 10px 15px;
   vertical-align: middle;
+  padding: 0px;
 }
 
 .footer .footer-center i.fa-envelope {
@@ -394,14 +395,16 @@ height: auto;
 }
 
 .footer .menu a:hover {
-  color: grey;
+  color: #5f5f5f;
 }
 
 .footer .name {
-  color: hsl(43, 100%, 47%);
+  color: #5f5f5f;
   font-size: 14px;
   font-weight: normal;
   margin: 0;
+  font-size:large; 
+  font-weight: 600;
 }
 
 @media (max-width: 767px) {
