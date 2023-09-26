@@ -17,20 +17,31 @@ document.addEventListener("DOMContentLoaded", function () {
               </div>
               <div class="option">
               <ul>
-              <li><i class="fa fa-check" aria-hidden="true"></i> Checkout for Cash & Carry</li>
-              <li><i class="fa fa-check" aria-hidden="true"></i> Invoice for Cash & Carry</li>
-              <li><i class="fa fa-check" aria-hidden="true"></i> Scan & Print for Cash & Carry</li>
-              <li><i class="fa fa-check" aria-hidden="true"></i> Back Office (A/P & A/R Invoicing)</li>
-              <li><i class="fa fa-check" aria-hidden="true"></i> Back Office (SO and PO Creation)</li>
-              <li><i class="fa fa-check" aria-hidden="true"></i> SAP Scan & Order App for Reps</li>
-              <li><i class="fa fa-check" aria-hidden="true"></i> SAP Scan & Order App for Customers</li>
-              <li><i class="fa fa-check" aria-hidden="true"></i> SAP Click & Order Portal for Customers</li>
-              <li><i class="fa fa-check" aria-hidden="true"></i> Robust Accounting and Finance</li>
-              <li><i class="fa fa-check" aria-hidden="true"></i> Purchasing and Email Vendors</li>
-              <li><i class="fa fa-check" aria-hidden="true"></i> Inventory Management</li>
-              <li><i class="fa fa-check" aria-hidden="true"></i> Customer & Vendor Management</li>
-
-          </ul>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Checkout for Cash & Carry</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Invoice for Cash & Carry</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Scan & Print for Cash & Carry</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Back Office (A/P & A/R Invoicing)</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Back Office (SO and PO Creation)</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> SAP Scan & Order App for Reps</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> SAP Scan & Order App for Customers</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> SAP Click & Order Portal for Customers</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Robust Accounting and Finance</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Purchasing and Email Vendors</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Inventory Management</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Customer & Vendor Management</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Extensive Wholesale Reporting</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> MSA Auto Reporting</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> OTP Auto Reporting</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> CRV Auto Reporting</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> SAP Emailer for Documents</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Online Check Printing</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Bank Statement Upload</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Alerts and Email Notifications</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Invoice Print templates</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Sales Order Print templates</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Purchase Order Print templates</li>
+    <li><i class="fa fa-check" aria-hidden="true"></i> Email Marketing</li>
+</ul>
               </div>
               <a href="#">Order Now</a>
             </div>
@@ -58,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <li><i class="fa fa-check" aria-hidden="true"></i> Inventory Transfer</li>
               <li><i class="fa fa-check" aria-hidden="true"></i> Purchase Orders</li>
               <li><i class="fa fa-check" aria-hidden="true"></i> Sales Order</li>
-         
+
           </ul>
               </div>
               <a href="#">Order Now</a>
@@ -94,6 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
         </div>
 
+    </div>
     </div>
     </div>
   </section>
