@@ -30,4 +30,5 @@ document.addEventListener("DOMContentLoaded", function () {
       activeLink.classList.add("active");
     }
   }
+
 });

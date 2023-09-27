@@ -6,4 +6,5 @@ function myFunction() {
     } else {
         x.className = "topnav";
     }
-}
+};
+document.querySelector('.icon').addEventListener('click', myFunction);
