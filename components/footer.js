@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var footerTemplate = `
+	var footerTemplate = `
   <!-- Left Footer Section -->
   <div class="footer-left col-md-4 col-sm-6">
       <h2 style="font-weight: bold; color: #FF8C00;">Why Nexavix</h2><br>
@@ -33,22 +33,22 @@ document.addEventListener("DOMContentLoaded", function () {
           <img src="https://www.nexavix.com/images/nexavix_logo.png" alt="Company's logo" style="width: 300px; height: 48px;">
       </a>
       <nav class="menu">
-          <a href="../index.html">Home</a> |
-          <a href="about.html">About</a> |
-          <a href="contact.html">Contact</a> |
-          <a href="services.html">Services</a> |
-          <a href="blogs.html">Blogs</a> |
+          <a href="../index.html">HOME</a> |
+          <a href="about.html">ABOUT</a> |
+          <a href="contact.html">CONTACT</a> |
+          <a href="services.html">SERVICES</a> |
+          <a href="blogs.html">BLOG</a> |
           <br>
-          <a href="wholesale.html">Wholesale Special pricing</a> |
-          <a href="demo.html">Free Demo</a> |
-          <a href="trial.html">Free Trial</a>
+          <a href="wholesale.html">WHOLESALE</a> |
+          <a href="demo.html">FREE DEMO</a> |
+          <a href="trial.html">FREE TRIAL</a>
       </nav>
   </div>
     `;
 
-  // Find all divs with class "footer-placeholder" and replace them with the footer
-  var placeholders = document.querySelectorAll(".footer-placeholder");
-  placeholders.forEach(function (placeholder) {
-    placeholder.outerHTML = footerTemplate;
-  });
+	// Find all divs with class "footer-placeholder" and replace them with the footer
+	var placeholders = document.querySelectorAll(".footer-placeholder");
+	placeholders.forEach(function (placeholder) {
+		placeholder.outerHTML = footerTemplate;
+	});
 });
