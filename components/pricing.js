@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
   var pricingTemplate = `
-    <section>
     <div class="pricing">
     <div class="container-fluid">
       <div class="container">
@@ -108,9 +107,6 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
     </div>
     </div>
-  </section>
-
-
     `;
   var placeholders = document.querySelectorAll(".pricing-placeholder");
   placeholders.forEach(function (placeholder) {
