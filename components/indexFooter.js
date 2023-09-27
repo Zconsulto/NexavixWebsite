@@ -33,15 +33,15 @@ document.addEventListener("DOMContentLoaded", function () {
             <img src="https://www.nexavix.com/images/nexavix_logo.png" alt="Company's logo" style="width: 300px; height: 48px;">
         </a>
         <nav class="menu">
-            <a href="index.html">Home</a> |
-            <a href="pages/about.html">About</a> |
-            <a href="pages/contact.html">Contact</a> |
-            <a href="pages/services.html">Services</a> |
-            <a href="pages/blogs.html">Blogs</a> |
+            <a href="index.html">HOME</a> |
+            <a href="pages/about.html">ABOUT</a> |
+            <a href="pages/contact.html">CONTACT</a> |
+            <a href="pages/services.html">SERVICES</a> |
+            <a href="pages/blogs.html">BLOG</a> |
             <br>
-            <a href="pages/wholesale.html">Wholesale Special pricing</a> |
-            <a href="pages/demo.html">Free Demo</a> |
-            <a href="pages/trial.html">Free Trial</a>
+            <a href="pages/wholesale.html">WHOLESALE</a> |
+            <a href="pages/demo.html">FREE DEMO</a> |
+            <a href="pages/trial.html">FREE TRIAL</a>
         </nav>
     </div>
       `;
