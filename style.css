@@ -665,3 +665,77 @@ section {
 .pricing .card_red, .card_red .title .fa {
   background: linear-gradient(180deg, #FF8c00, Transparent);
 }
+
+
+.unique_services-box
+{
+  display: grid;
+  justify-content: center;
+ grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.unique_service
+{
+  margin: 8px;
+}
+
+.unique_flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  perspective: 1000px;
+}
+
+.unique_flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unique_flip-box:hover .unique_flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.unique_flip-box-front, .unique_flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.unique_flip-box-front {
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
+}
+
+.unique_flip-box-front img
+{
+  height: 50px;
+  width: 50px;
+}
+
+.unique_flip-box-back {
+  background-color: #ffffff;
+  color: #000;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+  padding: 16px;
+}
