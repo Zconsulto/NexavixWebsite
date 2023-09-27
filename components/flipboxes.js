@@ -2,11 +2,13 @@ document.addEventListener("DOMContentLoaded", function () {
 	var flipBoxesTemplate = `
 
     <div class="unique_services-box">
+
+    <!-- Accounting and Finance -->
     <div class="unique_service">
       <div class="unique_flip-box">
         <div class="unique_flip-box-inner">
           <div class="unique_flip-box-front">
-
+            <i class="fas fa-dollar-sign"></i>
             <h2>Accounting and Finance</h2>
           </div>
           <div class="unique_flip-box-back">
@@ -16,11 +18,12 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     </div>
 
+    <!-- Sales and Customer Management -->
     <div class="unique_service">
       <div class="unique_flip-box">
         <div class="unique_flip-box-inner">
           <div class="unique_flip-box-front">
-          
+            <i class="fas fa-handshake"></i>
             <h2>Sales and Customer Management</h2>
           </div>
           <div class="unique_flip-box-back">
@@ -30,11 +33,12 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     </div>
 
+    <!-- Purchasing and Operations -->
     <div class="unique_service">
       <div class="unique_flip-box">
         <div class="unique_flip-box-inner">
           <div class="unique_flip-box-front">
-
+            <i class="fas fa-shopping-cart"></i>
             <h2>Purchasing and Operations</h2>
           </div>
           <div class="unique_flip-box-back">
@@ -44,11 +48,12 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     </div>
 
+    <!-- Inventory and Distribution -->
     <div class="unique_service">
       <div class="unique_flip-box">
         <div class="unique_flip-box-inner">
           <div class="unique_flip-box-front">
-
+            <i class="fas fa-boxes"></i>
             <h2>Inventory and Distribution</h2>
           </div>
           <div class="unique_flip-box-back">
@@ -58,12 +63,13 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     </div>
 
+    <!-- Reporting and Analytics -->
     <div class="unique_service">
       <div class="unique_flip-box">
         <div class="unique_flip-box-inner">
           <div class="unique_flip-box-front">
-
-            <h2>Reporting and Analytics.</h2>
+            <i class="fas fa-chart-bar"></i>
+            <h2>Reporting and Analytics</h2>
           </div>
           <div class="unique_flip-box-back">
             <p>SAP Business One for SAP HANA offers real-time business intelligence, analytics, and reporting, enhancing decision-making and process efficiency</p>
@@ -72,11 +78,12 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
     </div>
 
+    <!-- Integration Solutions -->
     <div class="unique_service">
       <div class="unique_flip-box">
         <div class="unique_flip-box-inner">
           <div class="unique_flip-box-front">
-
+            <i class="fas fa-link"></i>
             <h2>Integration Solutions</h2>
           </div>
           <div class="unique_flip-box-back">
@@ -85,7 +92,9 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       </div>
     </div>
+
 </div>
+
 
 
 

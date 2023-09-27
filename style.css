@@ -666,28 +666,28 @@ section {
   background: linear-gradient(180deg, #FF8c00, Transparent);
 }
 
-
-.unique_services-box
-{
+.unique_services-box {
   display: grid;
   justify-content: center;
- grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  flex-wrap: wrap;
+  gap: 16px; /* Added for spacing between grid items */
+  /* background: #5f5f5f; Grey background to make the orange pop out more */
+  padding: 20px; /* Padding for the outer container */
 }
 
-.unique_service
-{
+.unique_service {
   margin: 8px;
 }
 
 .unique_flip-box {
-  background-color: transparent;
+  /* background-color: #FFFFFF; Made the flip box background white for a clean look */
   width: 300px;
   height: 200px;
-  border: 1px solid #f1f1f1;
+  border: 2px solid #FF8c00; /* Orange border for distinction */
   border-radius: 10px;
   perspective: 1000px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Added subtle shadow for depth */
 }
 
 .unique_flip-box-inner {
@@ -722,19 +722,21 @@ section {
 
 .unique_flip-box-front {
   background-color: #fff;
-  color: black;
+  color: #5f5f5f; /* Grey color for the text */
   border-radius: 10px;
+  border-top: 4px solid #FF8c00; /* Orange top border for a sleek look */
+  border-bottom: 4px solid #FF8c00; /* Orange bottom border */
 }
 
-.unique_flip-box-front img
-{
+.unique_flip-box-front img {
   height: 50px;
   width: 50px;
+  margin-bottom: 10px; /* Spacing between the image and text */
 }
 
 .unique_flip-box-back {
-  background-color: #ffffff;
-  color: #000;
+  background-color: #FF8c00; /* Orange background */
+  color: #ffffff; /* White text for better readability against the orange background */
   transform: rotateY(180deg);
   border-radius: 10px;
   padding: 16px;
