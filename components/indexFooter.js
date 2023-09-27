@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="pages/about.html">About</a> |
             <a href="pages/contact.html">Contact</a> |
             <a href="pages/services.html">Services</a> |
+            <a href="pages/blogs.html">Blogs</a> |
             <br>
             <a href="pages/wholesale.html">Wholesale Special pricing</a> |
             <a href="pages/demo.html">Free Demo</a> |

@@ -1,6 +1,6 @@
 /* Style for the outer container */
 *{
-  font-family: 'Poppins', sans-serif;
+  font: Helvetica,Calibri,Arial,sans-serif;
 }
 body {
   
@@ -36,6 +36,7 @@ body, html {
   line-height: 1.42857143;
 }
 
+
 .topnav {
   background-image:url('images/7rkat_grey_background.jpeg');
   overflow: hidden;
@@ -61,14 +62,14 @@ body, html {
 
 /* Change the color of links on hover */
 .topnav a:not(.logo):hover {
-  border-bottom: 2px solid hsl(43, 100%, 47%);
+  border-bottom: 2px solid #f0ab00;
   color: #898989;
 }
 
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  border-bottom: 2px solid hsl(43, 100%, 47%);
+  border-bottom: 2px solid #f0ab00;
   color: #898989;
 }
 
@@ -80,7 +81,7 @@ body, html {
 /* Styling for Free Demo and Free Trial links with the star icon */
 .topnav a.special-link {
   font-weight: bold;
-  color: hsl(43, 100%, 47%);
+  color: #f0ab00;
   transition: color 0.3s;
   position: relative;
   font-weight: bold;
@@ -98,7 +99,7 @@ body, html {
   left: 0;
   right: 0;
   height: 2px;
-  background-color: hsl(43, 100%, 47%);
+  background-color: #f0ab00;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.3s;
@@ -321,7 +322,7 @@ justify-content: center;
 }
 
 .footer .icons a {
-  background-color: #FF8C00;
+  background-color: #f0ab00;
   /* background-color: #0A66C2; */
   display: inline-block;
   width: 35px;
@@ -345,7 +346,7 @@ justify-content: center;
 }
 
 .footer .footer-center i {
-  background-color: #FF8C00;
+  background-color: #f0ab00;
   color: #ffffff;
   font-size: 25px;
   width: 40px;
@@ -407,11 +408,11 @@ justify-content: center;
 }
 
 .footer .menu a:hover {
-  color: #FF8c00;
+  color: #f0ab00;
 }
 
 .footer .name {
-  color: #FF8C00;
+  color: #f0ab00;
   font-size: 14px;
   font-weight: normal;
   margin: 0;
@@ -515,13 +516,13 @@ Pricing
 }
 
 .btn-primary {
-  background-color: #FF8C00 !important; /* Overriding Bootstrap's primary color */
-  border-color: #FF8C00 !important;
+  background-color: #f0ab00 !important; /* Overriding Bootstrap's primary color */
+  border-color: #f0ab00 !important;
 }
 
 .btn-primary:hover {
-  background-color: #e57c00 !important; /* Darker shade for hover effect */
-  border-color: #e57c00 !important;
+  background-color: #d09800 !important; /* Darker shade for hover effect */
+  border-color: #d09800 !important;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
@@ -657,15 +658,45 @@ section {
 .pricing-placeholder {
   margin-bottom: 2000px; /* Adjust as needed */
 }
-.pricing .card_three, .card_three .title .fa {
-  background: linear-gradient(90deg, #FF8c00, Transparent);
+.pricing .card_three,
+.card_three .title .fa {
+  background: linear-gradient(180deg, #f0ab00, #f0ab00, #898989);
 }
-.pricing .card_violet, .card_violet .title .fa {
-  background: linear-gradient(90deg, #FF8c00, Transparent);
 
+.pricing .card_violet,
+.card_violet .title .fa {
+  background: linear-gradient(20deg, #898989, #898989, #f0ab00);
 }
-.pricing .card_red, .card_red .title .fa {
-  background: linear-gradient(180deg, #FF8c00, Transparent);
+
+.pricing .card_red,
+.card_red .title .fa {
+  background: linear-gradient(180deg, #f0ab00, #f0ab00, #898989);
+}
+.pricing .card a {
+  display: block;
+  position: relative;
+  z-index: 2;
+  background-color: #f0ab00;
+  /* Theme color */
+  color: #898989;
+  /* Text color */
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  margin: 20px auto 0;
+  line-height: 40px;
+  border-radius: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  transition: background-color 0.3s, color 0.3s;
+}
+.pricing .card a:hover {
+  background-color: #d09800;
+  /* Darkened version of the theme color */
+  color: #6f6f6f;
+  /* Slightly lightened version of the text color */
 }
 
 .unique_services-box {
@@ -674,7 +705,7 @@ section {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   gap: 16px; /* Added for spacing between grid items */
-  /* background: #5f5f5f; Grey background to make the orange pop out more */
+  /* background: #efefef; Grey background to make the orange pop out more */
   padding: 20px; /* Padding for the outer container */
 }
 
@@ -686,7 +717,7 @@ section {
   /* background-color: #FFFFFF; Made the flip box background white for a clean look */
   width: 300px;
   height: 200px;
-  border: 2px solid #FF8c00; /* Orange border for distinction */
+  border: 2px solid #f0ab00; /* Orange border for distinction */
   border-radius: 10px;
   perspective: 1000px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Added subtle shadow for depth */
@@ -724,10 +755,10 @@ section {
 
 .unique_flip-box-front {
   background-color: #fff;
-  color: #5f5f5f; /* Grey color for the text */
+  color: #efefef; /* Grey color for the text */
   border-radius: 10px;
-  border-top: 4px solid #FF8c00; /* Orange top border for a sleek look */
-  border-bottom: 4px solid #FF8c00; /* Orange bottom border */
+  border-top: 4px solid #f0ab00; /* Orange top border for a sleek look */
+  border-bottom: 4px solid #f0ab00; /* Orange bottom border */
 }
 
 .unique_flip-box-front img {
@@ -737,9 +768,12 @@ section {
 }
 
 .unique_flip-box-back {
-  background-color: #FF8c00; /* Orange background */
+  background-color: #f0ab00; /* Orange background */
   color: #ffffff; /* White text for better readability against the orange background */
   transform: rotateY(180deg);
   border-radius: 10px;
   padding: 16px;
+}
+.display-4.fw-bold.lh-1.text-body-emphasis {
+  font-weight: 400 !important;
 }
