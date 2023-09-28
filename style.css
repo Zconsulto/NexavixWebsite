@@ -486,17 +486,6 @@ Pricing
   color: #ffffff;
 }
 
-
-.carousel-inner{
-  margin-right: 40px;
-  margin:auto;
-}
-.carousel-inner img {
-  max-width: 100%;    /* You can adjust this percentage as needed */
-  height: auto;      /* Maintain aspect ratio */
-  margin: 0 auto;    /* Center the image vertically and horizontally */
-  display: block;    /* Ensure the margin auto works */
-}
 * {
   border: none;
 }
