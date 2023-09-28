@@ -2,10 +2,6 @@
 *{
   font: Helvetica,Calibri,Arial,sans-serif;
 }
-body {
-  
-      /* linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), */
-}
 
 body .top_bar{
   background-image:url('images/topHeader_background2.avif');
