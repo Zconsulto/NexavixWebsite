@@ -149,13 +149,7 @@ html {
 
 }
 
-.card{
-  /* width: 30%; */
-  height: auto;
-  border: none;
 
-/* margin:auto; */
-}
 .div-in-first-row {
 grid-row: 1;
 
@@ -724,7 +718,7 @@ section {
 
 .unique_flip-box-front {
   background-color: #fff;
-  color: #efefef; /* Grey color for the text */
+  color: #000; /* Grey color for the text */
   border-radius: 10px;
   border-top: 4px solid #f0ab00; /* Orange top border for a sleek look */
   border-bottom: 4px solid #f0ab00; /* Orange bottom border */
@@ -738,7 +732,7 @@ section {
 
 .unique_flip-box-back {
   background-color: #f0ab00; /* Orange background */
-  color: #ffffff; /* White text for better readability against the orange background */
+  color: #fff; /* White text for better readability against the orange background */
   transform: rotateY(180deg);
   border-radius: 10px;
   padding: 16px;

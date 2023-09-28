@@ -94,13 +94,6 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
 
 </div>
-
-
-
-
-
-
-
       `;
 
 	// Find all divs with class "footer-placeholder" and replace them with the footer

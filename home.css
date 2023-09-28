@@ -23,3 +23,31 @@
         height: 100%;
     }
 }
+.getStartedToday {
+    background-color: #f0ab00;
+    /* Golden color to match the theme */
+    border: none;
+    /* Remove the default borders */
+    border-radius: 8px !important;
+    /* Rounded corners for a modern look */
+    color: #fff;
+    /* White text color */
+    cursor: pointer;
+    /* Hand cursor when hovering over the button */
+    padding: 10px 50px;
+    /* Padding around the text */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+.getStartedToday:hover {
+    background-color: #FF8C00;
+    /* A bit brighter color on hover */
+    transform: scale(1.05);
+    /* Slightly enlarge the button on hover */
+}
+
+.getStartedToday:active {
+    transform: scale(1);
+    /* Reset size when button is pressed */
+}
