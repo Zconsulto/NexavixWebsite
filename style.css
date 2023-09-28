@@ -2,7 +2,9 @@
 *{
   font: Helvetica,Calibri,Arial,sans-serif;
 }
-
+body{
+  background-image: url('images/services-background.jpg');
+}
 body .top_bar{
   background-image:url('images/topHeader_background2.avif');
 }
