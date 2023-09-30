@@ -9,9 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
                    </ul>
               </div>
               <div class="tob_bar_right_col col-xs-12 col-sm-6 col-md-6" style="display: flex; width:50%;align-items: center; justify-content: center;">
-                   <p style="color: orange;">Call Us!&nbsp;&nbsp;
+                   <p style="color: #f0ab00;">Call Us!&nbsp;&nbsp;
                     <b>
-                    <a href="tel: 1 (408)  878-6773" style="color: black; font-style: normal;" > (929)-732-7022</a>
+                    <a href="tel: 1 (929)-732-7022" style="color: black; font-style: normal;" > EC: (929)-732-7022</a>
+                    <a href="tel: 1 (408)  878-6773" style="color: black; font-style: normal;" > WC:(408) 878-6773</a>
                     </b>
                    </p>
               </div>
