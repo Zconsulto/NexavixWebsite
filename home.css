@@ -35,6 +35,40 @@
         height: 100%;
     }
 }
+/* Start SAP */
+.sap {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-background);
+}
+
+.sap .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sap .sap-num {
+    padding: 20px;
+    text-align: center;
+}
+
+.sap .sap-num i {
+    color: var(--main-color);
+}
+
+.sap .sap-num h3 {
+    margin: 30px 0;
+}
+
+.sap .sap-num p {
+    line-height: 1.8;
+    color: #777;
+    font-size: 17px;
+}
+
+/* End SAP */
+/* Start Get Started Today Button */
 .getStartedToday {
     background-color: #f0ab00;
     /* Golden color to match the theme */
@@ -63,8 +97,8 @@
     transform: scale(1);
     /* Reset size when button is pressed */
 }
-
-/* Flexbox */
+/* End Get Started Today Button */
+/* Flipbox */
 .unique_services-box {
     display: grid;
     justify-content: center;
@@ -257,6 +291,7 @@
 }
 
 /* End Portfolio */
+
 /* Start About */
 .about {
     padding-top: var(--section-padding);
@@ -270,7 +305,14 @@
     margin-top: -120px;
     max-width: 100%;
 }
+.hover-image img {
+    transition: transform 0.3s ease-in-out;
+}
 
+.hover-image:hover img {
+    transform: scale(1.1);
+    /* Adjust this value as needed. 1.1 means 110% of the original size */
+}
 @media (max-width: 767px) {
     .about img {
         bottom: -60px;
