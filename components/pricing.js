@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   var pricingTemplate = `
-    <div class="pricing">
+    <div class="pricing" id="pricing">
     <div class="container-fluid">
       <div class="container">
         <div class="row">
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <li><i class="fa fa-check" aria-hidden="true"></i> All Documents Print templates</li>
 </ul>
               </div>
-              <a href="#">Order Now</a>
+              <a href="../index.html#Contact">Order Now</a>
             </div>
           </div>
           <div class="col-sm-4">
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           </ul>
               </div>
-              <a href="#">Order Now</a>
+              <a href="../index.html#Contact">Order Now</a>
             </div>
           </div>
           <div class="col-sm-4">
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <li><i class="fa fa-check" aria-hidden="true"></i> Upload Product Images</li>
           </ul>
               </div>
-              <a href="#">Order Now</a>
+              <a href="../index.html#Contact">Order Now</a>
             </div>
           </div>
         </div>
