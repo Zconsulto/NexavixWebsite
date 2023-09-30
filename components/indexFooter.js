@@ -35,7 +35,6 @@ document.addEventListener("DOMContentLoaded", function () {
         <nav class="menu">
             <a href="index.html">HOME</a> |
             <a href="pages/about.html">ABOUT</a> |
-            <a href="pages/contact.html">CONTACT</a> |
             <a href="pages/services.html">SERVICES</a> |
             <a href="pages/blogs.html">BLOG</a> |
             <br>

@@ -33,7 +33,7 @@
         <a href="#" class="logo"><img src="https://www.nexavix.com/images/nexavix_logo.png" alt="Company's logo" style="width: 300px; height: 48px;"></a>
         <a href="#home" class="active">HOME</a>
         <a href="pages/about.html" >ABOUT</a>
-        <a href="pages/contact.html">CONTACT</a>
+        <!-- <a href="pages/contact.html">CONTACT</a> -->
         <a href="pages/services.html" >SERVICES</a>
         <a href="pages/blogs.html">BLOG</a>
         <a href="pages/wholesale.html" class="special-link"><i class="fas fa-star"></i> WHOLESALE</a>
@@ -243,6 +243,40 @@
   </div>
 </div>
 <!-- End Features -->
+<!-- Start Contact -->
+<div class="contact">
+  <div class="container">
+    <div class="main-heading">
+      <h2 class="main-title">Contact Us</h2>
+    </div>
+    <div class="content">
+      <form action="https://formspree.io/f/xnqkoqqr" method="POST">
+        <input class="main-input" type="text" name="name" placeholder="Your Name" required/>
+        <input class="main-input" type="email" name="mail" placeholder="Your Email" required/>
+        <input class="main-input" type="text" name="phone" placeholder="Your phone" />
+        <select class="main-input" name="service">
+          <option value="" disabled selected>Select a Service</option>
+          <option value="service1">WHOLESALE DISTRIBUTION</option>
+          <option value="service2">WHOLESALE DISTRIBUTION DEMO</option>
+          <option value="service3">FREE DEMO</option>
+          <option value="service4">FREE TRIAL</option>
+          <option value="service4">REQUEST A QUOTE</option>
+          <!-- Add more options as needed -->
+        </select>
+        <textarea class="main-input" name="message" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" />
+      </form>
+      <div class="info">
+        <h4>Get In Touch</h4>
+        <span class="phone">(929)-732-7022</span>
+        <h4>Where We Are</h4>
+        <address>East Coast:<br />418 Broadway, Ste 4915, Albany, NY 12207.</address>
+        <address>West Coast:<br />1900 Camden Ave San Jose, CA 95124.</address>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Contact -->
 <!-- Footer -->
 <footer class="footer">
     <script src="/components/indexFooter.js"></script>
