@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <h2>DATA UPLOAD</h2>
               </div>
               <div class="price">
-              <h4>$1750<br><p style="font-size:15px;">/One-Time Fee </p></h4>
+              <h4>$1750<br><p style="font-size:15px;">One-Time Fee </p></h4>
               </div>
               <div class="option">
               <ul>
