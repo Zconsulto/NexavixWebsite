@@ -14,6 +14,33 @@
 .carousel-inner {
     width: 100%;
 }
+.carousel-item{
+    position: relative;
+}
+.carousel-item::before{
+    content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0 0 0 / 30%);
+}
+.carousel{
+    background-color: rgb(0 0 0 / 30%);
+}
+.carousel-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.5em;
+    text-align: center;
+    color: white;
+    /* Adjust the text color as required */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Optional: Adds a shadow to text for better readability */
+}
 @media (max-width: 768px) {
     .carousel, .carousel-inner {
         height: 0;
