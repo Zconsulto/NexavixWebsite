@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function () {
     <a href="pages/about.html" >ABOUT</a>
     <a href="pages/contact.html">CONTACT</a>
     <a href="pages/services.html" >SEVICES</a>
-    <a href="pages/wholesale.html" class="special-link"><i class="fas fa-star"></i> WHOLESALE</a>
-    <a href="pages/Demo.html" class="special-link"> <i class="fas fa-star"></i>FREE DEMO</a>
-    <a href="pages/trial.html" class="special-link"> <i class="fas fa-star"></i>FREE TRIAL</a>
+    <a href="pages/wholesale.html" class="special-link">  WHOLESALE</a>
+    <a href="pages/Demo.html" class="special-link">  FREE DEMO</a>
+    <a href="pages/trial.html" class="special-link">  FREE TRIAL</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i></a>
 </div>

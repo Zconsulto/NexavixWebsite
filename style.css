@@ -48,7 +48,7 @@ html {
 }
 
 .topnav a:not(.logo):hover {
-  border-bottom: 2px solid #f0ab00;
+  /* border-bottom: 2px solid #f0ab00; */
   color: #898989;
 }
 

@@ -7,4 +7,6 @@
     /* This will enlarge the box by 5% when hovered */
     z-index: 1;
     /* This is to ensure the hovered box appears above any adjacent content */
+
+
 }
