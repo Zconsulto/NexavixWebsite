@@ -26,14 +26,24 @@ html {
   font-size: 14px;
   line-height: 1.42857143;
 }
+.top_bar a{
+  padding: 0.5rem 1rem;
+  text-decoration: solid #fff;
+  color:black;
+  font-weight: bold;
+}
+.top_bar a:hover{
+  color:#f8ab00;
+}
 
 .topnav {
-  background-image: url('images/7rkat_grey_background.jpeg');
+  background-image: url(images/7rkat_grey_background.jpeg);
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   width: 100%;
+  padding-left: 291px;
 }
 
 .topnav a {
@@ -80,7 +90,7 @@ html {
   left: 0;
   right: 0;
   height: 2px;
-  background-color: #f0ab00;
+  /* background-color: #f0ab00; */
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.3s;
