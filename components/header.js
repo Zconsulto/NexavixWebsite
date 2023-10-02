@@ -8,12 +8,12 @@ document.addEventListener("DOMContentLoaded", function () {
  <div class="container">
       <div class="row" style="display: :grid;
       grid-template-columns: 1fr 1fr; ">
-           <div class="tob_bar_left_col hidden-xs col-sm-6 col-md-6" style="display: flex; width:50%; align-items: center; justify-content: center;">
+           <div class="tob_bar_left_col hidden-xs col-sm-6 col-md-6" style="display: flex;width:50%;align-items: center;justify-content: left;">
 
                    <a href="../index.html#Contact" style="color: orange;justify-content: center;    align-items: center;"><b>Request 1:1 Personalized Demo!</b></a>
 
            </div>
-           <div class="tob_bar_right_col col-xs-12 col-sm-6 col-md-6" style="display: flex; width:50%;align-items: center; justify-content: center;">
+           <div class="tob_bar_right_col col-xs-12 col-sm-6 col-md-6" style="display: flex;width:50%;align-items: center;justify-content: right;"">
 
                                           <p style="color: #f0ab00;height:auto;font-weight: bold;   margin-top: revert; ">Call Us!&nbsp;&nbsp;</p>
                   <div style="
