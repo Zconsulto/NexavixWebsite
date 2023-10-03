@@ -61,17 +61,14 @@ ul li.active a {
 }
 .lead{
     font-size: 24px !important;
-    padding-left: 10%;
+    justify-content: center;
+    align-items: center;
 }
 .highlight-section {
     background-color: #f0ab00;
     /* Background color */
     color: white;
     /* Text color */
-    padding: 1% 40%;
-    /* Padding: 20px top/bottom and 50px left/right */
-    text-align: left;
-    /* Text alignment */
 }
 
 .highlight-section h1 {
