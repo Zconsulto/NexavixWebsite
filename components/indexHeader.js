@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
           display: flex;
           justify-content: center;
           align-items: center;">
-          <p style="color: #f0ab00;height:auto;font-weight: bold;   margin-top: revert; "><i class="fa-solid fa-phone fa-flip-horizontal fa-2xl"></i>&nbsp;&nbsp;</p>
+          <p style="color: #f4a71f;height:auto;font-weight: bold;   margin-top: revert; "><i class="fa-solid fa-phone fa-flip-horizontal fa-2xl"></i>&nbsp;&nbsp;</p>
           <b>
                <a href="tel: 1 (929)-732-7022" style="color: black; font-style: normal;" > East: (929)-732-7022</a>
                <br>
@@ -41,7 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
            <a href="https://www.linkedin.com/company/nexavix/" target="_blank"><span class="fab fa-linkedin-in"></span></a>
        </div>
            <a href="pages/blogs.html" style="border:1px;">BLOG</a>
-           <a href="pages/wholesale.html" class="special-link"> WHOLESALE</a>
           <!-- <a href="pages/demo.html" class="special-link">  FREE DEMO</a> -->
            <a href="pages/trial.html" class="special-link"> FREE TRIAL</a>
 
