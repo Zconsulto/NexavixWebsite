@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 :root {
-  --yellow: #f0ab00;
+  --yellow: #f4a71f;
   --gray: #898989;
   --white: #FFF;
   --black: #000;
@@ -479,17 +479,17 @@ section {
 }
 .pricing .card_three,
 .card_three .title .fa {
-  background: linear-gradient(180deg, #f0ab00, #f0ab00, #898989);
+  background: linear-gradient(180deg, #f4a71f, #f4a71f, #898989);
 }
 
 .pricing .card_violet,
 .card_violet .title .fa {
-  background: linear-gradient(20deg, #898989, #898989, #f0ab00);
+  background: linear-gradient(20deg, #898989, #898989, #f4a71f);
 }
 
 .pricing .card_red,
 .card_red .title .fa {
-  background: linear-gradient(180deg, #f0ab00, #f0ab00, #898989);
+  background: linear-gradient(180deg, #f4a71f, #f4a71f, #898989);
 }
 .pricing .card a {
   display: block;
