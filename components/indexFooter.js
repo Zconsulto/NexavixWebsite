@@ -1,51 +1,53 @@
 document.addEventListener("DOMContentLoaded", function () {
 	var footerTemplate = `
-    <!-- Left Footer Section -->
-    <div class="footer-left col-md-4 col-sm-6">
-        <h2 style="font-weight: bold; color: #f0ab00;">Why Nexavix</h2><br>
-        <p style="color: black;">
-            Ut congue augue non tellus bibendum, in varius tellus condimentum. In scelerisque nibh tortor, sed rhoncus odio condimentum in. Sed sed est ut sapien ultrices eleifend. Integer tellus est, vehicula eu lectus tincidunt, ultricies feugiat leo. Suspendisse tellus elit, pharetra in hendrerit ut, aliquam quis augue. Nam ut nibh mollis, tristique ante sed, viverra massa.
-        </p>
-        <div class="icons">
-            <a href="https://www.facebook.com/nexavix/" target="_blank"><span class="fab fa-facebook-f" ></span></a>
-            <a href="https://twitter.com/nexavix" target="_blank"><span class="fab fa-twitter" ></span></a>
-            <a href="https://www.linkedin.com/company/nexavix/" target="_blank"><span class="fab fa-linkedin-in"></span></a>
-        </div>
-        <p class="name">Nexavix &copy; 2023</p>
+    <div class="footContainer" id="footer-container">
+  <div class="wrapper">
+    <div id="footer-icon"> <img src="https://www.nexavix.com/images/nexavix_logo.png" alt="Nexavix" width="255"></div>
+    <div id="footer-contact">
+      <h6>Contact Us</h6>
+      <br>
+      <p><strong>EAST COAST:</strong><br> 418 Broadway, Ste 4915,<br> Albany, NY 12207.</p>
+      <p><strong>WEST COAST:</strong><br> 1900 Camden Ave San Jose,<br> CA 95124.</p>
+      <p> <i class="yellow-icon fas fa-envelope" aria-hidden="true" style="margin-right: 5px;"></i> <a
+          href="mailto:aly@nexavix.com" style="margin-right: 15px;">aly@nexavix.com</a></p>
+      <p> <i class="yellow-icon fa fa-phone" aria-hidden="true" style="margin-right: 5px;"></i> <a
+          href="tel: 1 (929)-732-7022" style="margin-right: 15px;">East: (929)-732-7022</a></p>
+      <p> <i class="yellow-icon fa fa-phone" aria-hidden="true" style="margin-right: 5px;"></i> <a
+          href="tel: 1 (408)  878-6773" style="margin-right: 15px;">West:(408) 878-6773</a></p>
     </div>
-
-    <!-- Center Footer Section -->
-    <div class="footer-center col-md-4 col-sm-6">
-        <br><br>
-        <div>
-        <i class="fa fa-map-marker" ></i>
-        <p> East Coast  <br> 418 Broadway, Ste 4915, Albany, NY 12207. </p>
-        </div>
-        <div>
-            <i class="fa fa-map-marker" ></i>
-            <p> West Coast  <br> 1900 Camden Ave San Jose, CA 95124.</p>
-            </div>
-    </div>
-
-    <!-- Right Footer Section -->
-    <div class="footer-right col-md-4 col-sm-6">
-        <a href="#" class="logo">
-            <img src="https://www.nexavix.com/images/nexavix_logo.png" alt="Company's logo" style="width: 300px; height: 48px;">
+    <div id="footer-social">
+      <h6>Social Media</h6>
+      <br>
+      <p>
+        <a class="header-social" href="https://www.facebook.com/nexavix/" target="_blank">
+          <span class="fab fa-facebook-f"></span>
         </a>
-        <nav class="menu">
-            <a href="index.html">HOME</a> |
-            <a href="pages/sapBusinessOne.html">SAP BUSINESS ONE</a> |
-            <a href="pages/learningHub.html">LEARNING HUB</a> |
-            <br>
-            <a href="pages/about.html">ABOUT</a> |
-            <a href="pages/services.html">SERVICES</a> |
-            <a href="pages/blogs.html">BLOG</a> |
-            <br>
-            <a href="pages/wholesale.html">WHOLESALE</a> |
-            <a href="index.html#Contact">FREE DEMO</a> |
-            <a href="pages/trial.html">FREE TRIAL</a>
-        </nav>
+        <a class="header-social" href="https://www.linkedin.com/company/nexavix/" target="_blank">
+          <span class="fab fa-linkedin-in"></span>
+        </a>
+        <a class="header-social" href="https://twitter.com/nexavix" target="_blank">
+          <span class="fab fa-twitter"></span>
+        </a>
+      </p>
+
     </div>
+      <div id="footer-form">
+        <h6>Quick links</h6>
+        <br>
+        <div><a href="index.html">HOME</a></div>
+        <div><a href="pages/sapBusinessOne.html">SAP BUSINESS ONE</a></div>
+        <div><a href="pages/learningHub.html">LEARNING HUB</a></div>
+        <div><a href="pages/about.html">ABOUT</a></div>
+        <div><a href="pages/services.html">SERVICES</a></div>
+        <div><a href="pages/blogs.html">BLOG</a></div>
+        <div><a href="pages/wholesale.html">WHOLESALE</a></div>
+        <div><a href="index.html#Contact">FREE DEMO</a></div>
+        <div><a href="pages/trial.html">FREE TRIAL</a></div>
+      </div>
+  </div>
+  <div class="wrapper credits">
+    <div id="credits-left"> © Copyright 2023 Nexavix. All Rights Reserved.</div>
+  </div>
       `;
 
 	// Find all divs with class "footer-placeholder" and replace them with the footer
