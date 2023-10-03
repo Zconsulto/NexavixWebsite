@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
           <div class="tob_bar_right_col col-xs-12 col-sm-6 col-md-6" style="    display: flex;
           gap: 0.2;
-          width: 49%;
+          width: 52%;
           align-items: center;
           justify-content: right;
           margin-right: 1px;"">
@@ -42,8 +42,9 @@ document.addEventListener("DOMContentLoaded", function () {
           <a href="https://www.linkedin.com/company/nexavix/" target="_blank"><span class="fab fa-linkedin-in"></span></a>
           </div>
           <a href="blogs.html" style="border:1px;">BLOG</a>
-          <!-- <a href="pages/demo.html" class="special-link">  FREE DEMO</a> -->
           <a href="trial.html" class="special-link"> FREE TRIAL</a>
+          <a href="../index.html#Contact"><button type="button" class="btn btn-warning" style="background-color: #f4a71f;">Request a Demo</button></a>
+
 
           </div>
      </div>
