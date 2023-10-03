@@ -12,21 +12,23 @@ document.addEventListener("DOMContentLoaded", function () {
            width: 45%;
            align-items: center;
            justify-content: left;
-           margin-left: 82px;">
+           margin-left: 17px;">
 
-           <p style="color: #f0ab00;height:auto;font-weight: bold;   margin-top: revert; "><i class="fa-solid fa-phone fa-flip-horizontal fa-2xl"></i>&nbsp;&nbsp;</p>
            <div style="
            display: flex;
            justify-content: center;
            align-items: center;">
+           <p style="color: #f0ab00;height:auto;font-weight: bold;   margin-top: revert; "><i class="fa-solid fa-phone fa-flip-horizontal fa-2xl"></i>&nbsp;&nbsp;</p>
+
                <b>
                <a href="tel: 1 (929)-732-7022" style="color: black; font-style: normal;" > East: (929)-732-7022</a>
                <br>
                <a href="tel: 1 (408)  878-6773" style="color: black; font-style: normal;" > West:(408) 878-6773</a>
           </b>
+          </p>
                </div>
 
-         </p>
+
            </div>
            <div class="tob_bar_right_col col-xs-12 col-sm-6 col-md-6" style="    display: flex;
            gap: 0.2;
