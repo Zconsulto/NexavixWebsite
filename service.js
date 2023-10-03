@@ -1,4 +1,9 @@
 $(window).scroll(function () {
+    // If window width is 768px or less, return and do nothing
+    if ($(window).width() <= 768) {
+        return;
+    }
+    
     var y = $(this).scrollTop();  
     var footerTop = $('#footer-container').offset().top - $(window).height();  
     var firstSectionTop = $('.highlight-section').first().offset().top - 20;  
