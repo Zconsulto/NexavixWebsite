@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
  <section class="top_bar">
 
-      <div class="row" style="display: :grid;
-      grid-template-columns: 1fr 1fr; ">
+      <div class="row" style=" display: flex;
+      flex-wrap: nowrap; ">
            <div class="tob_bar_left_col hidden-xs col-sm-6 col-md-6" style="    display: flex;
            width: 45%;
            align-items: center;
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
                <a href="tel: 1 (408)  878-6773" style="color: black; font-style: normal;" > West:(408) 878-6773</a>
           </b>
                </div>
-          
+
          </p>
            </div>
            <div class="tob_bar_right_col col-xs-12 col-sm-6 col-md-6" style="    display: flex;
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
            <a href="https://www.facebook.com/nexavix/" target="_blank"><span class="fab fa-facebook-f" ></span></a>
            <a href="https://twitter.com/nexavix" target="_blank"><span class="fab fa-twitter" ></span></a>
            <a href="https://www.linkedin.com/company/nexavix/" target="_blank"><span class="fab fa-linkedin-in"></span></a>
-       </div>
+           </div>
            <a href="blogs.html" style="border:1px;">BLOG</a>
            <a href="wholesale.html" class="special-link"> WHOLESALE</a>
           <!-- <a href="pages/demo.html" class="special-link">  FREE DEMO</a> -->
