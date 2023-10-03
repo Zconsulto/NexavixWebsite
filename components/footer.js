@@ -34,13 +34,16 @@ document.addEventListener("DOMContentLoaded", function () {
       </a>
       <nav class="menu">
           <a href="../index.html">HOME</a> |
-          <a href="about.html">ABOUT</a> |
-          <a href="services.html">SERVICES</a> |
-          <a href="blogs.html">BLOG</a> |
-          <br>
-          <a href="wholesale.html">WHOLESALE</a> |
-          <a href="demo.html">FREE DEMO</a> |
-          <a href="trial.html">FREE TRIAL</a>
+            <a href="sapBusinessOne.html">SAP BUSINESS ONE</a> |
+            <a href="learningHub.html">LEARNING HUB</a> |
+            <br>
+            <a href="about.html">ABOUT</a> |
+            <a href="services.html">SERVICES</a> |
+            <a href="blogs.html">BLOG</a> |
+            <br>
+            <a href="wholesale.html">WHOLESALE</a> |
+            <a href="../index.html#Contact">FREE DEMO</a> |
+            <a href="trial.html">FREE TRIAL</a>
       </nav>
   </div>
     `;
