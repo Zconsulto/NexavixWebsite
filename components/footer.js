@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div id="footer-form">
         <h6>Quick links</h6>
         <br>
-        <div><a href="../index.htmlindex.html">HOME</a></div>
+        <div><a href="../index.html">HOME</a></div>
         <div><a href="sapBusinessOne.html">SAP BUSINESS ONE</a></div>
         <div><a href="learningHub.html">LEARNING HUB</a></div>
         <div><a href="about.html">ABOUT</a></div>
