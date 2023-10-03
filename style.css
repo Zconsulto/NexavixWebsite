@@ -582,7 +582,7 @@ div.wpforms-container-full .wpforms-form .wpforms-submit-container {
   position: relative;
 } */
 .footContainer {
-  background-image: url('images/7arkat_grey_background2.avif');
+  background-image: url('images/footer.avif');
   color: #333333;
   /* Darker gray text for contrast */
   padding: 30px 0;
@@ -621,7 +621,6 @@ div.wpforms-container-full .wpforms-form .wpforms-submit-container {
 }
 .footContainer a:hover {
   color: #f0ab00;
-  text-decoration: underline;
 }
 .yellow-icon {
   color: #f0ab00;
