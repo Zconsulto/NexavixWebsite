@@ -25,7 +25,7 @@ $(window).scroll(function () {
     if (y >= footerTop) {
         // Move the sticky box upwards but keep it partially visible
         stickyBox.stop().animate({top: '-100px'}, 300);
-    } else if (y < firstSectionTop-50) {
+    } else if (y < firstSectionTop-400) {
         // Gradually move to the desired top position when above the first section
         stickyBox.show().stop().animate({top: (firstSectionTop-40) + 'px', opacity: 1}, 300);
     } else {
