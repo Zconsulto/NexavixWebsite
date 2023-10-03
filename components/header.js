@@ -41,8 +41,8 @@ document.addEventListener("DOMContentLoaded", function () {
           <a href="https://twitter.com/nexavix" target="_blank"><span class="fab fa-twitter" ></span></a>
           <a href="https://www.linkedin.com/company/nexavix/" target="_blank"><span class="fab fa-linkedin-in"></span></a>
           </div>
-          <a href="blogs.html" style="border:1px;">BLOG</a>
-          <a href="trial.html" class="special-link"> FREE TRIAL</a>
+          <a href="../pages/blogs.html">BLOG</a>
+          <a href="../pages/trial.html"> FREE TRIAL</a>
           <a href="../index.html#Contact"><button type="button" class="btn btn-warning" style="background-color: #f4a71f;">Request a Demo</button></a>
 
 
