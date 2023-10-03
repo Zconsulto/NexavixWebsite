@@ -41,9 +41,13 @@ html {
   font-weight: bold;
 }
 .top_bar a:hover{
-  color:#f8ab00;
+  color:#f4a71f;
 }
+.getStartedToday{
+  background-color:#f4a71f !important;
+  color:black !important;
 
+}
 .topnav {
   background-image: url(images/7rkat_grey_background.jpeg);
   overflow: hidden;
@@ -71,7 +75,7 @@ html {
 }
 
 .topnav a.active {
-  border-bottom: 2px solid #f0ab00;
+  border-bottom: 2px solid #f4a71f;
   color: #898989;
 }
 
@@ -81,7 +85,7 @@ html {
 
 .topnav a.special-link {
   font-weight: bold;
-  color: #f0ab00;
+  color: #f4a71f;
   transition: color 0.3s;
   position: relative;
   font-weight: bold;
@@ -98,7 +102,7 @@ html {
   left: 0;
   right: 0;
   height: 2px;
-  /* background-color: #f0ab00; */
+  /* background-color: #f4a71f; */
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.3s;
@@ -337,13 +341,13 @@ Pricing
 }
 
 .btn-primary {
-  background-color: #f0ab00 !important; /* Overriding Bootstrap's primary color */
-  border-color: #f0ab00 !important;
+  background-color: #f4a71f !important; /* Overriding Bootstrap's primary color */
+  border-color: #f4a71f !important;
 }
 
 .btn-primary:hover {
-  background-color: #d09800 !important; /* Darker shade for hover effect */
-  border-color: #d09800 !important;
+  background-color: #f4a71f !important; /* Darker shade for hover effect */
+  border-color: #f4a71f !important;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
@@ -491,7 +495,7 @@ section {
   display: block;
   position: relative;
   z-index: 2;
-  background-color: #f0ab00;
+  background-color: #f4a71f;
   /* Theme color */
   color: #898989;
   /* Text color */
@@ -621,10 +625,10 @@ div.wpforms-container-full .wpforms-form .wpforms-submit-container {
   text-decoration: none ;
 }
 .footContainer a:hover {
-  color: #f0ab00;
+  color: #f4a71f;
 }
 .yellow-icon {
-  color: #f0ab00;
+  color: #f4a71f;
   /* Yellow icon color */
 }
 
@@ -695,5 +699,5 @@ div.wpforms-container-full .wpforms-form .wpforms-submit-container {
 }
 #footer-form a:hover {
   font-size: 18px;
-  color: #f0ab00;
+  color: #f4a71f;
 }
