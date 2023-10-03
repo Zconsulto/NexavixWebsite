@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <br>
         <div><a href="index.html">HOME</a></div>
         <div><a href="pages/sapBusinessOne.html">SAP BUSINESS ONE</a></div>
-        <div><a href="pages/learningHub.html">LEARNING HUB</a></div>
+        <div><a href="pages/resources.html">RESOURCES</a></div>
         <div><a href="pages/about.html">ABOUT</a></div>
         <div><a href="pages/services.html">SERVICES</a></div>
         <div><a href="pages/blogs.html">BLOG</a></div>
