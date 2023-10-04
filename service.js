@@ -1,6 +1,6 @@
 $(window).scroll(function () {
     // If window width is 768px or less, return and do nothing
-    if ($(window).width() <= 768) {
+    if ($(window).width() <= 1400) {
         return;
     }
     

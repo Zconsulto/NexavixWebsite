@@ -83,7 +83,7 @@ ul li.active a {
     margin: 0;
     /* Remove default margin */
 }
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
     .highlight-section {
         padding: 20px 15px;
         /* Adjust left/right padding for mobile */
@@ -95,11 +95,6 @@ ul li.active a {
     }
     #sticky-box {
         display: none;
-    }
-    
-    .container-move-right {
-        margin-left: 0 !important;
-        margin-top: 0 !important;
     }
 }
 footer {
