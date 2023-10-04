@@ -12,7 +12,7 @@ $(window).scroll(function () {
     
     // If scroll position is past the first section, fix the sticky box at the top.
     // Otherwise, position it absolute at the first section's top position.
-    if (y >= firstSectionTop) {
+    if (y >= firstSectionTop && y <= footerTop) {
         stickyBox.css({
             'position': 'fixed',
             'top': '0px'
@@ -35,5 +35,12 @@ $(window).scroll(function () {
             correspondingListItem.addClass('active');  
         }
     });
+    // Additional footer logic: Ensure sticky box doesn't overlay footer.
+    if (y >= footerTop && y < lastSectionTop) {
+        stickyBox.css({
+            'position': 'absolute',
+            'top': (footerTop + 80) + 'px'
+        });
+    }
 
 });
