@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <p style="color: #f4a71f;height:auto;font-weight: bold;   margin-top: revert; "><i class="fa-solid fa-phone fa-flip-horizontal fa-2xl"></i>&nbsp;&nbsp;</p>
 
                <b>
-               <a href="tel: 1 (929)-732-7022" style="color: black; font-style: normal;" > East: (929)-732-7022</a>
+               <a href="tel: 1 (838)-910-3304" style="color: black; font-style: normal;" > East: (838)-910-3304</a>
                <br>
                <a href="tel: 1 (408)  878-6773" style="color: black; font-style: normal;" > West: (408) 878-6773</a>
           </b>

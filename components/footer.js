@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <p> <i class="yellow-icon fas fa-envelope" aria-hidden="true" style="margin-right: 5px;"></i> <a
           href="mailto:aly@nexavix.com" style="margin-right: 15px;">aly@nexavix.com</a></p>
       <p> <i class="yellow-icon fa fa-phone" aria-hidden="true" style="margin-right: 5px;"></i> <a
-          href="tel: 1 (929)-732-7022" style="margin-right: 15px;">East: (929)-732-7022</a></p>
+          href="tel: 1 (838)-910-3304" style="margin-right: 15px;">East: (838)-910-3304</a></p>
       <p> <i class="yellow-icon fa fa-phone" aria-hidden="true" style="margin-right: 5px;"></i> <a
           href="tel: 1 (408)  878-6773" style="margin-right: 15px;">West:(408) 878-6773</a></p>
     </div>
