@@ -1,8 +1,10 @@
 .container img{
     border-radius: 5px;
+    height: 100vp;
+    width: 100vp;
 }
-.container .d-grid button{
-    margin-bottom: 5px;
+.container{
+    margin-left: 20% !important;
 }
 #sticky-box {
     position: fixed;
@@ -74,7 +76,6 @@ ul li.active a {
     /* Background color */
     color: white;
     /* Text color */
-    padding-left: 20%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
