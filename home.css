@@ -1,6 +1,6 @@
 :root {
-    --main-color: #f0ab00;
-    --main-color-alt: #f0ab00;
+    --main-color: #f4a71f;
+    --main-color-alt: #f4a71f;
     --main-transition: 0.3s;
     --main-padding-top: 100px;
     --main-padding-bottom: 100px;
@@ -64,42 +64,92 @@
 /* Start video */
 
 /* End video */
-/* Start SAP */
-.sap {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
-    background-color: var(--section-background);
-}
-
-.sap .container {
+/* Start numbers */
+.key-points__list {
+    list-style-type: none;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
-.sap .sap-num {
-    padding: 20px;
-    text-align: center;
+.key-points__list-item {
+    position: relative;
+    padding: 50px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.sap .sap-num i {
-    color: var(--main-color);
+.key-points__list-item:hover {
+    transform: scale(1.05);
 }
 
-.sap .sap-num h3 {
-    margin: 30px 0;
+.key-point__text {
+    display: inline-block;
+    position: relative;
+    padding-left: 70px;
 }
 
-.sap .sap-num p {
-    line-height: 1.8;
-    color: #777;
-    font-size: 17px;
+.key-point__text i {
+    color: #f4a71f;
+    font-size: 48px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-/* End SAP */
+.key-point__text h5,
+.key-point__text p {
+    margin: 0;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.key-point__text h5 {
+    font-size: 36px;
+}
+
+.key-points__list-item:hover .key-point__text i {
+    color: #898989;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.key-points__list-item:hover .key-point__text h5,
+.key-points__list-item:hover .key-point__text p {
+    color: #898989;
+}
+@media only screen and (max-width: 600px) {
+    .key-points__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .key-points__list-item {
+        padding: 20px;
+    }
+
+    .key-point__text {
+        padding-left: 50px;
+    }
+
+    .key-point__text i {
+        font-size: 36px;
+    }
+
+    .key-point__text h5 {
+        font-size: 28px;
+    }
+
+    .key-point__text p {
+        font-size: 16px;
+    }
+}
+/* End numbers */
+
 /* Start Get Started Today Button */
 .getStartedToday {
-    background-color: #f0ab00;
+    background-color: #f4a71f;
     /* Golden color to match the theme */
     border: none;
     /* Remove the default borders */
@@ -148,7 +198,7 @@
     /* background-color: #FFFFFF; Made the flip box background white for a clean look */
     width: 300px;
     height: 200px;
-    border: 2px solid #f0ab00;
+    border: 2px solid #f4a71f;
     /* Orange border for distinction */
     border-radius: 10px;
     perspective: 1000px;
@@ -192,9 +242,9 @@
     color: #000;
     /* Grey color for the text */
     border-radius: 10px;
-    border-top: 4px solid #f0ab00;
+    border-top: 4px solid #f4a71f;
     /* Orange top border for a sleek look */
-    border-bottom: 4px solid #f0ab00;
+    border-bottom: 4px solid #f4a71f;
     /* Orange bottom border */
 }
 
@@ -206,7 +256,7 @@
 }
 
 .unique_flip-box-back {
-    background-color: #f0ab00;
+    background-color: #f4a71f;
     /* Orange background */
     color: #fff;
     /* White text for better readability against the orange background */
@@ -243,8 +293,10 @@
 .about img {
     position: relative;
     bottom: -120px;
-    margin-top: -120px;
+    margin-top: -100px;
     max-width: 100%;
+    width: 800px;
+
 }
 .hover-image img {
     transition: transform 0.3s ease-in-out;
@@ -253,6 +305,23 @@
 .hover-image:hover img {
     transform: scale(1.1);
     /* Adjust this value as needed. 1.1 means 110% of the original size */
+}
+#lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#lightbox img {
+    max-width: 90%;
+    max-height: 90%;
 }
 @media (max-width: 767px) {
     .about img {
@@ -263,52 +332,60 @@
 
 /* End About */
 /* Start Video */
-.video {
+.videoContainer {
     position: relative;
+    max-width: 100vw;
+    overflow: hidden;
 }
 
-.video::before {
-    content: "";
+.videoText {
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0 0 0 / 30%);
-}
-
-.video video {
-    width: 100%;
-}
-
-.video .text {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 50px;
-    background-color: var(--transparent-color);
-    color: white;
+    top: 3.5%; /* Adjust as per your design requirement */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    background: #f4a71f;
+    padding: 10px 20px;
+    border-radius: 15px;
     text-align: center;
 }
 
-.video .text h2 {
-    margin: 0 0 30px;
-    text-transform: uppercase;
-    font-weight: normal;
+.videoText i {
+    font-size: 30px;
+    margin-right: 10px;
 }
 
-.video .text p {
-    margin-bottom: 30px;
+.video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Aspect ratio: 9/16 = 0.5625 */
 }
 
-.video .text button {
-    background-color: #f0ab00;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    text-transform: uppercase;
+.video video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
 }
+
+@media only screen and (max-width: 768px) {
+    .videoText {
+        font-size: 14px;
+        top: 1%; /* Adjust as per your design requirement */
+        width: 80%;
+    }
+
+    .videoText i {
+        font-size: 20px;
+    }
+}
+
+
 
 /* End Video */
 /* Start Features */
@@ -480,12 +557,12 @@
 }
 
 .features .quality h2::after {
-    background-color: #f0ab00;
+    background-color: #f4a71f;
 }
 
 .features .quality a {
-    color: #f0ab00;
-    border-color: #f0ab00;
+    color: #f4a71f;
+    border-color: #f4a71f;
     background: linear-gradient(to right, #f0ab00 50%, white 50%);
     background-size: 200% 100%;
     background-position: right bottom;
@@ -583,7 +660,7 @@
 .contact .content form .main-input {
     padding: 20px;
     display: block;
-    border: 1px solid #f0ab00;;
+    border: 1px solid #f4a71f;;
     margin-bottom: 30px;
     width: 100%;
 }
@@ -598,7 +675,7 @@
 
 .contact .content form input[type="submit"] {
     background-color: #efefef;
-    color: #f0ab00;
+    color: #f4a71f;
     padding: 20px;
     border: none;
     display: flex;
@@ -625,7 +702,7 @@
 
 .contact .content .info .phone {
     display: block;
-    color: #f0ab00;
+    color: #f4a71f;
     margin-bottom: 10px;
 }
 
@@ -640,7 +717,7 @@
 }
 
 .contact .content .info address {
-    color: #f0ab00;
+    color: #f4a71f;
     line-height: 2;
 }
 
