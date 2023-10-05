@@ -43,17 +43,28 @@
     /* Optional: Adds a shadow to text for better readability */
 }
 @media (max-width: 768px) {
-    .carousel, .carousel-inner {
-        height: 0;
-        padding-bottom: 100%;
-        /* This will make it square by setting the height to be equal to its width */
-        position: relative;
+    .carousel-text {
+        font-size: 0.3em;
+        /* Adjusted smaller font size */
     }
 
-    .carousel
-        {
-            margin-bottom: -170px;
-        }
+    .carousel-button {
+        padding: 5px 10px;
+        /* Smaller padding for buttons */
+        font-size: 0.6em;
+        /* Smaller font size for text within buttons */
+    }
+
+    .carousel,
+    .carousel-inner {
+        height: 0;
+        padding-bottom: 100%;
+    }
+
+    .carousel {
+        margin-bottom: -170px;
+    }
+
     .carousel-inner img {
         position: relative;
         top: 0;

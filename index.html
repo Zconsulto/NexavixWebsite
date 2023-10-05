@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Home</title>
+    
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blogs.css">
     <link rel="stylesheet" href="home.css">
+    
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- Font Awesome (Latest) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700,700i,900">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
+<!-- Bootstrap (Latest) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<!-- Owl Carousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
 
   </head>
 <body data-current-page="index">
@@ -232,7 +240,75 @@
 </div>
 
 <!-- End Video -->
-
+<!-- Blogs -->
+<div class="container col-xxl-8 px-4 py-5 text-center">
+  <h2 class="display-4">Insightful Blogs</h2>
+  <hr
+    style="border-top: 2px solid; border-image: linear-gradient(90deg, #FF8C00 0%, #5f5f5f 100%) 1; width: 30%; margin: 0 auto;">
+</div>
+<!-- First Three Blogs -->
+<section class="blog_section">
+  <div class="container">
+    <div class="blog_content">
+      <div class="owl-carousel owl-theme">
+        <div class="blog_item">
+          <div class="blog_image">
+            <img class="img-fluid" src="images/man-791049_1280.jpg" alt="images not found">
+            <span><i class="icon ion-md-create"></i></span>
+          </div>
+          <div class="blog_details">
+            <div class="blog_title">
+              <h5><a href="Blogs/blog1.html">We are best for any industrial & business solution.</a></h5>
+            </div>
+            <ul>
+              <li><i class="icon ion-md-person"></i>Alexa</li>
+              <li><i class="icon ion-md-calendar"></i>August 1, 2020</li>
+            </ul>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem...</p>
+            <a href="Blogs/blog1.html">Read More<i class="icofont-long-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="blog_item">
+          <div class="blog_image">
+            <img class="img-fluid" src="images/laptop-4906312_1280.jpg" alt="images not found">
+            <span><i class="icon ion-md-create"></i></span>
+          </div>
+          <div class="blog_details">
+            <div class="blog_title">
+              <h5><a href="Blogs/blog2.html">We are best for any industrial & business solution.</a></h5>
+            </div>
+            <ul>
+              <li><i class="icon ion-md-person"></i>Alexa</li>
+              <li><i class="icon ion-md-calendar"></i>August 1, 2020</li>
+            </ul>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem...</p>
+            <a href="Blogs/blog2.html">Read More<i class="icofont-long-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="blog_item">
+          <div class="blog_image">
+            <img class="img-fluid" src="images/computer-4484282_1280.jpg" alt="images not found">
+            <span><i class="icon ion-md-create"></i></span>
+          </div>
+          <div class="blog_details">
+            <div class="blog_title">
+              <h5><a href="Blogs/blog3.html">We are best for any industrial & business solution.</a></h5>
+            </div>
+            <ul>
+              <li><i class="icon ion-md-person"></i>Alexa</li>
+              <li><i class="icon ion-md-calendar"></i>August 1, 2020</li>
+            </ul>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem...</p>
+            <a href="Blogs/blog3.html">Read More<i class="icofont-long-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container col-xxl-8 px-4 py-5 text-center" style="margin-top: -200px; font-size: 32px;">
+<a href="pages/blogs.html"><button class="getStartedToday" >More Blogs!</button></a>
+</div>
 <!-- Start Contact -->
 <div class="contact" id="Contact">
   <div class="container">
@@ -279,10 +355,15 @@
     <div class="footer-placeholder"></div>
 </footer>
 <!-- Footer -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<!-- bootstrap -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<!-- carousel -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
 <script src="main.js"></script>
 <script src="home.js"></script>
+<script src="blogs.js"></script>
 </body>
 </html>
