@@ -27,6 +27,7 @@
         background-color: rgb(0 0 0 / 30%);
 }
 .carousel{
+    overflow: visible;
     background-color: rgb(0 0 0 / 30%);
 }
 .carousel-text {
