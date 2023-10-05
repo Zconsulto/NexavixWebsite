@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
 	var headerTemplate = `
-     <div class="top_bar row" style="display: flex;
-     flex-wrap: nowrap;  ">
+     <section class="top_bar">
+
+     <div class="row" style=" display: flex;
+     flex-wrap: nowrap; ">
           <div class="tob_bar_left_col hidden-xs col-sm-6 col-md-6" style="    display: flex;
           width: 45%;
           align-items: center;
@@ -40,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           </div>
      </div>
+     </section>
     `;
 
 	// Find all divs with class "footer-placeholder" and replace them with the footer
