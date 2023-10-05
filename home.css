@@ -287,14 +287,29 @@
 /* Start About */
 .content {
     display: flex;
+    position: relative;
+    /* Add relative positioning context */
     flex-wrap: wrap;
 }
 
-.image-container,
-.text-container {
-    flex: 1;
+.image-container {
+    flex-basis: 70%;
     padding: 15px;
-    /* margin-left: -70px; */
+}
+
+.text-container {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    /* Make the text container positioned relative to the nearest positioned ancestor */
+    left: 50%;
+    /* Stick to the right side of the nearest positioned ancestor */
+    top: 45%;
+    /* Centered vertically */
+    transform: translateY(-50%);
+    /* Centering fix */
 }
 
 .img-fluid {
@@ -308,8 +323,11 @@
     .image-container,
     .text-container {
         flex-basis: 100%;
+        position: static;
+        /* Disable absolute positioning for small screens */
     }
 }
+
 #lightbox {
     display: none;
     position: fixed;
@@ -327,13 +345,13 @@
     max-width: 90%;
     max-height: 90%;
 }
+
 @media (max-width: 767px) {
     .about img {
         bottom: -60px;
         margin-top: -60px;
     }
 }
-
 /* End About */
 /* Start Video */
 .videoContainer {
