@@ -294,6 +294,7 @@
 .text-container {
     flex: 1;
     padding: 15px;
+    /* margin-left: -70px; */
 }
 
 .img-fluid {
@@ -612,9 +613,7 @@
 /* Start Contact */
 .contact {
     padding-top: 30px;
-    /* Increased padding for visual space */
     perspective: 1500px;
-    /* Setting a perspective for 3D transformations */
 }
 
 .contact .content {
@@ -625,7 +624,6 @@
     box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     transition: transform 0.5s;
-    /* Transition for smooth effect */
     margin-top: 25px;
 }
 
@@ -648,24 +646,29 @@
 .contact .content .info:hover,
 .contact .content:hover {
     transform: translateY(-5px) scale(1.05);
-    /* Lift-up and scale effect on hover */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
 .contact .content form {
     flex-basis: 70%;
+    /* Modified */
 }
 
 .contact .content .info {
     flex-basis: 25%;
+    /* Modified */
 }
 
 .contact .content form .main-input {
-    padding: 20px;
+    padding: 10px;
+    /* Modified */
     display: block;
-    border: 1px solid #f4a71f;;
-    margin-bottom: 30px;
+    border: 1px solid #f4a71f;
+    margin-bottom: 15px;
+    /* Modified */
     width: 100%;
+    font-size: 14px;
+    /* Modified */
 }
 
 .contact .content form .main-input:focus {
@@ -673,18 +676,22 @@
 }
 
 .contact .content form textarea.main-input {
-    height: 200px;
+    height: 100px;
+    /* Modified */
 }
 
 .contact .content form input[type="submit"] {
     background-color: #efefef;
     color: #f4a71f;
-    padding: 20px;
+    padding: 10px 20px;
+    /* Modified */
     border: none;
     display: flex;
     margin-left: auto;
     text-transform: uppercase;
     cursor: pointer;
+    font-size: 14px;
+    /* Modified */
     border-radius: 8px;
 }
 
@@ -700,6 +707,7 @@
     margin-bottom: 30px;
     font-weight: 500;
     font-size: 18px;
+    /* Modified */
     color: #898989;
 }
 
@@ -710,7 +718,8 @@
 }
 
 .contact .content .info h4:nth-of-type(2) {
-    margin-top: 90px;
+    margin-top: 40px;
+    /* Modified */
 }
 
 @media (max-width: 767px) {
