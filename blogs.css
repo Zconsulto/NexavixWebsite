@@ -48,7 +48,7 @@
 }
 
 .blog_section .blog_content .blog_item .blog_details .blog_title h5 a {
-    color: #020d26;
+    color: #898989;
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 25px;
@@ -59,7 +59,7 @@
 }
 
 .blog_section .blog_content .blog_item .blog_details .blog_title h5 a:hover {
-    color: #ff5e14;
+    color: #FF8C00;
 }
 
 .blog_section .blog_content .blog_item .blog_details ul {
@@ -76,25 +76,27 @@
 
 .blog_section .blog_content .blog_item .blog_details ul li i {
     padding-right: 7px;
+    color: #898989;
 }
 
 .blog_section .blog_content .blog_item .blog_details p {
     border-top: 1px solid #e5e5e5;
     margin-top: 4px;
     padding: 20px 0 4px;
+    color: #898989;
 }
 
 .blog_section .blog_content .blog_item .blog_details a {
     font-size: 16px;
     display: inline-block;
-    color: #ff5e14;
+    color: #f4a71f;
     font-weight: 600;
     text-decoration: none;
     transition: all 0.3s;
 }
 
 .blog_section .blog_content .blog_item .blog_details a:hover {
-    color: #020d26;
+    color: #FF8C00;
 }
 
 .blog_section .blog_content .blog_item .blog_details a i {
