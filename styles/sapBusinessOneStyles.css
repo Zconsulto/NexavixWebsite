@@ -133,6 +133,52 @@ body {
     }
 }
 /* End flip box */
+/* start why SAP B1 */
+.points-container {
+    display: flex;
+    justify-content: space-between;
+    /* Add some space between the columns */
+    flex-wrap: wrap;
+    padding: 10px 100px;
+    /* Allows the items to wrap to new lines on smaller screens */
+}
+
+.point {
+    flex-basis: calc(25% - 20px);
+    /* Calculate the width of each box minus margin */
+    text-align: center;
+    /* Center the content */
+    margin: 10px;
+    /* Add some outer spacing */
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    .point {
+        flex-basis: calc(50% - 20px);
+        /* Make it two columns on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .point {
+        flex-basis: 100%;
+        /* Make it single column on small screens */
+    }
+}
+
+/* Style for the icons and texts */
+.point i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    /* Add some space below the icon */
+}
+
+.point h3 {
+    margin-bottom: 20px;
+    /* Add some vertical space */
+}
+/* End Why SAP B1 */
 /* Start video */
 .videoContainer {
     width: 100%;
