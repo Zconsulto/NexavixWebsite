@@ -15,7 +15,7 @@ body .top_bar {
 body,
 html {
   height: 100%;
-  max-width: 1440px;
+  max-width: 1920px;
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -81,6 +81,28 @@ html {
 }
 .top_bar a:hover{
   color:#f4a71f;
+}
+@media only screen and (max-width: 768px) {
+  .top_bar {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+
+  .top_bar_left_col,
+  .top_bar_right_col {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .top_bar_right_col {
+    justify-content: space-around;
+  }
+
+  .top_bar a,
+  .top_bar button {
+    padding: 0.25rem 0.5rem;
+  }
 }
 .topnav {
   background-image: url(images/7rkat_grey_background.jpeg);

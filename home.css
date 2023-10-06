@@ -216,11 +216,15 @@ body {
 /* Optional: for responsiveness */
 @media (max-width: 768px) {
 
-    .image-container,
+    .image-container{
+        flex-basis: 100%;
+        position: static;
+    }
     .text-container {
         flex-basis: 100%;
         position: static;
         /* Disable absolute positioning for small screens */
+        margin-top: 200px;
     }
 }
 
