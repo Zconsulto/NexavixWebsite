@@ -1,3 +1,7 @@
+html,
+body {
+    max-width: 100%;
+}
 .box-hover-effect {
     transition: transform 0.3s ease;
     /* Smooth transition for the scaling effect */

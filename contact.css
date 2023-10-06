@@ -1,3 +1,7 @@
+html,
+body {
+    max-width: 100%;
+}
 /* Start Contact */
 .contact {
     padding-top: 30px;
