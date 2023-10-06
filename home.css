@@ -116,10 +116,12 @@
 .key-point__text p {
     margin: 0;
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color: #898989;
 }
 
 .key-point__text h5 {
     font-size: 36px;
+    color: #898989;
 }
 
 .key-points__list-item:hover .key-point__text i {
@@ -131,6 +133,7 @@
 .key-points__list-item:hover .key-point__text p {
     color: #898989;
 }
+
 @media only screen and (max-width: 600px) {
     .key-points__list {
         flex-direction: column;
@@ -148,7 +151,9 @@
     .key-point__text i {
         font-size: 36px;
     }
-
+    .key-point__text .fa-globe {
+        margin-left: -20px;
+    }
     .key-point__text h5 {
         font-size: 28px;
     }
@@ -170,6 +175,7 @@
 
 /* Industries */
 /* Start About */
+
 .content {
     display: flex;
     position: relative;
@@ -187,7 +193,7 @@
     padding: 15px;
     background-color: rgba(255, 255, 255);
     width: 640px;
-    height: 400px;
+    height: 500px;
     position: absolute;
     /* Make the text container positioned relative to the nearest positioned ancestor */
     left: 51%;
