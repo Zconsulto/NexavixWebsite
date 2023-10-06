@@ -979,3 +979,16 @@ div.wpforms-container-full .wpforms-form .wpforms-submit-container {
   }
 }
 /* End Features */
+.content .container{
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24.2px;
+
+}
+.content .card{
+  min-height: 321px;
+}
+
