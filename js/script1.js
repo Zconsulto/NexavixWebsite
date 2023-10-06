@@ -6,16 +6,6 @@ function loadContent(tabId) {
 			contentDiv.innerHTML = `<div class="highlight-section" id="ERP-Consultation">
             <div class="container col-xxl-9"><h1>ERP Consultation</h1></div>
         </div>
-        <div id="sticky-box">
-            <ul>
-                <li class="active"><a href="#ERP-Consultation">ERP Consultation</a></li>
-                <li><a href="#Implementation">Implementation</a></li>
-                <li><a href="#Support">Support</a></li>
-                <li><a href="#Integration">Integration</a></li>
-                <li><a href="#Cloud-Hosting">Cloud Hosting</a></li>
-            </ul>
-        </div>
-
             <div class="container col-xxl-9 ">
                 <div class="row flex-lg-row-reverse">
                     <div class="col-9 col-sm-8 col-lg-4">
@@ -125,4 +115,17 @@ function loadContent(tabId) {
 		default:
 			contentDiv.innerHTML = "<p>No content available</p>";
 	}
+    setActiveTab(tabId);
+}
+
+function setActiveTab(tabId) {
+    var buttons = document.querySelectorAll('#tabBar button');
+    buttons.forEach(function(button) {
+        // Only modify the DOM if necessary to prevent unnecessary reflows/repaints
+        if (button.classList.contains('active') && button.getAttribute('onclick') !== `loadContent('${tabId}')`) {
+            button.classList.remove('active');
+        } else if (!button.classList.contains('active') && button.getAttribute('onclick') === `loadContent('${tabId}')`) {
+            button.classList.add('active');
+        }
+    });
 }

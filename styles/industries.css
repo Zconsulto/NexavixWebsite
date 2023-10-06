@@ -1,7 +1,36 @@
+#tabBar {
+    display: flex;
+    justify-content: center;
+}
+
 #tabBar button {
-    padding: 10px;
+    background-color: #ccc;
+    color: #fff;
+    padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+#tabBar button i {
+    margin-right: 5px;
+}
+
+/* Hover effects */
+#tabBar button:hover {
+    background-color: #f4a71f;
+    transform: scale(1.05);
+}
+
+/* Active state */
+#tabBar button.active {
+    background-color: #f4a71f;
+    transform: scale(1.05);
 }
 
 #content {

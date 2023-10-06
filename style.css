@@ -368,7 +368,7 @@ Pricing
 
 * {
   border: none;
-  font-family: Carmen Sans;
+  font-family: helvetica;
 }
 
 .btn-primary {
@@ -951,5 +951,9 @@ div.wpforms-container-full .wpforms-form .wpforms-submit-container {
   background-position: left bottom;
   color: white;
 }
-
+@media screen and (max-width: 768px) {
+  .notMobile{
+    display: none;
+  }
+}
 /* End Features */
