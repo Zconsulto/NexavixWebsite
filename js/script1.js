@@ -6,15 +6,6 @@ function loadContent(tabId) {
 			contentDiv.innerHTML = `<div class="highlight-section" id="ERP-Consultation">
             <div class="container col-xxl-9"><h1>ERP Consultation</h1></div>
         </div>
-        <div id="sticky-box">
-            <ul>
-                <li class="active"><a href="#ERP-Consultation">ERP Consultation</a></li>
-                <li><a href="#Implementation">Implementation</a></li>
-                <li><a href="#Support">Support</a></li>
-                <li><a href="#Integration">Integration</a></li>
-                <li><a href="#Cloud-Hosting">Cloud Hosting</a></li>
-            </ul>
-        </div>
 
             <div class="container col-xxl-9 ">
                 <div class="row flex-lg-row-reverse">
