@@ -987,7 +987,10 @@ div.wpforms-container-full .wpforms-form .wpforms-submit-container {
   gap: 24.2px;
 
 }
-.content .card{
-  min-height: 321px;
+
+  .content .card {
+    min-height: 321px;
+    width: 300px !important;
 }
+
 
