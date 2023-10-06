@@ -12,13 +12,17 @@
     border: none;
     transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 25px;
+    /* Adjusted for a more "button-like" feel */
     position: relative;
     overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a subtle shadow for a "lifted" effect */
 }
 
 #tabBar button i {
-    margin-right: 5px;
+    margin-right: 10px;
+    color: #2262ff;
 }
 
 /* Hover effects */
