@@ -212,7 +212,11 @@ body {
     max-width: 100%;
     height: auto;
 }
-
+.mBContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Optional: for responsiveness */
 @media (max-width: 768px) {
 
