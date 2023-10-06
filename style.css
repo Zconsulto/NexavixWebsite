@@ -989,7 +989,7 @@ div.wpforms-container-full .wpforms-form .wpforms-submit-container {
 }
 
   .content .card {
-    min-height: 321px;
+    height: 321px;
     width: 300px !important;
 }
 
