@@ -788,7 +788,7 @@ div.wpforms-container-full .wpforms-form .wpforms-submit-container {
 
 .main-title {
   color: #898989;
-  margin: 0 auto 60px;
+  margin: 0 auto 0px;
   /* border: 2px solid rgba(0, 0, 0, .01); */
   padding: 10px 20px;
   font-size: 40px;
@@ -836,7 +836,6 @@ div.wpforms-container-full .wpforms-form .wpforms-submit-container {
 
 .features {
   padding-top: var(--main-padding-top);
-  padding-bottom: 10px;
   position: relative;
   background-color: white;
 }

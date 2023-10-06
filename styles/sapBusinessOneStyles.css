@@ -27,9 +27,20 @@ body {
     margin: 8px;
 }
 
+.unique_service i {
+    color: #f4a71f;
+    /* A yellow shade */
+    font-size: 32px;
+    /* Adjust size as needed */
+    margin-bottom: 10px;
+    /* Space between icon and text */
+    transition: color 0.3s ease;
+    /* Smooth color transition */
+}
+
 .unique_flip-box {
     /* background-color: #FFFFFF; Made the flip box background white for a clean look */
-    width: 300px;
+    width: 370px;
     height: 200px;
     border: 2px solid #f4a71f;
     /* Orange border for distinction */
@@ -72,7 +83,7 @@ body {
 
 .unique_flip-box-front {
     background-color: #fff;
-    color: #000;
+    color: #898989;
     /* Grey color for the text */
     border-radius: 10px;
     border-top: 4px solid #f4a71f;
@@ -89,9 +100,13 @@ body {
 }
 
 .unique_flip-box-back {
-    background-color: #f4a71f;
-    /* Orange background */
-    color: #fff;
+    background-color: #fff;
+    color: #898989;
+    /* Grey color for the text */
+    border-radius: 10px;
+    border-top: 4px solid #f4a71f;
+    /* Orange top border for a sleek look */
+    border-bottom: 4px solid #f4a71f;
     /* White text for better readability against the orange background */
     transform: rotateY(180deg);
     border-radius: 10px;
@@ -118,4 +133,12 @@ body {
     }
 }
 /* End flip box */
+/* Start video */
+.videoContainer {
+    width: 100%;
+}
 
+.video video {
+    width: 100%;
+}
+/* End Video */
