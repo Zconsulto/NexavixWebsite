@@ -466,3 +466,99 @@ img.d-block.img-fluid.lead {
     /* border-right: solid 0.2px; */
     /* border-left: solid 0.2px; */
 }
+
+/* Industries */
+.wrapper-full {
+    position: relative;
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0 auto;
+}
+.four-button-links {
+    text-align: center;
+}
+
+.four-button-links .buttons {
+    position: relative;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.four-button-links .buttons .button {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+}
+
+.four-button-links .buttons .button .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.four-button-links .buttons .button .background .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.four-button-links .buttons .button .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.four-button-links .buttons .button .text h3 {
+    color: #ffffff;
+}
+
+.four-button-links .buttons .button:hover .background {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.four-button-links .buttons .button:hover .background .background-overlay {
+    opacity: 1;
+}
+
+.four-button-links .buttons .button:hover .btn {
+    background-color: #bc7e00;
+}
+@media (max-width: 1023px) {
+    .four-button-links .buttons {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 699px) {
+    .four-button-links .buttons {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
