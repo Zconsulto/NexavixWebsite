@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <b>
                <a href="tel: 1 (838)-910-3304" style="color: black; font-style: normal;" > East: (838)-910-3304</a>
                <br>
-               <a href="tel: 1 (408)  878-6773" style="color: black; font-style: normal;" > West:(408) 878-6773</a>
+               <a href="tel: 1 (408)  878-6773" style="color: black; font-style: normal;" > West: (408) 878-6773</a>
           </b>
           </p>
                </div>
@@ -36,9 +36,9 @@ document.addEventListener("DOMContentLoaded", function () {
           <a href="https://twitter.com/nexavix" target="_blank"><span class="fab fa-twitter" ></span></a>
           <a href="https://www.linkedin.com/company/nexavix/" target="_blank"><span class="fab fa-linkedin-in"></span></a>
      </div>
-          <a href="pages/blogs.html" style="border:1px;">BLOG</a>
-          <a href="pages/trial.html" class="special-link"> FREE TRIAL</a>
-          <a href="#Contact"><button type="button" class="btn btn-warning" style="background-color: #f4a71f;">Request a Demo</button></a>
+          <a href="../pages/blogs.html" style="border:1px;">BLOG</a>
+          <a href="../pages/trial.html" class="special-link"> FREE TRIAL</a>
+          <a href="../index.html#Contact"><button type="button" class="btn btn-warning" style="background-color: #f4a71f;">Request a Demo</button></a>
 
           </div>
      </div>

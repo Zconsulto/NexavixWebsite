@@ -72,8 +72,8 @@ body {
 
 .unique_flip-box {
     /* background-color: #FFFFFF; Made the flip box background white for a clean look */
-    width: 370px;
-    height: 200px;
+    width: 380px;
+    height: 150px;
     border: 2px solid #f4a71f;
     /* Orange border for distinction */
     border-radius: 10px;
@@ -219,12 +219,31 @@ body {
     /* Add some vertical space */
 }
 /* End Why SAP B1 */
-/* Start video */
-.videoContainer {
-    width: 100%;
+/* Start Content Container */
+.contentContainer {
+    display: flex;
+    justify-content: space-between;
 }
 
-.video video {
-    width: 100%;
+.videoContainer{
+    width: 45%;
 }
-/* End Video */
+.videoText {
+    width: 50%;
+}
+
+.videoContainer video {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px dotted #f4a71f;
+    margin-left: 100px;
+}
+
+.videoText {
+    color: #898989;
+    font-size: 3em;
+    padding: 9% 0px;
+    /* Optional: for some space around the text */
+}
+
+/* End Content Container */
