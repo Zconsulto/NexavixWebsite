@@ -1,3 +1,13 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // Extracting the 'tab' parameter from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const tab = urlParams.get('tab');
+    
+    // Check if tab parameter is available
+    if(tab) {
+        loadContent(tab);
+    }
+});
 function loadContent(tabId) {
 	var contentDiv = document.getElementById("content");
 
