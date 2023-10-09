@@ -561,6 +561,21 @@ img.d-block.img-fluid.lead {
 .four-button-links .buttons .button:hover .btn {
     background-color: #bc7e00;
 }
+.ind-btn {
+    display: inline-block ;
+    background-color: #F3A400;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 100px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.ind-btn:hover {
+    background-color: #bc7e00;
+}
+
 @media (max-width: 1023px) {
     .four-button-links .buttons {
         -ms-grid-columns: 1fr 1fr;
