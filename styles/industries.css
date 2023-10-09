@@ -41,9 +41,10 @@ body {
 #tabBar button.active {
     background-color: #f4a71f;
     transform: scale(1.05);
+    color:#000;
 }
 #tabBar button.active i {
-    color: #898989;
+    color: #000;
 }
 
 #content {

@@ -37,13 +37,37 @@
     </div>
     <br><br>
     <div id="tabBar" style="display:flex;justify-content:center;">
-        <button onclick="loadContent('tab1')"><i class="fas fa-comments"></i> ERP Consultation</button>
-        <button onclick="loadContent('tab2')"><i class="fas fa-cogs"></i> Implementation</button>
-        <button onclick="loadContent('tab3')"><i class="fas fa-headset"></i> Support</button>
-        <button onclick="loadContent('tab4')"><i class="fas fa-plug"></i> Integration</button>
-        <button onclick="loadContent('tab5')"><i class="fas fa-cloud"></i> Cloud Hosting</button>
+        <button class="active" id="tab1" onclick="loadContent('tab1')"><i class="fas fa-industry"></i> Manufacture</button>
+        <button id="tab2" onclick="loadContent('tab2')"><i class="fas fa-handshake"></i> Wholesale</button>
+        <button id="tab3" onclick="loadContent('tab3')"><i class="fas fa-shopping-bag"></i> Retail</button>
+        <button id="tab4" onclick="loadContent('tab4')"><i class="fas fa-flask"></i> Chemistry</button>
+        <button id="tab5" onclick="loadContent('tab5')"><i class="fas fa-gas-pump"></i> Oil & Gas</button>
+        <button id="tab6" onclick="loadContent('tab6')"><i class="fas fa-car"></i> Automotive</button>
+        <button id="tab7" onclick="loadContent('tab7')"><i class="fas fa-utensils"></i> Food & Beverage</button>
     </div>
-    <div id="content"></div>
+
+    <div id="content">
+        <div class="highlight-section active" id="ERP-Consultation">
+            <div class="container col-xxl-9 ">
+                <h1>ERP Consultation</h1>
+            </div>
+        </div>
+        <div class="container col-xxl-9 ">
+            <div class="row flex-lg-row-reverse">
+                <div class="col-9 col-sm-8 col-lg-4">
+                    <img src="../images/ERPConsultation.jpg" class="d-block mx-lg-auto img-fluid lead"
+                        alt="Bootstrap Themes" width="690" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-8">
+                    <p class="lead">
+                        Choosing software can be intricate and time-consuming for businesses.
+                        So, our ERP consultation lets determine which
+                        software can support your processes and your industry requirements.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="/js/industries.js"></script>
 
     <!-- Footer -->

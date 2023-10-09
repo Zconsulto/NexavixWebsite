@@ -7,8 +7,8 @@ html, body{
 }
 
 #tabBar button {
-    background-color: #ccc;
-    color: #fff;
+    background-color: transparent;
+    color: #898989;
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
@@ -19,13 +19,11 @@ html, body{
     /* Adjusted for a more "button-like" feel */
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    /* Optional: Add a subtle shadow for a "lifted" effect */
 }
 
 #tabBar button i {
     margin-right: 10px;
-    color: #2262ff;
+    color: #f4a71f;
 }
 
 /* Hover effects */
@@ -34,10 +32,20 @@ html, body{
     transform: scale(1.05);
 }
 
+#tabBar button:hover i {
+    color: #898989;
+}
+
+
 /* Active state */
 #tabBar button.active {
     background-color: #f4a71f;
     transform: scale(1.05);
+    color: #000;
+}
+
+#tabBar button.active i {
+    color: #000;
 }
 
 #content {

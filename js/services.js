@@ -117,7 +117,6 @@ function loadContent(tabId) {
 	}
     setActiveTab(tabId);
 }
-
 function setActiveTab(tabId) {
     var buttons = document.querySelectorAll('#tabBar button');
     buttons.forEach(function(button) {
@@ -129,3 +128,6 @@ function setActiveTab(tabId) {
         }
     });
 }
+
+
+

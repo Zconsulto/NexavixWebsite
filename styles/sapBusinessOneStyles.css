@@ -235,7 +235,7 @@ body {
 .videoContainer video {
     width: 100%;
     border-radius: 10px;
-    border: 2px dotted #f4a71f;
+    border: 4px solid #f4a71f;
     margin-left: 100px;
 }
 

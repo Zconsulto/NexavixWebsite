@@ -112,6 +112,48 @@ function loadContent(tabId) {
             </div>
         </div>`;
 			break;
+        case "tab6":
+			contentDiv.innerHTML = `<div class="highlight-section" id="Cloud-Hosting">
+            <div class="container col-xxl-9">
+                <h1>Cloud Hosting</h1>
+            </div>
+        </div>
+        <div class="container col-xxl-9 ">
+            <div class="row flex-lg-row-reverse">
+                <div class="col-9 col-sm-8 col-lg-4">
+                    <img src="../images/cloudHosting.jpg" class="d-block mx-lg-auto img-fluid lead" alt="Bootstrap Themes"
+                        width="690" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-8">
+                    <p class="lead">
+                        Experience flexible, secure cloud hosting with Nexavix. Access your resources anytime, anywhere while we handle IT
+                        infrastructure complexities, enabling your business to thrive with enhanced efficiency and agility.
+                    </p>
+                </div>
+            </div>
+        </div>`;
+			break;
+        case "tab7":
+			contentDiv.innerHTML = `<div class="highlight-section" id="Cloud-Hosting">
+            <div class="container col-xxl-9">
+                <h1>Cloud Hosting</h1>
+            </div>
+        </div>
+        <div class="container col-xxl-9 ">
+            <div class="row flex-lg-row-reverse">
+                <div class="col-9 col-sm-8 col-lg-4">
+                    <img src="../images/cloudHosting.jpg" class="d-block mx-lg-auto img-fluid lead" alt="Bootstrap Themes"
+                        width="690" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-8">
+                    <p class="lead">
+                        Experience flexible, secure cloud hosting with Nexavix. Access your resources anytime, anywhere while we handle IT
+                        infrastructure complexities, enabling your business to thrive with enhanced efficiency and agility.
+                    </p>
+                </div>
+            </div>
+        </div>`;
+			break;
 		default:
 			contentDiv.innerHTML = "<p>No content available</p>";
 	}
