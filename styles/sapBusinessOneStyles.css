@@ -17,30 +17,9 @@ body {
     padding: 30px;
     margin-top: 50px;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(244, 167, 31, 0.3);
 }
 
-.cool-image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-.cool-image:hover {
-    transform: scale(1.05);
-}
-
-.cool-lead {
-    font-size: 20px;
-    line-height: 1.6;
-    transition: color 0.3s ease-in-out;
-}
-
-.cool-container:hover .cool-lead {
-    color: #f4a71f;
-}
 /* End SAP intro */
 /* Flipbox */
 .unique_services-box {
@@ -210,13 +189,23 @@ body {
     margin-bottom: 10px;
     /* Add some space below the icon */
 }
-.point i:hover {
+.point:hover i {
     color: #898989 !important;
     /* Changes the color of the icon on hover */
 }
 .point h3 {
     margin-bottom: 20px;
     /* Add some vertical space */
+}
+@media (min-width: 1401px) {
+.container{
+    max-width: 1620px !important;
+}
+}
+@media (max-width: 1400px){
+    .container {
+            max-width: 1220px !important;
+        }
 }
 /* End Why SAP B1 */
 /* Start Content Container */
@@ -226,24 +215,26 @@ body {
 }
 
 .videoContainer{
-    width: 45%;
-}
-.videoText {
-    width: 50%;
+    width: 55%;
 }
 
 .videoContainer video {
     width: 100%;
     border-radius: 10px;
-    border: 4px solid #f4a71f;
-    margin-left: 100px;
+    /* border: 4px solid #f4a71f; */
+    margin-left: 20px;
 }
 
 .videoText {
-    color: #898989;
-    font-size: 3em;
-    padding: 9% 0px;
-    /* Optional: for some space around the text */
+        color: #898989;
+            font-size: 3em;
+            padding: 9% 0px;
+            display: flex;
+            flex: auto;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
 }
 
 /* End Content Container */

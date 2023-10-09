@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div><a href="sapBusinessOne.html">SAP BUSINESS ONE</a></div>
         
         <div><a href="about.html">ABOUT</a></div>
-        <div><a href="services.html">SERVICES</a></div>
+        <div><a href="services.html?tab=tab1" >Services</a></div>
         <div><a href="blogs.html">BLOG</a></div>
         <div><a href="wholesale.html">WHOLESALE</a></div>
         <div><a href="../index.html#Contact">FREE DEMO</a></div>
