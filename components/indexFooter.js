@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <p> <i class="yellow-icon fa fa-phone" aria-hidden="true" style="margin-right: 5px;"></i> <a
           href="tel: 1 (838)-910-3304" style="margin-right: 15px;">East: (838)-910-3304</a></p>
       <p> <i class="yellow-icon fa fa-phone" aria-hidden="true" style="margin-right: 5px;"></i> <a
-          href="tel: 1 (408)  878-6773" style="margin-right: 15px;">West:(408) 878-6773</a></p>
+          href="tel: 1 (408)  878-6773" style="margin-right: 15px;">West: (408) 878-6773</a></p>
     </div>
     <div id="footer-social">
       <h6>Social Media</h6>
@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
         <br>
         <div><a href="index.html">HOME</a></div>
         <div><a href="pages/sapBusinessOne.html">SAP BUSINESS ONE</a></div>
-        <div><a href="pages/resources.html">RESOURCES</a></div>
         <div><a href="pages/about.html">ABOUT</a></div>
         <div><a href="pages/services.html">SERVICES</a></div>
         <div><a href="pages/blogs.html">BLOG</a></div>

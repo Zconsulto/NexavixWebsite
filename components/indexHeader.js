@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <b>
                <a href="tel: 1 (838)-910-3304" style="color: black; font-style: normal;" > East: (838)-910-3304</a>
                <br>
-               <a href="tel: 1 (408)  878-6773" style="color: black; font-style: normal;" > West:(408) 878-6773</a>
+               <a href="tel: 1 (408)  878-6773" style="color: black; font-style: normal;" > West: (408) 878-6773</a>
           </b>
           </p>
                </div>

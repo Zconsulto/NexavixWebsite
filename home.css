@@ -63,10 +63,12 @@ body {
     .carousel-inner {
         height: 0;
         padding-bottom: 100%;
+        background-color: transparent;
     }
 
     .carousel {
         margin-bottom: -170px;
+        background-color: transparent;
     }
 
     .carousel-inner img {
@@ -75,7 +77,17 @@ body {
         left: 0;
         width: 100%;
         height: 100%;
+        background-color: transparent;
     }
+        .carousel-item::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: transparent;
+        }
 }
 /* Start video */
 
