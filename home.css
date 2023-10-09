@@ -211,6 +211,10 @@ body {
 .img-fluid {
     max-width: 100%;
     height: auto;
+    display: revert ;
+}
+img.d-block.img-fluid.lead {
+    display: revert !important;
 }
 .mBContainer {
     display: flex;
