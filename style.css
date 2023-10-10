@@ -70,6 +70,9 @@ html {
   line-height: 1.42857143;
   font-size: 14px;
   line-height: 1.42857143;
+      position: fixed;
+        z-index: 1000;
+        max-height: 100px;
 }
 .top_bar a{
   padding: 0.5rem 1rem;
@@ -109,6 +112,9 @@ html {
   align-items: center;
   justify-content: space-around;
   width: 100%;
+  position: fixed;
+    z-index: 1000;
+    top: 50px;
 }
 
 .topnav a {
@@ -187,6 +193,9 @@ html {
   .topnav a.icon {
     float: right;
     display: block;
+  }
+  .topnav{
+    top: 86px;
   }
 }
 

@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	if (tab) {
 		loadContent(tab);
 	}
+    attachAccordionEventListeners();
 });
 
 function loadContent(tabId) {
@@ -47,7 +48,7 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                    <p>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
+                                    <p>Challenge <br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
                                     <p>&nbsp;</p>
                                     <p>Solution: <br>
                                     Track and manage stock levels, orders, and production in real time.
@@ -76,7 +77,7 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                    <p>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
+                                    <p>Challenge <br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
                                         challenging.</p>
                                         <p>&nbsp;</p>
                                     <p>Solution: <br>Consolidate supplier data, manage contracts, and optimize procurement processes.
@@ -105,7 +106,7 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                    <p>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
+                                    <p>Challenge <br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
                                     <p>&nbsp;</p>
                                     <p>Solution: <br>Leverage real-time data and analytics to drive informed business decisions.</p>
                                 </div>
@@ -133,7 +134,7 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                    <p>Regulatory Compliance and Quality Assurance <br>
+                                    <p>Challenge <br><br>Regulatory Compliance and Quality Assurance: <br>
                                     Ensuring products meet stringent regulatory standards and consistent quality.
 </p>
                                         <p>&nbsp;</p>
@@ -338,26 +339,22 @@ function loadContent(tabId) {
 
 	setActiveTab(tabId);
 }
-document.addEventListener("DOMContentLoaded", function () {
-	attachAccordionEventListeners();
-});
 
 function attachAccordionEventListeners() {
-	document
-		.querySelectorAll(".accordion__item-title")
-		.forEach((titleElement) => {
-			titleElement.removeEventListener("click", accordionToggle);
-			titleElement.addEventListener("click", accordionToggle);
-		});
-}
+        document
+            .querySelectorAll(".accordion__item-title")
+            .forEach((titleElement) => {
+                titleElement.removeEventListener("click", accordionToggle);
+                titleElement.addEventListener("click", accordionToggle);
+            });
+    }
 
-function accordionToggle() {
-	const contentElement = this.nextElementSibling;
-	this.parentElement.classList.toggle("js--active");
-	contentElement.style.display =
-		contentElement.style.display === "block" ? "none" : "block";
-}
-
+    function accordionToggle() {
+        const contentElement = this.nextElementSibling;
+        this.parentElement.classList.toggle("js--active");
+        // contentElement.style.display =
+        // 	contentElement.style.display === "block" ? "none" : "block";
+    }
 function setActiveTab(tabId) {
 	var buttons = document.querySelectorAll("#tabBar button");
 	buttons.forEach(function (button) {
@@ -375,3 +372,4 @@ function setActiveTab(tabId) {
 		}
 	});
 }
+

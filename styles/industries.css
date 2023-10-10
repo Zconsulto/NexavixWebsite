@@ -155,7 +155,6 @@ body {
 
 .accordion__item-content {
     display: none;
-    /* initially hide all content */
     padding: 10px;
     color: #898989;
     font-size: larger;
