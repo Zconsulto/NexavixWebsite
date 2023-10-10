@@ -1,14 +1,13 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Extracting the 'tab' parameter from the URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const tab = urlParams.get('tab');
-    
-    // Check if tab parameter is available
-    if(tab) {
-        loadContent(tab);
-    }
-});
+document.addEventListener("DOMContentLoaded", function () {
+	// Extracting the 'tab' parameter from the URL
+	const urlParams = new URLSearchParams(window.location.search);
+	const tab = urlParams.get("tab");
 
+	// Check if tab parameter is available
+	if (tab) {
+		loadContent(tab);
+	}
+});
 
 function loadContent(tabId) {
 	var contentDiv = document.getElementById("content");
@@ -27,7 +26,7 @@ function loadContent(tabId) {
                 </div>
                 <div class="faq-accordion__accordion" data-aos="fade-left">
                     <div class="accordion" data-accordion="">
-                        <div class="accordion__item js--active">
+                        <div class="accordion__item ">
                             <div class="accordion__item-title" data-accordion-button="">
                                 <h3><span class="accordion__item-title"> Robust Inventory Management </span></h3> <span
                                     class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +111,7 @@ function loadContent(tabId) {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="accordion__item ">
                             <div class="accordion__item-title" data-accordion-button="">
                                 <h3><span class="accordion__item-title"> Regulatory Compliance Assurance </span></h3> <span
@@ -194,7 +193,7 @@ function loadContent(tabId) {
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -291,7 +290,7 @@ function loadContent(tabId) {
             </div>
         </div>`;
 			break;
-        case "tab6":
+		case "tab6":
 			contentDiv.innerHTML = `<div class="highlight-section" id="Cloud-Hosting">
             <div class="container col-xxl-9">
                 <h1>Cloud Hosting</h1>
@@ -312,7 +311,7 @@ function loadContent(tabId) {
             </div>
         </div>`;
 			break;
-        case "tab7":
+		case "tab7":
 			contentDiv.innerHTML = `<div class="highlight-section" id="Cloud-Hosting">
             <div class="container col-xxl-9">
                 <h1>Cloud Hosting</h1>
@@ -337,33 +336,42 @@ function loadContent(tabId) {
 			contentDiv.innerHTML = "<p>No content available</p>";
 	}
 
-    setActiveTab(tabId);
+	setActiveTab(tabId);
 }
-document.addEventListener('DOMContentLoaded', function() {
-  attachAccordionEventListeners();
+document.addEventListener("DOMContentLoaded", function () {
+	attachAccordionEventListeners();
 });
 
 function attachAccordionEventListeners() {
-  document.querySelectorAll('.accordion__item-title').forEach(titleElement => {
-    titleElement.removeEventListener('click', accordionToggle);
-    titleElement.addEventListener('click', accordionToggle);
-  });
+	document
+		.querySelectorAll(".accordion__item-title")
+		.forEach((titleElement) => {
+			titleElement.removeEventListener("click", accordionToggle);
+			titleElement.addEventListener("click", accordionToggle);
+		});
 }
 
 function accordionToggle() {
-  const contentElement = this.nextElementSibling;
-  this.parentElement.classList.toggle('js--active');
-  contentElement.style.display = (contentElement.style.display === 'block') ? 'none' : 'block';
+	const contentElement = this.nextElementSibling;
+	this.parentElement.classList.toggle("js--active");
+	contentElement.style.display =
+		contentElement.style.display === "block" ? "none" : "block";
 }
 
 function setActiveTab(tabId) {
-    var buttons = document.querySelectorAll('#tabBar button');
-    buttons.forEach(function(button) {
-        // Only modify the DOM if necessary to prevent unnecessary reflows/repaints
-        if (button.classList.contains('active') && button.getAttribute('onclick') !== `loadContent('${tabId}')`) {
-            button.classList.remove('active');
-        } else if (!button.classList.contains('active') && button.getAttribute('onclick') === `loadContent('${tabId}')`) {
-            button.classList.add('active');
-        }
-    });
+	var buttons = document.querySelectorAll("#tabBar button");
+	buttons.forEach(function (button) {
+		// Only modify the DOM if necessary to prevent unnecessary reflows/repaints
+		if (
+			button.classList.contains("active") &&
+			button.getAttribute("onclick") !== `loadContent('${tabId}')`
+		) {
+			button.classList.remove("active");
+		} else if (
+			!button.classList.contains("active") &&
+			button.getAttribute("onclick") === `loadContent('${tabId}')`
+		) {
+			button.classList.add("active");
+		}
+	});
 }
