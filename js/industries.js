@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	if (tab) {
 		loadContent(tab);
 	}
-    attachAccordionEventListeners();
+	attachAccordionEventListeners();
 });
 
 function loadContent(tabId) {
@@ -198,7 +198,27 @@ function loadContent(tabId) {
                     </div>
                 </div>
             </div>
-        </div>`;
+        </div>
+        <script>
+        function attachAccordionEventListeners() {
+            document.querySelectorAll(".accordion__item-title").forEach((titleElement) => {
+                titleElement.removeEventListener("click", accordionToggle);
+                titleElement.addEventListener("click", accordionToggle);
+            });
+        }
+
+        function accordionToggle() {
+            const contentElement = this.nextElementSibling;
+            this.parentElement.classList.toggle("js--active");
+            // contentElement.style.display =
+            // 	contentElement.style.display === "block" ? "none" : "block";
+        }
+
+        // Ensure your script runs after the document is fully loaded
+        document.addEventListener("DOMContentLoaded", () => {
+            attachAccordionEventListeners();
+        });
+    </script>`;
 			break;
 		case "tab2":
 			contentDiv.innerHTML = `<div class="highlight-section" id="Implementation">
@@ -338,23 +358,24 @@ function loadContent(tabId) {
 	}
 
 	setActiveTab(tabId);
+    attachAccordionEventListeners();
 }
 
 function attachAccordionEventListeners() {
-        document
-            .querySelectorAll(".accordion__item-title")
-            .forEach((titleElement) => {
-                titleElement.removeEventListener("click", accordionToggle);
-                titleElement.addEventListener("click", accordionToggle);
-            });
-    }
+	document
+		.querySelectorAll(".accordion__item-title")
+		.forEach((titleElement) => {
+			titleElement.removeEventListener("click", accordionToggle);
+			titleElement.addEventListener("click", accordionToggle);
+		});
+}
 
-    function accordionToggle() {
-        const contentElement = this.nextElementSibling;
-        this.parentElement.classList.toggle("js--active");
-        // contentElement.style.display =
-        // 	contentElement.style.display === "block" ? "none" : "block";
-    }
+function accordionToggle() {
+	const contentElement = this.nextElementSibling;
+	this.parentElement.classList.toggle("js--active");
+	// contentElement.style.display =
+	// 	contentElement.style.display === "block" ? "none" : "block";
+}
 function setActiveTab(tabId) {
 	var buttons = document.querySelectorAll("#tabBar button");
 	buttons.forEach(function (button) {
@@ -372,4 +393,3 @@ function setActiveTab(tabId) {
 		}
 	});
 }
-
