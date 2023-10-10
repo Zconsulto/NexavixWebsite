@@ -1,45 +1,35 @@
-function autoScroll() {
-	const firstButton = document.querySelector(".button:first-child");
-	carouselWrapper.appendChild(firstButton);
-	carouselWrapper.style.transition = "none";
-	carouselWrapper.style.transform = `translateX(0%)`;
-	setTimeout(() => {
-		carouselWrapper.style.transition = "transform 1s ease-in-out";
-	}, 0);
+function active_course() {
+	if ($(".active_course").length) {
+		$(".active_course").owlCarousel({
+			loop: true,
+			margin: 20,
+			items: 3,
+			nav: true,
+			autoplay: 2500,
+			smartSpeed: 1500,
+			dots: false,
+			responsiveClass: true,
+			thumbs: true,
+			thumbsPrerendered: true,
+			navText: [
+				"<img src='https://colorlib.com/preview/theme/edustage/img/prev.png'>",
+				"<img src='https://colorlib.com/preview/theme/edustage/img/next.png'>",
+			],
+			responsive: {
+				0: {
+					items: 1,
+					margin: 0,
+				},
+				991: {
+					items: 2,
+					margin: 30,
+				},
+				1200: {
+					items: 3,
+					margin: 30,
+				},
+			},
+		});
+	}
 }
-let autoScrollInterval = setInterval(autoScroll, 2000); // adjust timing as per your need
-
-let isUserInteracting = false;
-
-prevButton.addEventListener("click", () => {
-	if (!isUserInteracting) {
-		clearInterval(autoScrollInterval);
-		isUserInteracting = true;
-		setTimeout(() => {
-			isUserInteracting = false;
-			autoScrollInterval = setInterval(autoScroll, 2000);
-		}, 5000); // 5 seconds delay before auto scroll starts again
-	}
-
-	const lastButton = document.querySelector(".button:last-child");
-	carouselWrapper.prepend(lastButton);
-	carouselWrapper.style.transition = "none";
-	carouselWrapper.style.transform = `translateX(-${100 / 7}%)`;
-	setTimeout(() => {
-		carouselWrapper.style.transition = "transform 1s ease-in-out";
-		carouselWrapper.style.transform = `translateX(0%)`;
-	}, 0);
-});
-
-nextButton.addEventListener("click", () => {
-	if (!isUserInteracting) {
-		clearInterval(autoScrollInterval);
-		isUserInteracting = true;
-		setTimeout(() => {
-			isUserInteracting = false;
-			autoScrollInterval = setInterval(autoScroll, 2000);
-		}, 5000); // 5 seconds delay before auto scroll starts again
-	}
-
-	autoScroll();
-});
+active_course();
