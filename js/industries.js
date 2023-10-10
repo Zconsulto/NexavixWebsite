@@ -245,7 +245,27 @@ function loadContent(tabId) {
                     </p>
                 </div>
             </div>
-        </div>`;
+        </div>
+        <script>
+        document.addEventListener("load", function(e) {
+    attachAccordionEventListeners();
+});
+function attachAccordionEventListeners() {
+        document
+            .querySelectorAll(".accordion__item-title")
+            .forEach((titleElement) => {
+                titleElement.removeEventListener("click", accordionToggle);
+                titleElement.addEventListener("click", accordionToggle);
+            });
+    }
+
+    function accordionToggle() {
+        const contentElement = this.nextElementSibling;
+        this.parentElement.classList.toggle("js--active");
+        // contentElement.style.display =
+        // 	contentElement.style.display === "block" ? "none" : "block";
+    }
+        </script>`;
 			break;
 		case "tab3":
 			contentDiv.innerHTML = `<div class="highlight-section" id="Support">
@@ -267,6 +287,26 @@ function loadContent(tabId) {
                 </div>
             </div>
         </div>
+        <script>
+        document.addEventListener("load", function(e) {
+    attachAccordionEventListeners();
+});
+function attachAccordionEventListeners() {
+        document
+            .querySelectorAll(".accordion__item-title")
+            .forEach((titleElement) => {
+                titleElement.removeEventListener("click", accordionToggle);
+                titleElement.addEventListener("click", accordionToggle);
+            });
+    }
+
+    function accordionToggle() {
+        const contentElement = this.nextElementSibling;
+        this.parentElement.classList.toggle("js--active");
+        // contentElement.style.display =
+        // 	contentElement.style.display === "block" ? "none" : "block";
+    }
+        </script>
         `;
 			break;
 		case "tab4":
@@ -288,7 +328,27 @@ function loadContent(tabId) {
                     </p>
                 </div>
             </div>
-        </div>`;
+        </div>
+        <script>
+        document.addEventListener("load", function(e) {
+    attachAccordionEventListeners();
+});
+function attachAccordionEventListeners() {
+        document
+            .querySelectorAll(".accordion__item-title")
+            .forEach((titleElement) => {
+                titleElement.removeEventListener("click", accordionToggle);
+                titleElement.addEventListener("click", accordionToggle);
+            });
+    }
+
+    function accordionToggle() {
+        const contentElement = this.nextElementSibling;
+        this.parentElement.classList.toggle("js--active");
+        // contentElement.style.display =
+        // 	contentElement.style.display === "block" ? "none" : "block";
+    }
+        </script>`;
 			break;
 		case "tab5":
 			contentDiv.innerHTML = `<div class="highlight-section" id="Cloud-Hosting">
@@ -309,7 +369,27 @@ function loadContent(tabId) {
                     </p>
                 </div>
             </div>
-        </div>`;
+        </div>
+        <script>
+        document.addEventListener("load", function(e) {
+    attachAccordionEventListeners();
+});
+function attachAccordionEventListeners() {
+        document
+            .querySelectorAll(".accordion__item-title")
+            .forEach((titleElement) => {
+                titleElement.removeEventListener("click", accordionToggle);
+                titleElement.addEventListener("click", accordionToggle);
+            });
+    }
+
+    function accordionToggle() {
+        const contentElement = this.nextElementSibling;
+        this.parentElement.classList.toggle("js--active");
+        // contentElement.style.display =
+        // 	contentElement.style.display === "block" ? "none" : "block";
+    }
+        </script>`;
 			break;
 		case "tab6":
 			contentDiv.innerHTML = `<div class="highlight-section" id="Cloud-Hosting">
@@ -330,7 +410,27 @@ function loadContent(tabId) {
                     </p>
                 </div>
             </div>
-        </div>`;
+        </div>
+        <script>
+        document.addEventListener("load", function(e) {
+    attachAccordionEventListeners();
+});
+function attachAccordionEventListeners() {
+        document
+            .querySelectorAll(".accordion__item-title")
+            .forEach((titleElement) => {
+                titleElement.removeEventListener("click", accordionToggle);
+                titleElement.addEventListener("click", accordionToggle);
+            });
+    }
+
+    function accordionToggle() {
+        const contentElement = this.nextElementSibling;
+        this.parentElement.classList.toggle("js--active");
+        // contentElement.style.display =
+        // 	contentElement.style.display === "block" ? "none" : "block";
+    }
+        </script>`;
 			break;
 		case "tab7":
 			contentDiv.innerHTML = `<div class="highlight-section" id="Cloud-Hosting">
@@ -351,7 +451,27 @@ function loadContent(tabId) {
                     </p>
                 </div>
             </div>
-        </div>`;
+        </div>
+        <script>
+        document.addEventListener("load", function(e) {
+    attachAccordionEventListeners();
+});
+function attachAccordionEventListeners() {
+        document
+            .querySelectorAll(".accordion__item-title")
+            .forEach((titleElement) => {
+                titleElement.removeEventListener("click", accordionToggle);
+                titleElement.addEventListener("click", accordionToggle);
+            });
+    }
+
+    function accordionToggle() {
+        const contentElement = this.nextElementSibling;
+        this.parentElement.classList.toggle("js--active");
+        // contentElement.style.display =
+        // 	contentElement.style.display === "block" ? "none" : "block";
+    }
+        </script>`;
 			break;
 		default:
 			contentDiv.innerHTML = "<p>No content available</p>";
@@ -360,7 +480,9 @@ function loadContent(tabId) {
 	setActiveTab(tabId);
     attachAccordionEventListeners();
 }
-
+document.addEventListener("load", function(e) {
+    attachAccordionEventListeners();
+});
 function attachAccordionEventListeners() {
 	document
 		.querySelectorAll(".accordion__item-title")
