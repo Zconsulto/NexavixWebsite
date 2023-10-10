@@ -3,7 +3,7 @@ function active_course() {
 		$(".active_course").owlCarousel({
 			loop: true,
 			margin: 20,
-			items: 3,
+			items: 5,
 			nav: true,
 			autoplay: 2500,
 			smartSpeed: 1500,
@@ -25,7 +25,7 @@ function active_course() {
 					margin: 30,
 				},
 				1200: {
-					items: 3,
+					items: 5,
 					margin: 30,
 				},
 			},
