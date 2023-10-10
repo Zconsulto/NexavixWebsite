@@ -194,6 +194,9 @@ html {
     float: right;
     display: block;
   }
+  .topnav{
+    top: 86px;
+  }
 }
 
 @media screen and (max-width: 768px) {
