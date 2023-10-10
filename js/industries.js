@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	if (tab) {
 		loadContent(tab);
 	}
+    attachAccordionEventListeners();
 });
 
 function loadContent(tabId) {
@@ -338,26 +339,22 @@ function loadContent(tabId) {
 
 	setActiveTab(tabId);
 }
-document.addEventListener("DOMContentLoaded", function () {
-	attachAccordionEventListeners();
-});
 
 function attachAccordionEventListeners() {
-	document
-		.querySelectorAll(".accordion__item-title")
-		.forEach((titleElement) => {
-			titleElement.removeEventListener("click", accordionToggle);
-			titleElement.addEventListener("click", accordionToggle);
-		});
-}
+        document
+            .querySelectorAll(".accordion__item-title")
+            .forEach((titleElement) => {
+                titleElement.removeEventListener("click", accordionToggle);
+                titleElement.addEventListener("click", accordionToggle);
+            });
+    }
 
-function accordionToggle() {
-	const contentElement = this.nextElementSibling;
-	this.parentElement.classList.toggle("js--active");
-	// contentElement.style.display =
-	// 	contentElement.style.display === "block" ? "none" : "block";
-}
-
+    function accordionToggle() {
+        const contentElement = this.nextElementSibling;
+        this.parentElement.classList.toggle("js--active");
+        // contentElement.style.display =
+        // 	contentElement.style.display === "block" ? "none" : "block";
+    }
 function setActiveTab(tabId) {
 	var buttons = document.querySelectorAll("#tabBar button");
 	buttons.forEach(function (button) {
@@ -375,22 +372,4 @@ function setActiveTab(tabId) {
 		}
 	});
 }
-document.querySelectorAll('.accordion__item-title').forEach(title => {
-    title.addEventListener('click', function() {
 
-        // Close all other accordion items
-        document.querySelectorAll('.accordion__item-content').forEach(content => {
-            content.style.maxHeight = null;
-        });
-        
-        // Open the clicked accordion item if it was previously closed
-        var content = this.nextElementSibling;
-        if(content.style.maxHeight){
-            // accordion is currently open, so close it
-            content.style.maxHeight = null; 
-        }else {
-            // accordion is currently closed, so open it
-            content.style.maxHeight = content.scrollHeight + "px";
-        }
-    });
-});
