@@ -492,10 +492,10 @@ img.d-block.img-fluid.lead {
 .four-button-links .buttons {
     position: relative;
     width: 100%;
-    display: -ms-grid;
     display: grid;
+    grid-auto-flow: column;
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .four-button-links .buttons .button {
@@ -587,4 +587,74 @@ img.d-block.img-fluid.lead {
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     }
+}
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .carousel-wrapper {
+    display: flex;
+    width: calc(200% + 100px); /* Ensure this is wide enough for all items */
+    animation: scroll 20s linear infinite;
+    /* Prevent wrapping onto a new line: */
+    flex-wrap: nowrap;
+}@keyframes scroll {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
+}
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    75% { transform: translateX(-100%); }
+    100% {
+      transform: translateX(-100%);
+      animation-timing-function: step-start;
+    }
+  }
+
+  /* Adjustments for responsive behavior */
+  @media only screen and (max-width: 1200px) {
+    .carousel-wrapper {
+      width: calc(300% + 100px);
+    }
+    @keyframes scroll {
+      75% { transform: translateX(-200%); }
+      100% {
+        transform: translateX(-200%);
+        animation-timing-function: step-start;
+      }
+    }
+  }
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 1s ease-in-out; /* Adjusted for smoother transitions */
+}
+.button {
+    min-width: calc(100% / 7);
+}
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: #F3A400;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.carousel-btn:hover {
+    background-color: #bc7e00;
+}
+
+.carousel-btn-prev {
+    left: 10px;
+}
+
+.carousel-btn-next {
+    right: 10px;
 }
