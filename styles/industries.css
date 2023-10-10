@@ -53,3 +53,123 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
 }
+/* Start Accordion */
+/* img */
+.image-banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* Adjust as needed */
+    overflow: hidden;
+}
+.image-banner::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 30%);
+}
+
+.image-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* This will ensure the image covers the div fully */
+}
+
+.image-caption {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 34px;
+    font-weight: bolder;
+    /* Adjust as needed */
+    color: #fff;
+    /* Adjust as needed */
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    /* Semi-transparent background for better visibility */
+    padding: 10px 20px;
+    /* Adjust as needed */
+    border-radius: 8px;
+    /* Rounded corners */
+}
+/* img */
+.faq-accordion__title {
+    color: #f4a71f !important;
+    text-align: center;
+    font-weight: bolder !important;
+}
+.faq-accordion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid #ddd;
+    padding: 20px;
+}
+
+.faq-accordion__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.faq-accordion__content {
+    flex-basis: 50%;
+    padding-right: 20px;
+    position: relative;
+}
+
+.faq-accordion__content::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 200%;
+    background-image: linear-gradient(0deg, #f4a71f 0%, #898989 100%);
+}
+
+.faq-accordion__accordion {
+    flex-basis: 50%;
+    padding-left: 20px;
+}
+
+.accordion__item {
+    margin-bottom: 10px;
+}
+
+.accordion__item-title {
+    cursor: pointer;
+    /* border-bottom: 2px solid #ddd; */
+    padding: 10px;
+    background-color: #f8f8f8;
+    position: relative;
+    color: #f4a71f;
+}
+
+.accordion__item-content {
+    display: none;
+    /* initially hide all content */
+    padding: 10px;
+    color: #898989;
+    font-size: larger;
+}
+
+/* Default active state */
+.accordion__item.js--active .accordion__item-content {
+    display: block;
+}
+
+.icon--chevron {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* End Accordion */
