@@ -111,16 +111,11 @@ body {
 }
 
 .faq-accordion__container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-}
-.tempCol {
-	height: 100%;
-	display: block;
-	width: 40%;
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
 }
 .faq-accordion__content {
 	flex-basis: 50%;
@@ -129,16 +124,13 @@ body {
 }
 
 .faq-accordion__content::after {
-	content: "";
-	position: absolute;
-	height: 100%;
-	display: block;
-	width: 40%;
-	top: 0%;
-	right: 0;
-	width: 2px;
-	height: 100%;
-	background-image: linear-gradient(0deg, #f4a71f 0%, #898989 100%);
+    content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 2px;
+        height: 200%;
+        background-image: linear-gradient(0deg, #f4a71f 0%, #898989 100%);
 }
 
 .faq-accordion__accordion {
