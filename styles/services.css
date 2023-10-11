@@ -8,7 +8,7 @@ html, body{
 
 #tabBar button {
     background-color: transparent;
-    color: #898989;
+    color: #292929;
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
@@ -33,7 +33,7 @@ html, body{
 }
 
 #tabBar button:hover i {
-    color: #898989;
+    color: #292929;
 }
 
 
