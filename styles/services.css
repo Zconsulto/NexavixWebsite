@@ -39,7 +39,7 @@ html, body{
 
 /* Active state */
 #tabBar button.active {
-    background-color: #f4a71f;
+    border-bottom: 2px solid #f4a71f;
     transform: scale(1.05);
     color: #000;
 }
