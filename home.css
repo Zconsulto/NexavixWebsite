@@ -707,7 +707,8 @@ body{margin-top:20px;}
     opacity: 1;
 }
 .popular_courses .owl-nav {
-    display: flex !important;
+    /* display: flex !important; */
+    display: none;
     justify-content: space-between;
     position: absolute;
     top: 50%;
