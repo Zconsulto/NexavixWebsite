@@ -36,14 +36,13 @@ document.addEventListener("DOMContentLoaded", function () {
       <div id="footer-form">
         <h6>Quick links</h6>
         <br>
-        <div><a href="index.html">HOME</a></div>
-        <div><a href="pages/sapBusinessOne.html">SAP BUSINESS ONE</a></div>
-        <div><a href="pages/about.html">ABOUT</a></div>
-        <div><a href="pages/services.html">SERVICES</a></div>
-        <div><a href="pages/blogs.html">BLOG</a></div>
-        <div><a href="pages/wholesale.html">WHOLESALE</a></div>
-        <div><a href="index.html#Contact">FREE DEMO</a></div>
-        <div><a href="pages/trial.html">FREE TRIAL</a></div>
+        <div><a href="index.html">Home</a></div>
+        <div><a href="pages/sapBusinessOne.html">Sap Business One</a></div>
+        <div><a href="pages/about.html">About</a></div>
+        <div><a href="pages/services.html">Sservices</a></div>
+        <div><a href="pages/blogs.html">Blog</a></div>
+        <div><a href="pages/wholesale.html">Wholesale</a></div>
+        <div><a href="pages/trial.html">Free Trial</a></div>
       </div>
   </div>
   <div class="wrapper credits">
