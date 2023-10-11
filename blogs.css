@@ -177,3 +177,26 @@ body {
         right: -17px !important;
     }
 }
+.image-banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    /* Adjust as needed */
+    overflow: hidden;
+}
+
+.image-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* This will ensure the image covers the div fully */
+}
+
+.section-title {
+    color: #898989;
+    font-weight: bold;
+}
+
+.section-description {
+    color: #898989;
+}

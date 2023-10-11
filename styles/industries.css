@@ -149,6 +149,7 @@ body {
 	background-color: #f8f8f8;
 	position: relative;
 	color: #f4a71f;
+	font-weight: bolder;
 }
 
 .accordion__item-content {
