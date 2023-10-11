@@ -9,7 +9,7 @@ body {
 
 #tabBar button {
 	background-color: transparent;
-	color: #898989;
+	color: #292929;
 	padding: 10px 20px;
 	margin: 5px;
 	cursor: pointer;
@@ -33,7 +33,7 @@ body {
 	transform: scale(1.05);
 }
 #tabBar button:hover i {
-	color: #898989;
+	color: #292929;
 }
 
 /* Active state */

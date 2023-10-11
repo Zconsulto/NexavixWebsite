@@ -105,7 +105,7 @@ html {
     padding: 0.25rem 0.5rem;
   }
 }
-.topnav {
+/* .topnav {
   background-image: url(images/7rkat_grey_background.jpeg);
   overflow: hidden;
   display: flex;
@@ -126,6 +126,46 @@ html {
   text-decoration: none;
   font-size: 17px;
   font-weight: bold;
+} */
+.topnavContainer {
+  background-image: url(images/7rkat_grey_background.jpeg);
+  min-height: 140px;
+  position: fixed;
+  z-index: 999;
+  /* Lower than .topnav */
+  width: 100%;
+  /* Ensures it spans the full width of the viewport */
+  top: 0;
+  /* Positions at the top of the viewport */
+}
+.topnav {
+  /* background-image: url(images/7rkat_grey_background.jpeg); */
+  left: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* Updated to space-around for better spacing */
+  width: 75%;
+  position: fixed;
+      z-index: 1000;
+        top: 48px;
+}
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px 8px;
+  /* Reduced padding to get elements closer */
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 380px;
+  height: 80px;
+  flex-shrink: 0;
+  /* Ensuring the logo doesn’t shrink, adjust as needed */
 }
 
 .topnav a:not(.logo):hover {
@@ -396,10 +436,10 @@ Pricing
   border: 1px solid #009688;
   color: #ffffff;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 * {
   border: none;
-  font-family: helvetica;
+  font-family: 'Open Sans', Times, serif;
 }
 
 .btn-primary {
