@@ -193,10 +193,11 @@ body {
 }
 
 .section-title {
-    color: #898989;
+    color: #292929;
     font-weight: bold;
 }
 
 .section-description {
     color: #898989;
+    font-size: 1.1em;
 }

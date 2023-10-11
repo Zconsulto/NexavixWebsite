@@ -5,14 +5,16 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <div class="card card_red text-center">
+            <div class="card card_red ">
+            <div class="text-center">
               <div class="title">
 
                 <h2>SAP ERP USER</h2>
               </div>
               <div class="price">
-                <h4>$149<sup>95</sup><br><p style="font-size:15px;">/User/Month paid anually </p></h4>
+                <h4>$249<sup>95</sup><br><p style="font-size:15px;">/User/Month paid anually </p></h4>
 
+              </div>
               </div>
               <div class="option">
               <ul>
@@ -26,24 +28,25 @@ document.addEventListener("DOMContentLoaded", function () {
     <li><i class="fa fa-check" aria-hidden="true"></i> Inventory Management</li>
     <li><i class="fa fa-check" aria-hidden="true"></i> Customer & Vendor Management</li>
     <li><i class="fa fa-check" aria-hidden="true"></i> Extensive Wholesale Reporting</li>
-    <li><i class="fa fa-check" aria-hidden="true"></i> MSA, OTP, CRV  Auto Reporting</li>
+    
     <li><i class="fa fa-check" aria-hidden="true"></i> Online Check Printing</li>
-    <li><i class="fa fa-check" aria-hidden="true"></i> Bank Statement Upload</li>
     <li><i class="fa fa-check" aria-hidden="true"></i> Alerts and Email Notifications</li>
-    <li><i class="fa fa-check" aria-hidden="true"></i> All Documents Print templates</li>
+    
 </ul>
               </div>
               <a href="../index.html#Contact">Order Now</a>
             </div>
           </div>
           <div class="col-sm-4">
-            <div class="card card_violet text-center">
+            <div class="card card_violet">
+            <div class="text-center">
               <div class="title">
 
                 <h2>TRAINING</h2>
               </div>
               <div class="price">
-              <h4>$2500<br><p style="font-size:15px;">One-Time Fee </p></h4>
+              <h4>$3000<br><p style="font-size:15px;">One-Time Fee </p></h4>
+              </div>
               </div>
               <div class="option">
               <ul>
@@ -66,13 +69,15 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
           </div>
           <div class="col-sm-4">
-            <div class="card card_three text-center">
+            <div class="card card_three ">
+            <div class="text-center">
               <div class="title">
 
                 <h2>DATA UPLOAD</h2>
               </div>
               <div class="price">
-              <h4>$1750<br><p style="font-size:15px;">One-Time Fee </p></h4>
+              <h4>$3500<br><p style="font-size:15px;">One-Time Fee </p></h4>
+              </div>
               </div>
               <div class="option">
               <ul>

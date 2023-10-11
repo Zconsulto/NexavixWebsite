@@ -171,3 +171,26 @@ body {
 	transform: translateY(-50%);
 }
 /* End Accordion */
+@media only screen and (max-width: 768px) {
+	.faq-accordion {
+		flex-direction: column;
+	}
+
+	.faq-accordion__content,
+	.faq-accordion__accordion {
+		flex-basis: 100%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.faq-accordion__content::after {
+		display: none;
+	}
+		.image-banner {
+			height: 200px;
+		}
+		.accordion__item-title,
+				.accordion__item-content {
+					font-size: 14px;
+		}
+}
