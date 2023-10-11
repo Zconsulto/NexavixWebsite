@@ -21,10 +21,12 @@ function loadContent(tabId) {
         </div>
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
+      
                 <div class="faq-accordion__content" data-aos="fade-right">
                     <h2 class="faq-accordion__title h3"><br> <span style="color: #898989;">Unlock efficient production and operational transparency with SAP Business One.</span><br> Guiding your manufacturing towards
                     sustainable success and growth.</h2>
                 </div>
+
                 <div class="faq-accordion__accordion" data-aos="fade-left">
                     <div class="accordion" data-accordion="">
                         <div class="accordion__item ">
@@ -478,10 +480,10 @@ function attachAccordionEventListeners() {
 	}
 
 	setActiveTab(tabId);
-    attachAccordionEventListeners();
+	attachAccordionEventListeners();
 }
-document.addEventListener("load", function(e) {
-    attachAccordionEventListeners();
+document.addEventListener("load", function (e) {
+	attachAccordionEventListeners();
 });
 function attachAccordionEventListeners() {
 	document
