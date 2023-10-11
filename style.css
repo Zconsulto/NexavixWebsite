@@ -70,26 +70,29 @@ html {
   line-height: 1.42857143;
   font-size: 14px;
   line-height: 1.42857143;
-      position: fixed;
-        z-index: 1000;
-        max-height: 100px;
+  position: fixed;
+  z-index: 1000;
+  max-height: 100px;
 }
-.top_bar a{
+
+.top_bar a {
   padding: 0.5rem 1rem;
   text-decoration: solid #fff;
-  color:black;
+  color: black;
   font-weight: bold;
 }
-.top_bar a:hover{
-  color:#f4a71f;
+
+.top_bar a:hover {
+  color: #f4a71f;
 }
+
 @media only screen and (max-width: 768px) {
   .top_bar {
     padding: 10px 15px;
     font-size: 12px;
   }
 
-
+  .top_bar_left_col,
   .top_bar_right_col {
     width: 100%;
     justify-content: center;
@@ -105,28 +108,7 @@ html {
     padding: 0.25rem 0.5rem;
   }
 }
-/* .topnav {
-  background-image: url(images/7rkat_grey_background.jpeg);
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  position: fixed;
-    z-index: 1000;
-    top: 47px;
-}
 
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: bold;
-} */
 .topnavContainer {
   background-image: url(images/7rkat_grey_background.jpeg);
   min-height: 140px;
@@ -138,18 +120,20 @@ html {
   top: 0;
   /* Positions at the top of the viewport */
 }
+
 .topnav {
   /* background-image: url(images/7rkat_grey_background.jpeg); */
-  left: 9%;
+  left: 8%;
   display: flex;
   align-items: center;
   justify-content: space-around;
   /* Updated to space-around for better spacing */
   width: 75%;
   position: fixed;
-      z-index: 1000;
-        top: 48px;
+  z-index: 1000;
+  top: 48px;
 }
+
 .topnav a {
   float: left;
   color: black;
@@ -226,29 +210,6 @@ html {
 }
 
 @media screen and (max-width: 768px) {
-
-  .topnav a{
-  height: 80px;
-  line-height: 50px;
-  padding: 0;
-  margin: 0;
-  }
-  .topnav a.icon {
-      line-height: 50px;
-      padding: 0;
-  }
-
-  .topnav {
-    height: auto;
-    top: 86px;
-  }
-
-  .topnav::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -257,10 +218,10 @@ html {
     float: right;
     display: block;
   }
-    .topnavContainer {
-      min-height: 170px;
 
-    }
+  .topnav {
+    top: 86px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -282,6 +243,7 @@ html {
     justify-content: left;
   }
 }
+
 
 .midsection {
   display: flex;
