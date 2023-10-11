@@ -2,7 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
 	var footerTemplate = `
   <div class="footContainer" id="footer-container">
   <div class="wrapper">
-    <div id="footer-icon"> <img src="https://www.nexavix.com/images/nexavix_logo.png" alt="Nexavix" width="255"></div>
+    <div id="footer-icon"> <img src="../images/nexavix_logo.png" alt="Nexavix" width="255">
+        <br><br>  <img src="../images/silverPartner_logo.png" alt="Nexavix" width="255">
+</div>
     <div id="footer-contact">
       <h6>Contact Us</h6>
       <br>

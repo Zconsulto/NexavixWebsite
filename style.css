@@ -140,7 +140,7 @@ html {
 }
 .topnav {
   /* background-image: url(images/7rkat_grey_background.jpeg); */
-  left: 8%;
+  left: 9%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -162,8 +162,8 @@ html {
 }
 
 .logo img {
-  width: 380px;
-  height: 80px;
+  width: 170px;
+  height: 70px;
   flex-shrink: 0;
   /* Ensuring the logo doesn’t shrink, adjust as needed */
 }
