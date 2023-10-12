@@ -80,10 +80,10 @@ body {
 
 .image-caption {
 	position: absolute;
-	top: 40%;
-	left: 20%;
+	top: 44%;
+	left: 30%;
 	transform: translate(-50%, -50%);
-	font-size: 34px;
+	font-size: 3vw;
 	font-weight: bolder;
 	/* Adjust as needed */
 	color: #fff;
