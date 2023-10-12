@@ -987,19 +987,19 @@ function loadContent(tabId) {
 			break;
 		case "tab6":
 			contentDiv.innerHTML = `<div class="image-banner">
-            <img src="../images/ind2.jpg" alt="Wholesale Industries Background">
-            <div class="image-caption" style="left: 36% !important;">Wholsale <br><br>Streamlined Wholesale Distribution with<br> <strong>SAP Business one</strong></div>
+            <img src="../images/ind6.jpeg" alt="Automotive Industries Background">
+            <div class="image-caption" style="left: 36% !important;">Automotive <br><br>Accelerating Success in the Automotive Industry with<br> <strong>SAP Business one</strong></div>
         </div>
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
                 <div class="faq-accordion__content" data-aos="fade-right">
-                    <h2 class="faq-accordion__title h3"><br> <span style="color: #898989;">Elevate your wholesale operations to new heights.</span><br> SAP Business One empowers distributors with real-time insights, efficient inventory control, and seamless supply chain management, ensuring sustainable growth.</h2>
+                    <h2 class="faq-accordion__title h3"><br> <span style="color: #898989;">Driving Operational Excellence through Intelligent Automation and Integrated Management</span><br> with SAP Business One</h2>
                 </div>
                 <div class="faq-accordion__accordion" data-aos="fade-left">
                     <div class="accordion" data-accordion="">
                         <div class="accordion__item ">
                             <div class="accordion__item-title" data-accordion-button="">
-                            <h3><span class="accordion__item-title"> Robust Inventory Management </span></h3> <span
+                            <h3><span class="accordion__item-title"> Integrated Compliance Management </span></h3> <span
                             class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
                                 viewBox="0 0 24 24" version="1.1" class="">
@@ -1018,17 +1018,19 @@ function loadContent(tabId) {
                     </div>
                     <div class="accordion__item-content">
                         <div>
-                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Regulatory and Compliance Management: <br> Ensuring adherence to automotive industry standards and global regulations.</p>
                             <p>&nbsp;</p>
-                            <p><span style="font-weight: bolder;">Solution:</span><br>
-                            Track and manage stock levels, orders, and production in real time.
+                            <p><span style="font-weight: bolder;">Solution:</span><br><br>
+                            -  Cohesive monitoring and reporting of regulatory adherence.
+                            <br><br>
+                            -  Streamline compliance processes and ensure consistently up-to-standard
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="accordion__item ">
                     <div class="accordion__item-title" data-accordion-button="">
-                        <h3><span class="accordion__item-title"> Unified Supply Chain Management </span></h3>
+                        <h3><span class="accordion__item-title"> Streamlined Supply Chain Operations </span></h3>
                         <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
                                 class="">
@@ -1047,17 +1049,18 @@ function loadContent(tabId) {
                     </div>
                     <div class="accordion__item-content">
                         <div>
-                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
-                                challenging.</p>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Complex Supply Chain Dynamics: <br>Controlling and optimizing extensive, global supply chains, ensuring timeliness and cost-efficiency.</p>
                                 <p>&nbsp;</p>
-                            <p><span style="font-weight: bolder;">Solution:</span><br>Consolidate supplier data, manage contracts, and optimize procurement processes.
+                            <p><span style="font-weight: bolder;">Solution:</span><br><br> - Comprehensive supply chain and vendor management.
+                            <br><br>
+                            -  Enhance visibility, control, and optimization throughout supply chains.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="accordion__item ">
                     <div class="accordion__item-title" data-accordion-button="">
-                        <h3><span class="accordion__item-title"> Advanced Data Analytics </span></h3>
+                        <h3><span class="accordion__item-title"> Advanced Quality Controls </span></h3>
                         <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
                                 viewBox="0 0 24 24" version="1.1" class="">
@@ -1076,15 +1079,17 @@ function loadContent(tabId) {
                     </div>
                     <div class="accordion__item-content">
                         <div>
-                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Quality Assurance: <br> Maintaining rigorous quality controls across production and delivery processes.</p>
                             <p>&nbsp;</p>
-                            <p><span style="font-weight: bolder;">Solution:</span><br>Leverage real-time data and analytics to drive informed business decisions.</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br><br>- Detailed quality checks and reporting.
+                            <br><br>
+                            - Maintain and elevate product quality through data-driven insights.</p>
                         </div>
                     </div>
                 </div>
                 <div class="accordion__item ">
                     <div class="accordion__item-title" data-accordion-button="">
-                        <h3><span class="accordion__item-title"> Regulatory Compliance Assurance </span></h3> <span
+                        <h3><span class="accordion__item-title"> Unified Customer Management </span></h3> <span
                             class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
                                 viewBox="0 0 24 24" version="1.1" class="">
@@ -1103,18 +1108,20 @@ function loadContent(tabId) {
                     </div>
                     <div class="accordion__item-content">
                         <div>
-                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Regulatory Compliance and Quality Assurance: <br>
-                            Ensuring products meet stringent regulatory standards and consistent quality.
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Customer Service and Satisfaction: <br>
+                            Offering exceptional customer support, both pre and post-sale, to enhance client retention and satisfaction.
 </p>
                                 <p>&nbsp;</p>
-                                <p><span style="font-weight: bolder;">Solution:</span><br>Automate and monitor compliance management to meet industry standards.
+                                <p><span style="font-weight: bolder;">Solution:</span><br><br>- CRM and after-sales support management.
+                                <br><br>
+                                - Foster customer loyalty with effective relationship and support management.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="accordion__item ">
                     <div class="accordion__item-title" data-accordion-button="">
-                        <h3><span class="accordion__item-title"> Customer Relationship Management </span></h3> <span
+                        <h3><span class="accordion__item-title"> Support for Innovation </span></h3> <span
                             class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
                                 viewBox="0 0 24 24" version="1.1" class="">
@@ -1133,16 +1140,46 @@ function loadContent(tabId) {
                     </div>
                     <div class="accordion__item-content">
                     <div>
-                    <p><span style="font-weight: bolder;">Challenge</span> <br><br>Balancing Orders and Production with SAP Business One: <br>
-                    Managing customer orders, making products, and using resources efficiently.
+                    <p><span style="font-weight: bolder;">Challenge</span> <br><br>Innovative Demands and Competition: <br>
+                    Keeping pace with technological advancements and evolving customer preferences in a competitive market.
 </p>
                         <p>&nbsp;</p>
-                    <p><span style="font-weight: bolder;">Solution</span> <br>Use SAP Business One to easily keep track of orders, manage making products, and ensure resources are used well by taking advantage of its tools for organizing production and resources.
+                    <p><span style="font-weight: bolder;">Solution</span> <br><br>R&D and project management functionalities.
+                    <br><br>
+                    -  Facilitate innovation with efficient project execution and data utilization.
                     </p>
                                 </div>
                             </div>
                         </div>
-
+                        <div class="accordion__item ">
+                        <div class="accordion__item-title" data-accordion-button="">
+                            <h3><span class="accordion__item-title"> Efficient Resource Utilization </span></h3> <span
+                                class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                    viewBox="0 0 24 24" version="1.1" class="">
+                                    <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                            <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                                <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                    <path
+                                                        d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                        id="Path"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg> </span>
+                        </div>
+                        <div class="accordion__item-content">
+                        <div>
+                        <p><span style="font-weight: bolder;">Challenge</span> <br><br>Resource Management: <br>
+                        Efficiently managing labor, materials, and financial resources across varied manufacturing projects.
+    </p>
+                            <p>&nbsp;</p>
+                        <p><span style="font-weight: bolder;">Solution</span> <br><br>- Resource planning and management tools.
+                        <br><br>
+                        - Optimize the use of materials, labor, and finances across all projects.
+                        </p>
                     </div>
                 </div>
             </div>
