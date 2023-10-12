@@ -10,6 +10,11 @@ body {
     --main-padding-bottom: 100px;
     --section-background: #ececec;
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 /* Start SAP intro */
 .cool-container {
     color: #898989;
@@ -207,34 +212,60 @@ body {
             max-width: 1620px !important;
         }
 }
+@media only screen and (max-width: 768px) {
+width: 100%;
+}
 /* End Why SAP B1 */
 /* Start Content Container */
 .contentContainer {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.videoContainer{
+.videoContainer {
     width: 55%;
 }
 
 .videoContainer video {
     width: 100%;
     border-radius: 10px;
-    /* border: 4px solid #f4a71f; */
     margin-left: 20px;
 }
 
 .videoText {
-        color: #898989;
-            font-size: 3em;
-            padding: 9% 0px;
-            display: flex;
-            flex: auto;
-            flex-flow: column;
-            justify-content: center;
-            align-items: center;
-            width: 50%;
+    color: #898989;
+    font-size: 3em;
+    padding: 9% 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .contentContainer {
+        flex-direction: column;
+    }
+
+    .videoContainer,
+    .videoText {
+        width: 100%;
+    }
+
+    .videoContainer video {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .videoText {
+        font-size: 2em;
+        padding: 5% 0px;
+    }
 }
 
 /* End Content Container */
