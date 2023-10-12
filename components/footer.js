@@ -37,14 +37,13 @@ document.addEventListener("DOMContentLoaded", function () {
         <h6>Quick links</h6>
         <br>
         <div><a href="../index.html">HOME</a></div>
-        <div><a href="sapBusinessOne.html">SAP BUSINESS ONE</a></div>
-        
-        <div><a href="about.html">ABOUT</a></div>
+        <div><a href="sapBusinessOne.html">Sap Business One</a></div>
+
+        <div><a href="about.html">About</a></div>
         <div><a href="services.html?tab=tab1" >Services</a></div>
-        <div><a href="blogs.html">BLOG</a></div>
-        <div><a href="wholesale.html">WHOLESALE</a></div>
-        <div><a href="../index.html#Contact">FREE DEMO</a></div>
-        <div><a href="trial.html">FREE TRIAL</a></div>
+        <div><a href="blogs.html">Blog</a></div>
+        <div><a href="wholesale.html">Wholesale</a></div>
+        <div><a href="trial.html">Free Trial</a></div>
       </div>
   </div>
   <div class="wrapper credits">
