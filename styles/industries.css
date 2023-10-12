@@ -2,9 +2,15 @@ html,
 body {
 	max-width: 100%;
 }
+
 #tabBar {
 	display: flex;
 	justify-content: center;
+	max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 15px;
+		padding-right: 15px;
 }
 
 #tabBar button {
@@ -51,6 +57,27 @@ body {
 	margin-top: 20px;
 	padding: 20px;
 	border: 1px solid #ccc;
+}
+@media only screen and (max-width: 768px) {
+
+	/* Adjust this value based on your needs */
+	#tabBar button {
+		padding: 5px 10px;
+		margin: 3px;
+		font-size: 12px;
+		max-width: 100% !important;
+	}
+
+	/* If you want to stack them vertically */
+	#tabBar {
+		flex-direction: column;
+	}
+		#tabBar button.active {
+			/* background-color: #f4a71f; */
+			border-bottom: 2px solid #f4a71f;
+			transform: scale(1.05);
+			color: #000;
+		}
 }
 /* Start Accordion */
 /* img */

@@ -724,7 +724,7 @@ function loadContent(tabId) {
 		case "tab5":
 			contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind2.jpg" alt="Wholesale Industries Background">
-            <div class="image-caption" style="left: 26% !important;">Wholsale <br><br>Streamlined Wholesale Distribution with<br> <strong>SAP Business one</strong></div>
+            <div class="image-caption" style="left: 36% !important;">Wholsale <br><br>Streamlined Wholesale Distribution with<br> <strong>SAP Business one</strong></div>
         </div>
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
