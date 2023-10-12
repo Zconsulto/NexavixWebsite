@@ -52,7 +52,7 @@ function loadContent(tabId) {
                                 <div>
                                     <p><span style="font-weight: bolder;">Challenge</span> <br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
                                     <p>&nbsp;</p>
-                                    <p><span style="font-weight: bolder;">Solution</span> <br>
+                                    <p><span style="font-weight: bolder;">Solution</span><br><br>
                                     Track and manage stock levels, orders, and production in real time.
                                     </p>
                                 </div>
@@ -82,7 +82,7 @@ function loadContent(tabId) {
                                     <p><span style="font-weight: bolder;">Challenge</span> <br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
                                         challenging.</p>
                                         <p>&nbsp;</p>
-                                    <p><span style="font-weight: bolder;">Solution</span> <br>Consolidate supplier data, manage contracts, and optimize procurement processes.
+                                    <p><span style="font-weight: bolder;">Solution</span><br><br>Consolidate supplier data, manage contracts, and optimize procurement processes.
                                     </p>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@ function loadContent(tabId) {
                                 <div>
                                     <p><span style="font-weight: bolder;">Challenge</span> <br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
                                     <p>&nbsp;</p>
-                                    <p><span style="font-weight: bolder;">Solution</span> <br>Leverage real-time data and analytics to drive informed business decisions.</p>
+                                    <p><span style="font-weight: bolder;">Solution</span><br><br>Leverage real-time data and analytics to drive informed business decisions.</p>
                                 </div>
                             </div>
                         </div>
@@ -140,7 +140,7 @@ function loadContent(tabId) {
                                     Ensuring products meet stringent regulatory standards and consistent quality.
 </p>
                                         <p>&nbsp;</p>
-                                    <p><span style="font-weight: bolder;">Solution</span> <br>Automate and monitor compliance management to meet industry standards.
+                                    <p><span style="font-weight: bolder;">Solution</span><br><br>Automate and monitor compliance management to meet industry standards.
                                     </p>
                                 </div>
                             </div>
@@ -170,7 +170,7 @@ function loadContent(tabId) {
                                 Managing customer orders, making products, and using resources efficiently.
 </p>
                                     <p>&nbsp;</p>
-                                <p><span style="font-weight: bolder;">Solution</span> <br>Use SAP Business One's CRM to keep all customer info in one place, track sales easily, and handle customer service neatly and promptly, ensuring smooth interactions from sale to support.
+                                <p><span style="font-weight: bolder;">Solution</span><br><br>Use SAP Business One's CRM to keep all customer info in one place, track sales easily, and handle customer service neatly and promptly, ensuring smooth interactions from sale to support.
                                 </p>
                                 </div>
                             </div>
@@ -199,7 +199,7 @@ function loadContent(tabId) {
                                 Managing customer orders, making products, and using resources efficiently.
 </p>
                                     <p>&nbsp;</p>
-                                <p><span style="font-weight: bolder;">Solution</span> <br>Use SAP Business One to easily keep track of orders, manage making products, and ensure resources are used well by taking advantage of its tools for organizing production and resources.
+                                <p><span style="font-weight: bolder;">Solution</span> <br><br>Use SAP Business One to easily keep track of orders, manage making products, and ensure resources are used well by taking advantage of its tools for organizing production and resources.
                                 </p>
                             </div>
                                 </div>
@@ -1188,19 +1188,19 @@ function loadContent(tabId) {
 			break;
 		case "tab7":
 			contentDiv.innerHTML = `<div class="image-banner">
-            <img src="../images/ind2.jpg" alt="Wholesale Industries Background">
-            <div class="image-caption" style="left: 36% !important;">Wholsale <br><br>Streamlined Wholesale Distribution with<br> <strong>SAP Business one</strong></div>
+            <img src="../images/ind7.jpeg" alt="Wholesale Industries Background">
+            <div class="image-caption" style="left: 36% !important;">Food & Beverage <br><br>Revolutionizing the Food & Beverage Sector with<br> <strong>SAP Business one</strong></div>
         </div>
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
                 <div class="faq-accordion__content" data-aos="fade-right">
-                    <h2 class="faq-accordion__title h3"><br> <span style="color: #898989;">Elevate your wholesale operations to new heights.</span><br> SAP Business One empowers distributors with real-time insights, efficient inventory control, and seamless supply chain management, ensuring sustainable growth.</h2>
+                    <h2 class="faq-accordion__title h3"><br> <span style="color: #898989;">Streamlining Operations & Ensuring Product Quality from Farm to Table</span><br>with SAP Business One.</h2>
                 </div>
                 <div class="faq-accordion__accordion" data-aos="fade-left">
                     <div class="accordion" data-accordion="">
                         <div class="accordion__item ">
                             <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Robust Inventory Management </span></h3> <span
+                                <h3><span class="accordion__item-title"> Ensured Compliance </span></h3> <span
                                     class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
                                         viewBox="0 0 24 24" version="1.1" class="">
@@ -1219,17 +1219,19 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                    <p><span style="font-weight: bolder;">Challenge</span><br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
+                                    <p><span style="font-weight: bolder;">Challenge</span><br><br>Compliance and Safety: <br> Adhering to strict regulatory and safety standards and ensuring product traceability.</p>
                                     <p>&nbsp;</p>
-                                    <p><span style="font-weight: bolder;">Solution:</span><br>
-                                    Track and manage stock levels, orders, and production in real time.
+                                    <p><span style="font-weight: bolder;">Solution:</span><br><bR>
+                                    - Efficiently manage and document all compliance and safety-related data.
+                                    <br><br>
+                                    -Use traceability features to manage recalls and prevent issues.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion__item ">
                             <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Unified Supply Chain Management </span></h3>
+                                <h3><span class="accordion__item-title"> Streamlined Supply Chain </span></h3>
                                 <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
                                         class="">
@@ -1248,17 +1250,18 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                    <p><span style="font-weight: bolder;">Challenge</span><br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
-                                        challenging.</p>
+                                    <p><span style="font-weight: bolder;">Challenge</span><br><br>Supply Chain Complexities: <br>Navigating a multifaceted supply chain, ensuring freshness, and minimizing waste</p>
                                         <p>&nbsp;</p>
-                                    <p><span style="font-weight: bolder;">Solution:</span><br>Consolidate supplier data, manage contracts, and optimize procurement processes.
+                                    <p><span style="font-weight: bolder;">Solution:</span><br><br>- Enhance visibility across the entire supply chain.
+                                    <br><br>
+                                    - Utilize data to optimize procurement and logistics, minimizing waste.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion__item ">
                             <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Advanced Data Analytics </span></h3>
+                                <h3><span class="accordion__item-title"> Accurate Demand Forecasting </span></h3>
                                 <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
                                         viewBox="0 0 24 24" version="1.1" class="">
@@ -1277,15 +1280,18 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                    <p><span style="font-weight: bolder;">Challenge</span><br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
+                                    <p><span style="font-weight: bolder;">Challenge</span><br><br>Demand Forecasting: <br> Predicting demand accurately to optimize inventory and adapt to seasonal shifts.</p>
                                     <p>&nbsp;</p>
-                                    <p><span style="font-weight: bolder;">Solution:</span><br>Leverage real-time data and analytics to drive informed business decisions.</p>
+                                    <p><span style="font-weight: bolder;">Solution:</span><br><br>- Employ intelligent analytics to anticipate demand and adjust inventory accordingly.
+                                    <br><br>
+                                    - Leverage insights to plan for seasonal demands and market trends.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion__item ">
                             <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Regulatory Compliance Assurance </span></h3> <span
+                                <h3><span class="accordion__item-title"> Efficient Production Planning </span></h3> <span
                                     class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
                                         viewBox="0 0 24 24" version="1.1" class="">
@@ -1304,18 +1310,21 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                    <p><span style="font-weight: bolder;">Challenge</span><br><br>Regulatory Compliance and Quality Assurance: <br>
-                                    Ensuring products meet stringent regulatory standards and consistent quality.
+                                    <p><span style="font-weight: bolder;">Challenge</span><br><br>Production Planning: <br>
+                                    Efficiently scheduling production and managing resource allocation.
 </p>
                                         <p>&nbsp;</p>
-                                        <p><span style="font-weight: bolder;">Solution:</span><br>Automate and monitor compliance management to meet industry standards.
+                                        <p><span style="font-weight: bolder;">Solution:</span><br><br>- Use resource planning tools to optimize production schedules.
+                                        <br><br>
+                                        - Ensure efficient resource allocation and reduce downtime.
+                                        
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion__item ">
                             <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Customer Relationship Management </span></h3> <span
+                                <h3><span class="accordion__item-title"> Maintained Quality </span></h3> <span
                                     class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
                                         xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
                                         viewBox="0 0 24 24" version="1.1" class="">
@@ -1334,16 +1343,47 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                             <div>
-                            <p><span style="font-weight: bolder;">Challenge</span> <br><br>Balancing Orders and Production with SAP Business One: <br>
-                            Managing customer orders, making products, and using resources efficiently.
+                            <p><span style="font-weight: bolder;">Challenge</span> <br><br>Quality Consistency with SAP Business One: <br>
+                            Ensuring consistent product quality and appropriate storage/transport conditions.
 </p>
                                 <p>&nbsp;</p>
-                            <p><span style="font-weight: bolder;">Solution</span> <br>Use SAP Business One to easily keep track of orders, manage making products, and ensure resources are used well by taking advantage of its tools for organizing production and resources.
+                            <p><span style="font-weight: bolder;">Solution</span> <br><br>- Utilize batch and lot tracking to ensure quality and facilitate recalls.
+                            <br><br>
+                            - Ensure proper storage and handling conditions through accurate data tracking.
                             </p>
                                 </div>
                             </div>
                         </div>
-
+                        <div class="accordion__item ">
+                        <div class="accordion__item-title" data-accordion-button="">
+                            <h3><span class="accordion__item-title"> Enhanced Customer and Supplier Relations </span></h3> <span
+                                class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                    viewBox="0 0 24 24" version="1.1" class="">
+                                    <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                            <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                                <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                    <path
+                                                        d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                        id="Path"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg> </span>
+                        </div>
+                        <div class="accordion__item-content">
+                        <div>
+                        <p><span style="font-weight: bolder;">Challenge</span> <br><br>Relationship Management: <br>
+                        Satisfying dynamic customer expectations and maintaining supplier reliability.
+</p>
+                            <p>&nbsp;</p>
+                        <p><span style="font-weight: bolder;">Solution</span> <br><br>- Manage customer data, orders, and feedback efficiently.
+                        <br><br>
+                        - Facilitate better communication and order management with suppliers.
+                        
+                        </p>
                     </div>
                 </div>
             </div>
