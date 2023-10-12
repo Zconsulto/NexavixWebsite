@@ -166,11 +166,11 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                <p><span style="font-weight: bolder;">Challenge</span> <br><br>Balancing Orders and Production with SAP Business One: <br>
+                                <p><span style="font-weight: bolder;">Challenge</span> <br><br>Unified Management of Customer Data, Sales, and Support: <br>
                                 Managing customer orders, making products, and using resources efficiently.
 </p>
                                     <p>&nbsp;</p>
-                                <p><span style="font-weight: bolder;">Solution</span> <br>Use SAP Business One to easily keep track of orders, manage making products, and ensure resources are used well by taking advantage of its tools for organizing production and resources.
+                                <p><span style="font-weight: bolder;">Solution</span> <br>Use SAP Business One's CRM to keep all customer info in one place, track sales easily, and handle customer service neatly and promptly, ensuring smooth interactions from sale to support.
                                 </p>
                                 </div>
                             </div>
