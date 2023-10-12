@@ -38,8 +38,9 @@ document.addEventListener("DOMContentLoaded", function () {
         <br>
         <div><a href="index.html">Home</a></div>
         <div><a href="pages/sapBusinessOne.html">Sap Business One</a></div>
-        <div><a href="pages/about.html">About</a></div>
-        <div><a href="pages/services.html">Sservices</a></div>
+        <div><a href="pages/industries.html?tab=tab1">Industries</a></div>
+        <div><a href="pages/services.html?tab=tab1">Services</a></div>
+        <div><a href="pages/about.html">About Us</a></div>
         <div><a href="pages/blogs.html">Blog</a></div>
         <div><a href="pages/wholesale.html">Wholesale</a></div>
         <div><a href="pages/trial.html">Free Trial</a></div>
