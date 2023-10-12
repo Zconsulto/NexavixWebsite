@@ -15,47 +15,55 @@ body {
     height: 90vh;
     object-fit: cover;
 }
+
 .carousel-inner {
     width: 100%;
 }
-.carousel-item{
+
+.carousel-item {
     position: relative;
 }
-.carousel-item::before{
+
+.carousel-item::before {
     content: "";
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgb(0 0 0 / 30%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 30%);
 }
-.carousel{
+
+.carousel {
     overflow: visible;
 }
+
 .carousel-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 0.5em;
     text-align: center;
     color: white;
-    /* Adjust the text color as required */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Optional: Adds a shadow to text for better readability */
 }
+
+.carousel-button {
+    /* Assuming the button is styled here */
+    font-size: 0.6em;
+    /* Adjust size as required */
+}
+
 @media (max-width: 768px) {
     .carousel-text {
         font-size: 0.3em;
-        /* Adjusted smaller font size */
+        /* Reduced the font-size for smaller screens */
     }
 
     .carousel-button {
         padding: 5px 10px;
-        /* Smaller padding for buttons */
-        font-size: 0.6em;
-        /* Smaller font size for text within buttons */
+        font-size: 0.3em;
+        /* Reduced the font-size for smaller screens */
     }
 
     .carousel,
@@ -78,15 +86,16 @@ body {
         height: 100%;
         background-color: transparent;
     }
-        .carousel-item::before {
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: transparent;
-        }
+
+    .carousel-item::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+    }
 }
 /* Start video */
 
