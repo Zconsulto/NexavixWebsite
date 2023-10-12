@@ -166,9 +166,12 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                    <p>Integrated Customer Management: <br>
-                                    Manage customer data, sales pipeline, and customer service seamlessly.
+                                <p><span style="font-weight: bolder;">Challenge</span> <br><br>Unified Management of Customer Data, Sales, and Support: <br>
+                                Managing customer orders, making products, and using resources efficiently.
 </p>
+                                    <p>&nbsp;</p>
+                                <p><span style="font-weight: bolder;">Solution</span> <br>Use SAP Business One's CRM to keep all customer info in one place, track sales easily, and handle customer service neatly and promptly, ensuring smooth interactions from sale to support.
+                                </p>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +195,13 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                    <p>Optimize production schedules by Balancing demand, production capacity, and resource utilization efficiently.</p>
+                                <p><span style="font-weight: bolder;">Challenge</span> <br><br>Balancing Orders and Production with SAP Business One: <br>
+                                Managing customer orders, making products, and using resources efficiently.
+</p>
+                                    <p>&nbsp;</p>
+                                <p><span style="font-weight: bolder;">Solution</span> <br>Use SAP Business One to easily keep track of orders, manage making products, and ensure resources are used well by taking advantage of its tools for organizing production and resources.
+                                </p>
+                            </div>
                                 </div>
                             </div>
                         </div>
@@ -216,143 +225,164 @@ function loadContent(tabId) {
                     <div class="accordion" data-accordion="">
                         <div class="accordion__item ">
                             <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Robust Inventory Management </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                            <h3><span class="accordion__item-title"> Intelligent Inventory Management </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
-                                    <p>&nbsp;</p>
-                                    <p>Solution: <br>
-                                    Track and manage stock levels, orders, and production in real time.
-                                    </p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Inventory Overstock and Understock Issues: <br> Balancing stock levels to avoid excess inventory and stock-outs remains a persistent challenge.</p>
+                            <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br><br>
+                            - Automated Stock-Level Monitoring: Implementing Automated Alerts to Efficiently Manage and Avoid Overstock and Stock-outs.  
+                            <br>
+                            <Br>
+                            - Data-Driven Procurement: Utilize historical data to make informed purchasing decisions, aligning stock with demand.
+
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Unified Supply Chain Management </span></h3>
-                                <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                        class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Vendor Management Excellence </span></h3>
+                        <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
-                                        challenging.</p>
-                                        <p>&nbsp;</p>
-                                    <p>Solution: <br>Consolidate supplier data, manage contracts, and optimize procurement processes.
-                                    </p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Complex Vendor Relations: <br>Managing numerous vendor relationships, negotiations, and consistent product quality.</p>
+                                <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br><br>- Centralized Vendor Data: Centralize all vendor data, negotiations, and contracts in one platform to streamline vendor interactions.
+                            <br>
+                            <Br>  
+                            - Quality Control: Employ embedded analytics to assess vendor performance and ensure product quality consistency.
+                            
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Advanced Data Analytics </span></h3>
-                                <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Accurate Demand Forecasting </span></h3>
+                        <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
-                                    <p>&nbsp;</p>
-                                    <p>Solution: <br>Leverage real-time data and analytics to drive informed business decisions.</p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Demand Forecasting: <br> Anticipating market demand accurately to optimize inventory and sales strategies.</p>
+                            <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br><br>- Predictive Analytics: Leverage predictive analytics to understand market trends and anticipate customer demand accurately.  
+                            <br>
+                            <br>
+                            - Sales Forecasting: Use historical sales data to inform future sales strategies and optimize inventory.
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Regulatory Compliance Assurance </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Efficient Logistics and Shipping </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Regulatory Compliance and Quality Assurance: <br>
-                                    Ensuring products meet stringent regulatory standards and consistent quality.
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Logistics and Shipping Delays: <br>
+                            Coordinating timely shipments, minimizing delays, and ensuring cost-effective logistics.
 </p>
-                                        <p>&nbsp;</p>
-                                    <p>Solution: <br>Automate and monitor compliance management to meet industry standards.
-                                    </p>
-                                </div>
-                            </div>
+                                <p>&nbsp;</p>
+                                <p><span style="font-weight: bolder;">Solution:</span><br><br>
+                                - Logistics Optimization: Utilize SAP B1 to coordinate efficient and timely shipping, reducing delays and managing costs.  
+                                <br><br>
+                                - Integration with Shipping Carriers: Integrate with various shipping carriers and platforms to streamline logistics management and tracking.
+                                
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Customer Relationship Management </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Holistic Financial Management </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Integrated Customer Management: <br>
-                                    Manage customer data, sales pipeline, and customer service seamlessly.
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                    <div>
+                    <p><span style="font-weight: bolder;">Challenge</span> <br><br>Integrated Financial Management: <br>
+                    Combining sales, purchasing, and financial data for accurate and real-time financial insights.
 </p>
+                        <p>&nbsp;</p>
+                    <p><span style="font-weight: bolder;">Solution</span> <br><br>- Unified Financial Data: Centralize financial operations in a single platform, ensuring consistency and real-time access to crucial financial data. 
+                    <br><br> 
+                    - Profitability Analysis: Leverage integrated data to analyze the profitability of products, customers, and regions, enabling informed strategic decisions.
+                    
+                    </p>
                                 </div>
                             </div>
                         </div>
@@ -377,143 +407,146 @@ function loadContent(tabId) {
                     <div class="accordion" data-accordion="">
                         <div class="accordion__item ">
                             <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Robust Inventory Management </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                            <h3><span class="accordion__item-title"> Robust Inventory Management </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
-                                    <p>&nbsp;</p>
-                                    <p>Solution: <br>
-                                    Track and manage stock levels, orders, and production in real time.
-                                    </p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
+                            <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br>
+                            Track and manage stock levels, orders, and production in real time.
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Unified Supply Chain Management </span></h3>
-                                <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                        class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Unified Supply Chain Management </span></h3>
+                        <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
-                                        challenging.</p>
-                                        <p>&nbsp;</p>
-                                    <p>Solution: <br>Consolidate supplier data, manage contracts, and optimize procurement processes.
-                                    </p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
+                                challenging.</p>
+                                <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br>Consolidate supplier data, manage contracts, and optimize procurement processes.
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Advanced Data Analytics </span></h3>
-                                <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Advanced Data Analytics </span></h3>
+                        <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
-                                    <p>&nbsp;</p>
-                                    <p>Solution: <br>Leverage real-time data and analytics to drive informed business decisions.</p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
+                            <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br>Leverage real-time data and analytics to drive informed business decisions.</p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Regulatory Compliance Assurance </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Regulatory Compliance Assurance </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Regulatory Compliance and Quality Assurance: <br>
-                                    Ensuring products meet stringent regulatory standards and consistent quality.
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Regulatory Compliance and Quality Assurance: <br>
+                            Ensuring products meet stringent regulatory standards and consistent quality.
 </p>
-                                        <p>&nbsp;</p>
-                                    <p>Solution: <br>Automate and monitor compliance management to meet industry standards.
-                                    </p>
-                                </div>
-                            </div>
+                                <p>&nbsp;</p>
+                                <p><span style="font-weight: bolder;">Solution:</span><br>Automate and monitor compliance management to meet industry standards.
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Customer Relationship Management </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Customer Relationship Management </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Integrated Customer Management: <br>
-                                    Manage customer data, sales pipeline, and customer service seamlessly.
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                    <div>
+                    <p><span style="font-weight: bolder;">Challenge</span> <br><br>Balancing Orders and Production with SAP Business One: <br>
+                    Managing customer orders, making products, and using resources efficiently.
 </p>
+                        <p>&nbsp;</p>
+                    <p><span style="font-weight: bolder;">Solution</span> <br>Use SAP Business One to easily keep track of orders, manage making products, and ensure resources are used well by taking advantage of its tools for organizing production and resources.
+                    </p>
                                 </div>
                             </div>
                         </div>
@@ -538,143 +571,146 @@ function loadContent(tabId) {
                     <div class="accordion" data-accordion="">
                         <div class="accordion__item ">
                             <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Robust Inventory Management </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                            <h3><span class="accordion__item-title"> Robust Inventory Management </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
-                                    <p>&nbsp;</p>
-                                    <p>Solution: <br>
-                                    Track and manage stock levels, orders, and production in real time.
-                                    </p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
+                            <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br>
+                            Track and manage stock levels, orders, and production in real time.
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Unified Supply Chain Management </span></h3>
-                                <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                        class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Unified Supply Chain Management </span></h3>
+                        <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
-                                        challenging.</p>
-                                        <p>&nbsp;</p>
-                                    <p>Solution: <br>Consolidate supplier data, manage contracts, and optimize procurement processes.
-                                    </p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
+                                challenging.</p>
+                                <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br>Consolidate supplier data, manage contracts, and optimize procurement processes.
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Advanced Data Analytics </span></h3>
-                                <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Advanced Data Analytics </span></h3>
+                        <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
-                                    <p>&nbsp;</p>
-                                    <p>Solution: <br>Leverage real-time data and analytics to drive informed business decisions.</p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
+                            <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br>Leverage real-time data and analytics to drive informed business decisions.</p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Regulatory Compliance Assurance </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Regulatory Compliance Assurance </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Regulatory Compliance and Quality Assurance: <br>
-                                    Ensuring products meet stringent regulatory standards and consistent quality.
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Regulatory Compliance and Quality Assurance: <br>
+                            Ensuring products meet stringent regulatory standards and consistent quality.
 </p>
-                                        <p>&nbsp;</p>
-                                    <p>Solution: <br>Automate and monitor compliance management to meet industry standards.
-                                    </p>
-                                </div>
-                            </div>
+                                <p>&nbsp;</p>
+                                <p><span style="font-weight: bolder;">Solution:</span><br>Automate and monitor compliance management to meet industry standards.
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Customer Relationship Management </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Customer Relationship Management </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Integrated Customer Management: <br>
-                                    Manage customer data, sales pipeline, and customer service seamlessly.
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                    <div>
+                    <p><span style="font-weight: bolder;">Challenge</span> <br><br>Balancing Orders and Production with SAP Business One: <br>
+                    Managing customer orders, making products, and using resources efficiently.
 </p>
+                        <p>&nbsp;</p>
+                    <p><span style="font-weight: bolder;">Solution</span> <br>Use SAP Business One to easily keep track of orders, manage making products, and ensure resources are used well by taking advantage of its tools for organizing production and resources.
+                    </p>
                                 </div>
                             </div>
                         </div>
@@ -699,143 +735,146 @@ function loadContent(tabId) {
                     <div class="accordion" data-accordion="">
                         <div class="accordion__item ">
                             <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Robust Inventory Management </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                            <h3><span class="accordion__item-title"> Robust Inventory Management </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
-                                    <p>&nbsp;</p>
-                                    <p>Solution: <br>
-                                    Track and manage stock levels, orders, and production in real time.
-                                    </p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
+                            <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br>
+                            Track and manage stock levels, orders, and production in real time.
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Unified Supply Chain Management </span></h3>
-                                <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                        class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Unified Supply Chain Management </span></h3>
+                        <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
-                                        challenging.</p>
-                                        <p>&nbsp;</p>
-                                    <p>Solution: <br>Consolidate supplier data, manage contracts, and optimize procurement processes.
-                                    </p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
+                                challenging.</p>
+                                <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br>Consolidate supplier data, manage contracts, and optimize procurement processes.
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Advanced Data Analytics </span></h3>
-                                <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Advanced Data Analytics </span></h3>
+                        <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
-                                    <p>&nbsp;</p>
-                                    <p>Solution: <br>Leverage real-time data and analytics to drive informed business decisions.</p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
+                            <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br>Leverage real-time data and analytics to drive informed business decisions.</p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Regulatory Compliance Assurance </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Regulatory Compliance Assurance </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Regulatory Compliance and Quality Assurance: <br>
-                                    Ensuring products meet stringent regulatory standards and consistent quality.
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Regulatory Compliance and Quality Assurance: <br>
+                            Ensuring products meet stringent regulatory standards and consistent quality.
 </p>
-                                        <p>&nbsp;</p>
-                                    <p>Solution: <br>Automate and monitor compliance management to meet industry standards.
-                                    </p>
-                                </div>
-                            </div>
+                                <p>&nbsp;</p>
+                                <p><span style="font-weight: bolder;">Solution:</span><br>Automate and monitor compliance management to meet industry standards.
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Customer Relationship Management </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Customer Relationship Management </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Integrated Customer Management: <br>
-                                    Manage customer data, sales pipeline, and customer service seamlessly.
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                    <div>
+                    <p><span style="font-weight: bolder;">Challenge</span> <br><br>Balancing Orders and Production with SAP Business One: <br>
+                    Managing customer orders, making products, and using resources efficiently.
 </p>
+                        <p>&nbsp;</p>
+                    <p><span style="font-weight: bolder;">Solution</span> <br>Use SAP Business One to easily keep track of orders, manage making products, and ensure resources are used well by taking advantage of its tools for organizing production and resources.
+                    </p>
                                 </div>
                             </div>
                         </div>
@@ -860,143 +899,146 @@ function loadContent(tabId) {
                     <div class="accordion" data-accordion="">
                         <div class="accordion__item ">
                             <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Robust Inventory Management </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                            <h3><span class="accordion__item-title"> Robust Inventory Management </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
-                                    <p>&nbsp;</p>
-                                    <p>Solution: <br>
-                                    Track and manage stock levels, orders, and production in real time.
-                                    </p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
+                            <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br>
+                            Track and manage stock levels, orders, and production in real time.
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Unified Supply Chain Management </span></h3>
-                                <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
-                                        class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Unified Supply Chain Management </span></h3>
+                        <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                                class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
-                                        challenging.</p>
-                                        <p>&nbsp;</p>
-                                    <p>Solution: <br>Consolidate supplier data, manage contracts, and optimize procurement processes.
-                                    </p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
+                                challenging.</p>
+                                <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br>Consolidate supplier data, manage contracts, and optimize procurement processes.
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Advanced Data Analytics </span></h3>
-                                <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Advanced Data Analytics </span></h3>
+                        <span class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
-                                    <p>&nbsp;</p>
-                                    <p>Solution: <br>Leverage real-time data and analytics to drive informed business decisions.</p>
-                                </div>
-                            </div>
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
+                            <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution:</span><br>Leverage real-time data and analytics to drive informed business decisions.</p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Regulatory Compliance Assurance </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Regulatory Compliance Assurance </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Challenge <br><br>Regulatory Compliance and Quality Assurance: <br>
-                                    Ensuring products meet stringent regulatory standards and consistent quality.
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                        <div>
+                            <p><span style="font-weight: bolder;">Challenge</span><br><br>Regulatory Compliance and Quality Assurance: <br>
+                            Ensuring products meet stringent regulatory standards and consistent quality.
 </p>
-                                        <p>&nbsp;</p>
-                                    <p>Solution: <br>Automate and monitor compliance management to meet industry standards.
-                                    </p>
-                                </div>
-                            </div>
+                                <p>&nbsp;</p>
+                                <p><span style="font-weight: bolder;">Solution:</span><br>Automate and monitor compliance management to meet industry standards.
+                            </p>
                         </div>
-                        <div class="accordion__item ">
-                            <div class="accordion__item-title" data-accordion-button="">
-                                <h3><span class="accordion__item-title"> Customer Relationship Management </span></h3> <span
-                                    class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
-                                        viewBox="0 0 24 24" version="1.1" class="">
-                                        <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
-                                                <g id="Group-3" transform="translate(83.000000, 176.000000)">
-                                                    <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
-                                                        <path
-                                                            d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
-                                                            id="Path"></path>
-                                                    </g>
-                                                </g>
+                    </div>
+                </div>
+                <div class="accordion__item ">
+                    <div class="accordion__item-title" data-accordion-button="">
+                        <h3><span class="accordion__item-title"> Customer Relationship Management </span></h3> <span
+                            class="icon icon--24 icon--chevron"> <svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px"
+                                viewBox="0 0 24 24" version="1.1" class="">
+                                <g id="system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="iconography" transform="translate(-363.000000, -176.000000)" fill="#002437">
+                                        <g id="Group-3" transform="translate(83.000000, 176.000000)">
+                                            <g id="ico/arrow-down" transform="translate(280.000000, 0.000000)">
+                                                <path
+                                                    d="M11.66748,16.5975 C10.96748,16.5975 10.26748,16.3275 9.73748,15.7975 L3.2175,9.2775 C2.9275,8.9875 2.9275,8.5075 3.2175,8.2175 C3.5075,7.9275 3.9875,7.9275 4.2775,8.2175 L10.79748,14.7375 C11.27748,15.2175 12.05748,15.2175 12.53748,14.7375 L19.05748,8.2175 C19.34748,7.9275 19.82748,7.9275 20.11748,8.2175 C20.40748,8.5075 20.40748,8.9875 20.11748,9.2775 L13.59748,15.7975 C13.06748,16.3275 12.36748,16.5975 11.66748,16.5975 Z"
+                                                    id="Path"></path>
                                             </g>
                                         </g>
-                                    </svg> </span>
-                            </div>
-                            <div class="accordion__item-content">
-                                <div>
-                                    <p>Integrated Customer Management: <br>
-                                    Manage customer data, sales pipeline, and customer service seamlessly.
+                                    </g>
+                                </g>
+                            </svg> </span>
+                    </div>
+                    <div class="accordion__item-content">
+                    <div>
+                    <p><span style="font-weight: bolder;">Challenge</span> <br><br>Balancing Orders and Production with SAP Business One: <br>
+                    Managing customer orders, making products, and using resources efficiently.
 </p>
+                        <p>&nbsp;</p>
+                    <p><span style="font-weight: bolder;">Solution</span> <br>Use SAP Business One to easily keep track of orders, manage making products, and ensure resources are used well by taking advantage of its tools for organizing production and resources.
+                    </p>
                                 </div>
                             </div>
                         </div>
@@ -1040,9 +1082,9 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                    <p>Challenge <br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
+                                    <p><span style="font-weight: bolder;">Challenge</span><br><br>Inefficient Inventory Management: <br> Inconsistent stock levels and inaccurate data hinder streamlined production.</p>
                                     <p>&nbsp;</p>
-                                    <p>Solution: <br>
+                                    <p><span style="font-weight: bolder;">Solution:</span><br>
                                     Track and manage stock levels, orders, and production in real time.
                                     </p>
                                 </div>
@@ -1069,10 +1111,10 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                    <p>Challenge <br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
+                                    <p><span style="font-weight: bolder;">Challenge</span><br><br>Complex Supply Chain Management: <br>Managing multiple suppliers, logistics, and quality control is
                                         challenging.</p>
                                         <p>&nbsp;</p>
-                                    <p>Solution: <br>Consolidate supplier data, manage contracts, and optimize procurement processes.
+                                    <p><span style="font-weight: bolder;">Solution:</span><br>Consolidate supplier data, manage contracts, and optimize procurement processes.
                                     </p>
                                 </div>
                             </div>
@@ -1098,9 +1140,9 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                    <p>Challenge <br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
+                                    <p><span style="font-weight: bolder;">Challenge</span><br><br>Data Management and Utilization: <br> Fragmented data and lack of real-time insights to inform decision-making.</p>
                                     <p>&nbsp;</p>
-                                    <p>Solution: <br>Leverage real-time data and analytics to drive informed business decisions.</p>
+                                    <p><span style="font-weight: bolder;">Solution:</span><br>Leverage real-time data and analytics to drive informed business decisions.</p>
                                 </div>
                             </div>
                         </div>
@@ -1125,11 +1167,11 @@ function loadContent(tabId) {
                             </div>
                             <div class="accordion__item-content">
                                 <div>
-                                    <p>Challenge <br><br>Regulatory Compliance and Quality Assurance: <br>
+                                    <p><span style="font-weight: bolder;">Challenge</span><br><br>Regulatory Compliance and Quality Assurance: <br>
                                     Ensuring products meet stringent regulatory standards and consistent quality.
 </p>
                                         <p>&nbsp;</p>
-                                    <p>Solution: <br>Automate and monitor compliance management to meet industry standards.
+                                        <p><span style="font-weight: bolder;">Solution:</span><br>Automate and monitor compliance management to meet industry standards.
                                     </p>
                                 </div>
                             </div>
@@ -1154,10 +1196,13 @@ function loadContent(tabId) {
                                     </svg> </span>
                             </div>
                             <div class="accordion__item-content">
-                                <div>
-                                    <p>Integrated Customer Management: <br>
-                                    Manage customer data, sales pipeline, and customer service seamlessly.
+                            <div>
+                            <p><span style="font-weight: bolder;">Challenge</span> <br><br>Balancing Orders and Production with SAP Business One: <br>
+                            Managing customer orders, making products, and using resources efficiently.
 </p>
+                                <p>&nbsp;</p>
+                            <p><span style="font-weight: bolder;">Solution</span> <br>Use SAP Business One to easily keep track of orders, manage making products, and ensure resources are used well by taking advantage of its tools for organizing production and resources.
+                            </p>
                                 </div>
                             </div>
                         </div>
