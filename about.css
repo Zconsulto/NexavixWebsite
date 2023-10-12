@@ -2,18 +2,7 @@ html,
 body {
     max-width: 100%;
 }
-.box-hover-effect {
-    transition: transform 0.3s ease;
-    /* Smooth transition for the scaling effect */
-}
-.box-hover-effect:hover {
-    transform: scale(1.05);
-    /* This will enlarge the box by 5% when hovered */
-    z-index: 1;
-    /* This is to ensure the hovered box appears above any adjacent content */
 
-
-}
 ul li h2 {
     font-weight: bold;
     color: #292929;

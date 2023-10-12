@@ -53,3 +53,9 @@ html, body{
     padding: 20px;
     border: 1px solid #ccc;
 }
+@media only screen and (max-width: 768px) {
+
+    #tabBar {
+        flex-direction: column;
+    }
+}
