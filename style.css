@@ -88,9 +88,12 @@ html {
 @media only screen and (max-width: 768px) {
 	.top_bar {
 		padding: 10px 15px;
-		font-size: 12px;
+		font-size: 8.5px;
 	}
 
+	.top_bar_left_col {
+		margin-left: 0 !important;
+	}
 	.top_bar_left_col,
 	.top_bar_right_col {
 		width: 100%;
@@ -219,6 +222,7 @@ html {
 	}
 	.topnavContainer {
 		min-height: 175px;
+		padding-bottom: 100px;
 	}
 
 	.topnav {
@@ -230,13 +234,13 @@ html {
 	.topnav.responsive {
 		position: relative;
 		display: block;
-		min-height: 415px;
+		min-height: 300px;
 	}
 
 	.topnav.responsive a.icon {
 		position: absolute;
-		right: 0;
-		top: 0;
+		right: 2px;
+		top: 20px;
 	}
 
 	.topnav.responsive a {
