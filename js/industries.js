@@ -17,7 +17,7 @@ function loadContent(tabId) {
 		case "tab1":
 			contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/car7.jpg" alt="Manufacturing Industries Background">
-            <div class="image-caption">Manufacturing <br><br>Optimized Manufacturing with<br> <strong>SAP Business one</strong></div>
+            <div class="image-caption"><br>Optimized Manufacturing with<br> <strong>SAP Business one</strong></div>
         </div>
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
@@ -214,7 +214,7 @@ function loadContent(tabId) {
 		case "tab2":
 			contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind2.jpg" alt="Wholesale Industries Background">
-            <div class="image-caption" style="left: 36% !important;">Wholsale <br><br>Streamlined Wholesale Distribution with<br> <strong>SAP Business one</strong></div>
+            <div class="image-caption" style="left: 36% !important;"> <br>Streamlined Wholesale Distribution with<br> <strong>SAP Business one</strong></div>
         </div>
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
@@ -396,7 +396,7 @@ function loadContent(tabId) {
 		case "tab3":
 			contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind3.jpeg" alt="Retail Industries Background">
-            <div class="image-caption" >Retail <br><br>Elevating Retail Success with<br> <strong>SAP Business one</strong></div>
+            <div class="image-caption" > <br>Elevating Retail Success with<br> <strong>SAP Business one</strong></div>
         </div>
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
@@ -601,7 +601,7 @@ function loadContent(tabId) {
 		case "tab4":
 			contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind4.jpeg" alt="Chemistry Industries Background">
-            <div class="image-caption" style="left: 36% !important;">Chemistry <br><br>Navigating the Chemical Industry's Complexities with<br> <strong>SAP Business one</strong></div>
+            <div class="image-caption" style="left: 36% !important;"> <br>Navigating the Chemical Industry's Complexities with<br> <strong>SAP Business one</strong></div>
         </div>
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
@@ -789,7 +789,7 @@ function loadContent(tabId) {
 		case "tab5":
 			contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind5.jpeg" alt="Oil & Gas Industries Background">
-            <div class="image-caption" style="left: 36% !important;">Oil & Gas <br><br>Propelling the Oil & Gas Industry Forward with<br> <strong>SAP Business one</strong></div>
+            <div class="image-caption" style="left: 36% !important;"><br>Propelling the Oil & Gas Industry Forward with<br> <strong>SAP Business one</strong></div>
         </div>
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
@@ -988,7 +988,7 @@ function loadContent(tabId) {
 		case "tab6":
 			contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind6.jpeg" alt="Automotive Industries Background">
-            <div class="image-caption" style="left: 36% !important;">Automotive <br><br>Accelerating Success in the Automotive Industry with<br> <strong>SAP Business one</strong></div>
+            <div class="image-caption" style="left: 36% !important;"><br>Accelerating Success in the Automotive Industry with<br> <strong>SAP Business one</strong></div>
         </div>
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
@@ -1189,7 +1189,7 @@ function loadContent(tabId) {
 		case "tab7":
 			contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind7.jpeg" alt="Wholesale Industries Background">
-            <div class="image-caption" style="left: 36% !important;">Food & Beverage <br><br>Revolutionizing the Food & Beverage Sector with<br> <strong>SAP Business one</strong></div>
+            <div class="image-caption" style="left: 36% !important;"><br>Revolutionizing the Food & Beverage Sector with<br> <strong>SAP Business one</strong></div>
         </div>
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
