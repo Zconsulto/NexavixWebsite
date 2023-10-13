@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
      <div class="row" style=" display: flex;
      flex-wrap: nowrap; ">
           <div class="tob_bar_left_col hidden-xs col-sm-6 col-md-6" style="    display: flex;
-          width: 45%;
+          width: 50%;
           align-items: center;
           justify-content: left;
           margin-left: 17px;">
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
           <div class="tob_bar_right_col col-xs-12 col-sm-6 col-md-6" style="    display: flex;
           gap: 0.2;
-          width: 52%;
+          width: 50%;
           align-items: center;
           justify-content: right;
           margin-right: 1px;">
