@@ -219,7 +219,6 @@ html {
 	}
 	.topnavContainer {
 		min-height: 175px;
-		
 	}
 
 	.topnav {
@@ -231,6 +230,7 @@ html {
 	.topnav.responsive {
 		position: relative;
 		display: block;
+		min-height: 415px;
 	}
 
 	.topnav.responsive a.icon {
