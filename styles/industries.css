@@ -196,9 +196,12 @@ body {
 		.image-banner {
 			height: 200px;
 		}
-	
+
 		.accordion__item-title,
 		.accordion__item-content {
 			font-size: 14px;
+		}
+		.container{
+			margin-top: 66px;
 		}
 }
