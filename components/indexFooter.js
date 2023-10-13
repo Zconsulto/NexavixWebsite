@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <span class="fab fa-linkedin-in"></span>
         </a>
         <a class="header-social" href="https://twitter.com/nexavix" target="_blank">
-          <span class="fab fa-twitter"></span>
+          <span class="fa-brands fa-x-twitter"></span>
         </a>
       </p>
 
