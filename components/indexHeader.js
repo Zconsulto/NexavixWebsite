@@ -33,8 +33,9 @@ document.addEventListener("DOMContentLoaded", function () {
           margin-right: 1px;">
           <div class="icons">
           <a href="https://www.facebook.com/nexavix/" target="_blank"><span class="fab fa-facebook-f" ></span></a>
-          <a href="https://twitter.com/nexavix" target="_blank"><span class="fa-brands fa-x-twitter" ></span></a>
+          
           <a href="https://www.linkedin.com/company/nexavix/" target="_blank"><span class="fab fa-linkedin-in"></span></a>
+          <a href="https://twitter.com/nexavix" target="_blank"><span class="fa-brands fa-x-twitter" ></span></a>
      </div>
           <a href="pages/blogs.html" style="border:1px;">BLOG</a>
           <a href="pages/wholesale.html" style="border:1px;">WHOLESALE</a>
