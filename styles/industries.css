@@ -10,7 +10,7 @@ body {
 
 #tabBar button {
 	background-color: transparent;
-	color: #292929;
+	color: #024172;
 	padding: 10px 20px;
 	margin: 5px;
 	cursor: pointer;
@@ -25,11 +25,11 @@ body {
 
 #tabBar button i {
 	margin-right: 10px;
-	color: #f4a71f;
+	color: #21D0B3;
 }
 /* Hover effects */
 #tabBar button:hover {
-	background-color: #f4a71f;
+	background-color: #21D0B3;
 	transform: scale(1.05);
 }
 #tabBar button:hover i {
@@ -38,8 +38,8 @@ body {
 
 /* Active state */
 #tabBar button.active {
-	/* background-color: #f4a71f; */
-	border-bottom: 2px solid #f4a71f;
+	/* background-color: #21D0B3; */
+	border-bottom: 2px solid #21D0B3;
 	transform: scale(1.05);
 	color: #000;
 }
@@ -50,7 +50,7 @@ body {
 #content {
 	margin-top: 20px;
 	padding: 20px;
-	border: 1px solid #ccc;
+	border: 1px solid #024172;
 }
 @media only screen and (max-width: 768px) {
 
@@ -103,7 +103,7 @@ body {
 }
 /* img */
 .faq-accordion__title {
-	color: #f4a71f !important;
+	color: #21D0B3 !important;
 	text-align: center;
 	font-weight: bolder !important;
 }
@@ -136,7 +136,7 @@ body {
         right: 0;
         width: 2px;
         height: 120%;
-        background-image: linear-gradient(0deg, #f4a71f 0%, #898989 100%);
+        background-image: linear-gradient(0deg, #21D0B3 0%, #024172 100%);
 }
 
 .faq-accordion__accordion {
@@ -154,14 +154,14 @@ body {
 	padding: 10px;
 	background-color: #f8f8f8;
 	position: relative;
-	color: #f4a71f;
+	color: #21D0B3;
 	font-weight: bolder;
 }
 
 .accordion__item-content {
 	display: none;
 	padding: 10px;
-	color: #898989;
+	color: #024172;
 	font-size: larger;
 }
 

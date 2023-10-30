@@ -23,7 +23,7 @@ function loadContent(tabId) {
             <div class="faq-accordion__container">
       
                 <div class="faq-accordion__content" data-aos="fade-right">
-                    <h2 class="faq-accordion__title h3"><br> <span style="color: #898989;">Unlock efficient production and operational transparency with SAP Business One.</span><br> Guiding your manufacturing towards
+                    <h2 class="faq-accordion__title h3"><br> <span style="color: #024172;">Unlock efficient production and operational transparency with SAP Business One.</span><br> Guiding your manufacturing towards
                     sustainable success and growth.</h2>
                 </div>
 
@@ -219,7 +219,7 @@ function loadContent(tabId) {
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
                 <div class="faq-accordion__content" data-aos="fade-right">
-                    <h2 class="faq-accordion__title h3"><br> <span style="color: #898989;">Elevate your wholesale operations to new heights.</span><br> SAP Business One empowers distributors with real-time insights, efficient inventory control, and seamless supply chain management, ensuring sustainable growth.</h2>
+                    <h2 class="faq-accordion__title h3"><br> <span style="color: #024172;">Elevate your wholesale operations to new heights.</span><br> SAP Business One empowers distributors with real-time insights, efficient inventory control, and seamless supply chain management, ensuring sustainable growth.</h2>
                 </div>
                 <div class="faq-accordion__accordion" data-aos="fade-left">
                     <div class="accordion" data-accordion="">
@@ -401,7 +401,7 @@ function loadContent(tabId) {
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
                 <div class="faq-accordion__content" data-aos="fade-right">
-                    <h2 class="faq-accordion__title h3"><br> <span style="color: #898989;">Synchronizing Inventory, Sales, and Customer Experiences</span><br> in a Dynamic Retail Environment with SAP B1.</h2>
+                    <h2 class="faq-accordion__title h3"><br> <span style="color: #024172;">Synchronizing Inventory, Sales, and Customer Experiences</span><br> in a Dynamic Retail Environment with SAP B1.</h2>
                 </div>
                 <div class="faq-accordion__accordion" data-aos="fade-left">
                     <div class="accordion" data-accordion="">
@@ -606,7 +606,7 @@ function loadContent(tabId) {
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
                 <div class="faq-accordion__content" data-aos="fade-right">
-                    <h2 class="faq-accordion__title h3"><br> <span style="color: #898989;">Enhancing Production Safety, Quality, and Compliance</span><br> In a Dynamic Market with SAP Business One</h2>
+                    <h2 class="faq-accordion__title h3"><br> <span style="color: #024172;">Enhancing Production Safety, Quality, and Compliance</span><br> In a Dynamic Market with SAP Business One</h2>
                 </div>
                 <div class="faq-accordion__accordion" data-aos="fade-left">
                     <div class="accordion" data-accordion="">
@@ -794,7 +794,7 @@ function loadContent(tabId) {
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
                 <div class="faq-accordion__content" data-aos="fade-right">
-                    <h2 class="faq-accordion__title h3"><br> <span style="color: #898989;">Harmonizing Operations and Management for Sustained Growth and Efficiency</span><br>With SAP Business One.</h2>
+                    <h2 class="faq-accordion__title h3"><br> <span style="color: #024172;">Harmonizing Operations and Management for Sustained Growth and Efficiency</span><br>With SAP Business One.</h2>
                 </div>
                 <div class="faq-accordion__accordion" data-aos="fade-left">
                     <div class="accordion" data-accordion="">
@@ -993,7 +993,7 @@ function loadContent(tabId) {
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
                 <div class="faq-accordion__content" data-aos="fade-right">
-                    <h2 class="faq-accordion__title h3"><br> <span style="color: #898989;">Driving Operational Excellence through Intelligent Automation and Integrated Management</span><br> with SAP Business One</h2>
+                    <h2 class="faq-accordion__title h3"><br> <span style="color: #024172;">Driving Operational Excellence through Intelligent Automation and Integrated Management</span><br> with SAP Business One</h2>
                 </div>
                 <div class="faq-accordion__accordion" data-aos="fade-left">
                     <div class="accordion" data-accordion="">
@@ -1194,7 +1194,7 @@ function loadContent(tabId) {
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
                 <div class="faq-accordion__content" data-aos="fade-right">
-                    <h2 class="faq-accordion__title h3"><br> <span style="color: #898989;">Streamlining Operations & Ensuring Product Quality from Farm to Table</span><br>with SAP Business One.</h2>
+                    <h2 class="faq-accordion__title h3"><br> <span style="color: #024172;">Streamlining Operations & Ensuring Product Quality from Farm to Table</span><br>with SAP Business One.</h2>
                 </div>
                 <div class="faq-accordion__accordion" data-aos="fade-left">
                     <div class="accordion" data-accordion="">
