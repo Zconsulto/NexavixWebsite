@@ -566,7 +566,7 @@ img.d-block.img-fluid.lead {
 }
 .ind-btn {
 	display: inline-block;
-	background-color: #f3a400;
+	background-color: #21d0b3;
 	font-size: 14px;
 	color: #ffffff;
 	padding: 10px 20px;
@@ -577,7 +577,7 @@ img.d-block.img-fluid.lead {
 }
 
 .ind-btn:hover {
-	background-color: #bc7e00;
+	background-color: #1ab09f;
 }
 
 @media (max-width: 1023px) {
@@ -655,7 +655,7 @@ img.d-block.img-fluid.lead {
 	top: 50%;
 	transform: translateY(-50%);
 	font-size: 24px;
-	background-color: #f3a400;
+	background-color: #21d0b3;
 	color: #fff;
 	border: none;
 	padding: 10px;
