@@ -50,7 +50,7 @@ body {
 #content {
 	margin-top: 20px;
 	padding: 20px;
-	border: 1px solid #024172;
+	border: 1px solid #ccc;
 }
 @media only screen and (max-width: 768px) {
 

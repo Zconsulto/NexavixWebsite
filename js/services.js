@@ -14,7 +14,7 @@ function loadContent(tabId) {
 	switch (tabId) {
 		case "tab1":
 			contentDiv.innerHTML = `<div class="highlight-section" id="ERP-Consultation">
-            <div class="container col-xxl-9"><h1>ERP Consultation</h1></div>
+            <div class="container col-xxl-9"><h1 style="color: #024172;">ERP Consultation</h1></div>
         </div>
             <div class="container col-xxl-9 ">
                 <div class="row flex-lg-row-reverse">
@@ -34,7 +34,7 @@ function loadContent(tabId) {
 		case "tab2":
 			contentDiv.innerHTML = `<div class="highlight-section" id="Implementation">
             <div class="container col-xxl-9">
-                <h1>Implementation</h1>
+            <h1 style="color: #024172;">Implementation</h1>
             </div>
         </div>
         <div class="container col-xxl-9 ">
@@ -45,7 +45,7 @@ function loadContent(tabId) {
                 </div>
                 <div class="col-lg-8">
                     <p class="lead">
-                        SAP Business One implementation is a meticulously planned process, led by our experienced Nexavix team. We begin by
+                        SAP Business One implementation is a meticulously planned process, led by our experienced ZConsulto team. We begin by
                         comprehensively understanding your unique business needs and objectives to tailor the implementation seamlessly
                         <ul class="lead">
                             <li>Analysis: Understanding your needs by diagnosing and analyzing your information.</li>
@@ -61,7 +61,7 @@ function loadContent(tabId) {
 		case "tab3":
 			contentDiv.innerHTML = `<div class="highlight-section" id="Support">
             <div class="container col-xxl-9">
-                <h1>Support</h1>
+            <h1 style="color: #024172;">Support</h1>
             </div>
         </div>
         <div class="container col-xxl-9">
@@ -83,7 +83,7 @@ function loadContent(tabId) {
 		case "tab4":
 			contentDiv.innerHTML = `<div class="highlight-section" id="Integration">
             <div class="container col-xxl-9">
-                <h1>Integration</h1>
+            <h1 style="color: #024172;">Integration</h1>
             </div>
         </div>
         <div class="container col-xxl-9 ">
@@ -94,7 +94,7 @@ function loadContent(tabId) {
                 </div>
                 <div class="col-lg-8">
                     <p class="lead">
-                        Nexavix's expertise in seamless SAP Business One integration ensures smooth processes, consistent data, and a
+                        ZConsulto's expertise in seamless SAP Business One integration ensures smooth processes, consistent data, and a
                         comprehensive operational view, whether it's third-party apps, e-commerce, or supply chain.
                     </p>
                 </div>
@@ -104,7 +104,7 @@ function loadContent(tabId) {
 		case "tab5":
 			contentDiv.innerHTML = `<div class="highlight-section" id="Cloud-Hosting">
             <div class="container col-xxl-9">
-                <h1>Cloud Hosting</h1>
+            <h1 style="color: #024172;">Cloud Hosting</h1>
             </div>
         </div>
         <div class="container col-xxl-9 ">
@@ -115,7 +115,7 @@ function loadContent(tabId) {
                 </div>
                 <div class="col-lg-8">
                     <p class="lead">
-                        Experience flexible, secure cloud hosting with Nexavix. Access your resources anytime, anywhere while we handle IT
+                        Experience flexible, secure cloud hosting with ZConsulto. Access your resources anytime, anywhere while we handle IT
                         infrastructure complexities, enabling your business to thrive with enhanced efficiency and agility.
                     </p>
                 </div>
