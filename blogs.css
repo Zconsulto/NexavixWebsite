@@ -52,7 +52,7 @@ body {
 }
 
 .blog_section .blog_content .blog_item .blog_details .blog_title h5 a {
-    color: #898989;
+    color: #024172;
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 25px;
@@ -63,7 +63,7 @@ body {
 }
 
 .blog_section .blog_content .blog_item .blog_details .blog_title h5 a:hover {
-    color: #FF8C00;
+    color: #21d0b3;
 }
 
 .blog_section .blog_content .blog_item .blog_details ul {
@@ -80,27 +80,27 @@ body {
 
 .blog_section .blog_content .blog_item .blog_details ul li i {
     padding-right: 7px;
-    color: #898989;
+    color: #024172;
 }
 
 .blog_section .blog_content .blog_item .blog_details p {
     border-top: 1px solid #e5e5e5;
     margin-top: 4px;
     padding: 20px 0 4px;
-    color: #898989;
+    color: #024172;
 }
 
 .blog_section .blog_content .blog_item .blog_details a {
     font-size: 16px;
     display: inline-block;
-    color: #f4a71f;
+    color: #21d0b3;
     font-weight: 600;
     text-decoration: none;
     transition: all 0.3s;
 }
 
 .blog_section .blog_content .blog_item .blog_details a:hover {
-    color: #FF8C00;
+    color: #1ab09f;
 }
 
 .blog_section .blog_content .blog_item .blog_details a i {
@@ -162,11 +162,7 @@ body {
     display: inline-block;
 }
 
-.blog_section .blog_content .owl-nav .owl-next:hover {
-    background: #fff;
-    border-color: #ff5e14;
-    color: #ff5e14;
-}
+
 
 @media only screen and (max-width: 577px) {
     .blog_section .owl-nav .owl-prev {
@@ -193,11 +189,11 @@ body {
 }
 
 .section-title {
-    color: #292929;
+    color: #024172;
     font-weight: bold;
 }
 
 .section-description {
-    color: #898989;
+    color: #024172;
     font-size: 1.1em;
 }

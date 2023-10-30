@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
 :root {
-	--yellow: #f4a71f;
-	--gray: #898989;
+	--yellow: #21d0b3;
+	--gray: #024172;
 	--white: #fff;
 	--black: #000;
 	--blue: #2262ff;
@@ -20,42 +20,7 @@ html {
 	font-weight: 600;
 }
 
-/* Start Get Started Today Button */
-.getStartedToday {
-	background-color: #f4a71f;
-	/* Golden color to match the theme */
-	border: none;
-	/* Remove the default borders */
-	border-radius: 8px !important;
-	/* Rounded corners for a modern look */
-	color: #fff;
-	/* White text color */
-	cursor: pointer;
-	/* Hand cursor when hovering over the button */
-	padding: 10px 35px;
-	/* Padding around the text */
-	transition: background-color 0.3s ease, transform 0.3s ease;
-	/* Smooth transition for hover effects */
-	font-size: 20px;
-}
 
-.getStartedToday:hover {
-	background-color: #ff8c00;
-	/* A bit brighter color on hover */
-	transform: scale(1.05);
-	/* Slightly enlarge the button on hover */
-}
-
-.getStartedToday:active {
-	transform: scale(1);
-	/* Reset size when button is pressed */
-}
-
-.image-sap {
-	margin: 50px;
-}
-
-/* End Get Started Today Button */
 .top_bar {
 	padding: 0px 0;
 	height: auto;
@@ -82,7 +47,11 @@ html {
 }
 
 .top_bar a:hover {
-	color: #f4a71f;
+	color: #21d0b3;
+}
+
+.top_bar_right_col {
+	margin-right: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -137,6 +106,7 @@ html {
 }
 
 .topnav a {
+	margin-top: 1.2%;
 	float: left;
 	color: black;
 	text-align: center;
@@ -148,20 +118,20 @@ html {
 }
 
 .logo img {
-	width: 170px;
-	height: 70px;
+	width: 293px;
+	height: 41px;
 	flex-shrink: 0;
 	/* Ensuring the logo doesn’t shrink, adjust as needed */
 }
 
 .topnav a:not(.logo):hover {
 	/* border-bottom: 2px solid #f0ab00; */
-	color: #898989;
+	color: #21d0b3
 }
 
 .topnav a.active {
-	border-bottom: 2px solid #f4a71f;
-	color: #898989;
+	border-bottom: 2px solid #21d0b3 ;
+	color: #21d0b3;
 }
 
 .topnav .icon {
@@ -170,7 +140,7 @@ html {
 
 .topnav a.special-link {
 	font-weight: bold;
-	color: #f4a71f;
+	color: #21d0b3;
 	transition: color 0.3s;
 	position: relative;
 	font-weight: bold;
@@ -187,14 +157,14 @@ html {
 	left: 0;
 	right: 0;
 	height: 2px;
-	/* background-color: #f4a71f; */
+	/* background-color: #21d0b3; */
 	transform: scaleX(0);
 	transform-origin: right;
 	transition: transform 0.3s;
 }
 
 .topnav a.special-link:hover {
-	color: #898989;
+	color: #024172;
 }
 
 .topnav a.special-link:hover::after {
@@ -203,7 +173,7 @@ html {
 }
 
 .topnav a.active.special-link {
-	color: #898989;
+	color: #024172;
 }
 
 .topnav a.active.special-link::after {
@@ -408,31 +378,10 @@ Pricing
 	color: #009688 !important;
 }
 
-.btn-pink {
-	background-color: #f06292;
-	border: 1px solid #f06292;
-	color: #ffffff;
-}
-
-.btn-teal {
-	background-color: #009688;
-	border: 1px solid #009688;
-	color: #ffffff;
-}
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 * {
 	border: none;
 	font-family: "Open Sans", Times, serif;
-}
-
-.btn-primary {
-	background-color: #f4a71f !important; /* Overriding Bootstrap's primary color */
-	border-color: #f4a71f !important;
-}
-
-.btn-primary:hover {
-	background-color: #f4a71f !important; /* Darker shade for hover effect */
-	border-color: #f4a71f !important;
 }
 
 section {
@@ -563,17 +512,17 @@ section {
 }
 .pricing .card_three,
 .card_three .title .fa {
-	background: #f4a71f;
+	background: #21d0b3;
 }
 
 .pricing .card_violet,
 .card_violet .title .fa {
-	background: #f4a71f;
+	background: #21d0b3;
 }
 
 .pricing .card_red,
 .card_red .title .fa {
-	background: #f4a71f;
+	background: #21d0b3;
 }
 .pricing .card a {
 	display: block;
@@ -643,10 +592,10 @@ section {
 	text-decoration: none;
 }
 .footContainer a:hover {
-	color: #f4a71f;
+	color: #21d0b3;
 }
 .yellow-icon {
-	color: #f4a71f;
+	color: #21d0b3;
 	/* Yellow icon color */
 }
 
@@ -715,7 +664,7 @@ section {
 }
 #footer-form a:hover {
 	font-size: 18px;
-	color: #f4a71f;
+	color: #21d0b3;
 }
 /* Start Features */
 /* strengths, why nexavix */
@@ -750,7 +699,7 @@ section {
 }
 
 .main-title {
-	color: #898989;
+	color: #024172;
 	margin: 0 auto 0px;
 	/* border: 2px solid rgba(0, 0, 0, .01); */
 	padding: 10px 20px;
@@ -888,13 +837,13 @@ section {
 }
 
 .features .quality h2::after {
-	background-color: #f4a71f;
+	background-color: #21d0b3;
 }
 
 .features .quality a {
-	color: #f4a71f;
-	border-color: #f4a71f;
-	background: linear-gradient(to right, #f0ab00 50%, white 50%);
+	color: #21d0b3;
+	border-color: #21d0b3;
+	background: linear-gradient(to right, #21d0b3 50%, white 50%);
 	background-size: 200% 100%;
 	background-position: right bottom;
 }
@@ -904,13 +853,13 @@ section {
 }
 
 .features .time h2::after {
-	background-color: #898989;
+	background-color: #024172;
 }
 
 .features .time a {
-	color: #898989;
-	border-color: #898989;
-	background: linear-gradient(to right, #898989 50%, white 50%);
+	color: #024172;
+	border-color: #024172;
+	background: linear-gradient(to right, #024172 50%, white 50%);
 	background-size: 200% 100%;
 	background-position: right bottom;
 }
@@ -974,12 +923,43 @@ section {
 .point i {
 	font-size: 44px;
 	margin-bottom: 10px;
-	color: #f4a71f;
+	color: #21d0b3;
 }
 .point i:hover {
-	color: #898989 !important;
+	color: #024172 !important;
 	/* Changes the color of the icon on hover */
 }
 .point h3 {
 	margin-bottom: 20px;
 }
+
+
+.zBtn {
+	background-color: #21d0b3;
+	padding: 10px 35px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+	border-radius: 10px;
+	border: 2px solid #21d0b3;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	transition: .4s;
+	font-size: 15px;
+}
+
+.zBtn span:last-child {
+	display: none;
+}
+
+.zBtn:hover {
+	transition: .4s;
+	border: 2px solid #21d0b3;
+	background-color: #fff;
+	color: #21d0b3;
+}
+
+.zBtn:active {
+	background-color: #21d0b3;
+}
+

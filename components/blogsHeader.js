@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
           display: flex;
           justify-content: center;
           align-items: center;">
-          <p style="color: #f4a71f;height:auto;font-weight: bold;   margin-top: revert; "><i class="fa-solid fa-phone fa-flip-horizontal fa-2xl"></i>&nbsp;&nbsp;</p>
+          <p style="color: #21d0b3;height:auto;font-weight: bold;   margin-top: revert; "><i class="fa-solid fa-phone fa-flip-horizontal fa-2xl"></i>&nbsp;&nbsp;</p>
           <b>
                <a href="tel: 1 (838)-910-3304" style="color: black; font-style: normal;" > East: (838)-910-3304</a>
                <br>
@@ -32,15 +32,14 @@ document.addEventListener("DOMContentLoaded", function () {
           justify-content: right;
           margin-right: 1px;">
           <div class="icons">
-          <a href="https://www.facebook.com/nexavix/" target="_blank"><span class="fab fa-facebook-f" ></span></a>
-          
-          <a href="https://www.linkedin.com/company/nexavix/" target="_blank"><span class="fab fa-linkedin-in"></span></a>
-          <a href="https://twitter.com/nexavix" target="_blank"><span class="fa-brands fa-x-twitter" ></span></a>
-     </div>
+<a class="header-social" href="https://www.linkedin.com/company/zconsulto/" target="_blank">
+          <span class="fab fa-linkedin-in"></span>
+        </a>     </div>
           <a href="../pages/blogs.html" style="border:1px;">BLOG</a>
           <a href="../pages/wholesale.html" style="border:1px;">WHOLESALE</a>
           <a href="../pages/trial.html" class="special-link"> FREE TRIAL</a>
-          <a href="../index.html#Contact"><button type="button" class="btn btn-warning" style="background-color: #f4a71f;">Request a Demo</button></a>
+          <a href="../index.html#Contact">
+          <button class="zBtn"> Request a Demo</button></a>
 
           </div>
      </div>
