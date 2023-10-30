@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	var footerTemplate = `
   <div class="footContainer" id="footer-container">
   <div class="wrapper">
-    <div id="footer-icon"> <img src="../images/nexavix_logo.png" alt="Nexavix" width="255">
-        <br><br>  <img src="../images/silverPartner_logo.png" alt="Nexavix" width="255">
+    <div id="footer-icon">
+    <img src="../images/zcons/logo.png" alt="Nexavix" width="255">
 </div>
     <div id="footer-contact">
       <h6>Contact Us</h6>
@@ -34,14 +34,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <h6>Social Media</h6>
       <br>
       <p>
-        <a class="header-social" href="https://www.facebook.com/nexavix/" target="_blank">
-          <span class="fab fa-facebook-f"></span>
-        </a>
-        <a class="header-social" href="https://www.linkedin.com/company/nexavix/" target="_blank">
+        <a class="header-social" href="https://www.linkedin.com/company/zconsulto/" target="_blank">
           <span class="fab fa-linkedin-in"></span>
-        </a>
-        <a class="header-social" href="https://twitter.com/nexavix" target="_blank">
-          <span class="fa-brands fa-x-twitter"></span>
         </a>
       </p>
 
