@@ -59,6 +59,7 @@ body {
     /* Added for spacing between grid items */
     /* background: #efefef; Grey background to make the orange pop out more */
     padding: 20px;
+    margin-left: 20px;
     /* Padding for the outer container */
 }
 
