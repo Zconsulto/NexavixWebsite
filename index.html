@@ -30,6 +30,27 @@
 
   </head>
 <body data-current-page="index">
+<div class="backdrop"></div>
+<div class="popup-card">
+  <button class="popBtn" id="close-btn">
+    <span class="material-symbols-rounded close-icon"> X </span>
+  </button>
+
+  <div>
+    <span class="material-symbols-rounded icon">
+      <img src="images/zcons//Logo&Logomark2.png" alt="" style="max-width: 50px;"> 
+    </span>
+  </div>
+
+  <div class="content">
+    <h3>Experience SAP Firsthand!</h3>
+    <a href="https://dtsuap.divts.com:446/UAP" target="_blank">
+      <button type="button" class="zBtn">
+        Start Your Free Trial Now!</button></a>
+  </div>
+</div>
+
+  
 
         <!-- Your website content goes here -->
 
@@ -575,7 +596,7 @@ style="border-top: 2px solid; border-image: linear-gradient(90deg, #21d0b3 0%, #
       <h2 class="main-title" >Get in touch</h2>
     </div>
     <div class="content">
-      <form action="https://formspree.io/f/xnqkoqqr" method="POST">
+      <form action="https://formspree.io/f/xbjvbrqz" method="POST">
         <input class="main-input" type="text" name="Customer's Name" placeholder="Your Name" required/>
         <input class="main-input" type="text" name="Company's Name" placeholder="Your Company's Name" required />
         <input class="main-input" type="email" name="Customer's Email" placeholder="Your Email" required/>
@@ -583,7 +604,7 @@ style="border-top: 2px solid; border-image: linear-gradient(90deg, #21d0b3 0%, #
         <select class="main-input" name="Service">
           <option value="" disabled selected>Select a Service</option>
           <!-- <option value="service1">WHOLESALE DISTRIBUTION</option> -->
-          <option value="service2">WHOLESALE DISTRIBUTION DEMO</option>
+          <!-- <option value="service2">WHOLESALE DISTRIBUTION DEMO</option> -->
           <option value="service3">FREE DEMO</option>
           <option value="service4">FREE TRIAL</option>
           <option value="service4">REQUEST A QUOTE</option>
@@ -609,6 +630,30 @@ style="border-top: 2px solid; border-image: linear-gradient(90deg, #21d0b3 0%, #
     <script src="/components/indexFooter.js"></script>
     <div class="footer-placeholder"></div>
 </footer>
+<script>
+  let popup = document.getElementsByClassName("popup-card")[0];
+    let closeBtn = document.getElementById("close-btn");
+    let backdrop = document.getElementsByClassName("backdrop")[0];  // Get the backdrop element
+
+    function showPopup() {
+      setTimeout(() => {
+        popup.style.transform = "translateY(0) translateX(-50%)";
+        backdrop.style.opacity = "1";
+        backdrop.style.visibility = "visible";
+      }, 3000);
+    }
+
+    closeBtn.addEventListener("click", (e) => {
+      popup.style.transform = "translateY(-70vh) translateX(-50%)";
+      backdrop.style.opacity = "0";
+      setTimeout(() => {
+        backdrop.style.visibility = "hidden";
+      }, 500);  // Delay hiding to allow for transition
+    });
+
+    window.onload = showPopup;
+
+</script>
 <!-- Footer -->
 <!-- Jquery -->
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
