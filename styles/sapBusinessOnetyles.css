@@ -1,0 +1,308 @@
+@ -1, 295+0, 0 @@ html,
+body {
+    max-width: 100%;
+}
+
+:root {
+    --main-color: #21D0B3;
+    --main-color-alt: #21D0B3;
+    --main-transition: 0.3s;
+    --main-padding-top: 100px;
+    --main-padding-bottom: 100px;
+    --section-background: #ececec;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Start SAP intro */
+.cool-container {
+    color: #024172;
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(33, 208, 179, 0.3);
+}
+
+/* For devices like tablets */
+@media (max-width: 992px) {
+    .cool-container {
+        padding: 20px !important;
+        margin-top: 30px !important;
+    }
+}
+
+/* For smaller mobile devices */
+@media (max-width: 576px) {
+    .cool-container {
+        padding: 15px !important;
+        margin-top: 20px !important;
+    }
+
+    .cool-container p {
+        font-size: medium !important;
+    }
+
+    .cool-container ul {
+        font-size: small !important;
+    }
+}
+
+/* End SAP intro */
+/* Flipbox */
+.unique_services-box {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 16px;
+    /* Added for spacing between grid items */
+    /* background: #efefef; Grey background to make the orange pop out more */
+    padding: 20px;
+    margin-left: 20px;
+    /* Padding for the outer container */
+}
+
+.unique_service {
+    margin: 8px;
+}
+
+.unique_service i {
+    color: #21D0B3;
+    /* A yellow shade */
+    font-size: 32px;
+    /* Adjust size as needed */
+    margin-bottom: 10px;
+    /* Space between icon and text */
+    transition: color 0.3s ease;
+    /* Smooth color transition */
+}
+
+.unique_flip-box {
+    /* background-color: #FFFFFF; Made the flip box background white for a clean look */
+    width: 380px;
+    height: 150px;
+    border: 2px solid #21D0B3;
+    /* Orange border for distinction */
+    border-radius: 10px;
+    perspective: 1000px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    /* Added subtle shadow for depth */
+}
+
+.unique_flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unique_flip-box:hover .unique_flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.unique_flip-box-front,
+.unique_flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.unique_flip-box-front {
+    background-color: #fff;
+    color: #024172;
+    /* Grey color for the text */
+    border-radius: 10px;
+    border-top: 4px solid #21D0B3;
+    /* Orange top border for a sleek look */
+    border-bottom: 4px solid #21D0B3;
+    /* Orange bottom border */
+}
+
+.unique_flip-box-front img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    /* Spacing between the image and text */
+}
+
+.unique_flip-box-back {
+    background-color: #fff;
+    color: #024172;
+    /* Grey color for the text */
+    border-radius: 10px;
+    border-top: 4px solid #21D0B3;
+    /* Orange top border for a sleek look */
+    border-bottom: 4px solid #21D0B3;
+    /* White text for better readability against the orange background */
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    padding: 16px;
+}
+
+/* FlipBoxes Responsivness */
+@media (max-width: 768px) {
+
+    /* Adjust this breakpoint if necessary */
+    .unique_services-box {
+        grid-template-columns: 1fr;
+        /* Only one column on mobile */
+        padding: 0px;
+        /* Reduced padding for mobile */
+        width: 100%;
+    }
+
+    .unique_flip-box {
+        width: 100%;
+        /* Make the flip box full width on mobile */
+        margin: 0 auto;
+        /* Center the flip box if max-width is set */
+    }
+}
+
+/* End flip box */
+/* start why SAP B1 */
+.points-container {
+    display: flex;
+    justify-content: space-between;
+    /* Add some space between the columns */
+    flex-wrap: wrap;
+    padding: 10px 100px;
+    /* Allows the items to wrap to new lines on smaller screens */
+}
+
+.point {
+    flex-basis: calc(25% - 20px);
+    /* Calculate the width of each box minus margin */
+    text-align: center;
+    /* Center the content */
+    margin: 10px;
+    /* Add some outer spacing */
+}
+
+.point:hover {
+    transform: scale(1.05);
+    /* Enlarges the element a bit on hover */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow for depth perception */
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    .point {
+        flex-basis: calc(50% - 20px);
+        /* Make it two columns on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .point {
+        flex-basis: 100%;
+        /* Make it single column on small screens */
+    }
+}
+
+/* Style for the icons and texts */
+.point i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    /* Add some space below the icon */
+}
+
+.point:hover i {
+    color: #024172 !important;
+    /* Changes the color of the icon on hover */
+}
+
+.point h3 {
+    margin-bottom: 20px;
+    /* Add some vertical space */
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1320px !important;
+    }
+}
+
+@media (min-width: 1700px) {
+    .container {
+        max-width: 1620px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    width: 100%;
+}
+
+/* End Why SAP B1 */
+/* Start Content Container */
+.contentContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.videoContainer {
+    width: 55%;
+}
+
+.videoContainer video {
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.videoText {
+    color: #024172;
+    font-size: 3em;
+    padding: 9% 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .contentContainer {
+        flex-direction: column;
+    }
+
+    .videoContainer,
+    .videoText {
+        width: 100%;
+    }
+
+    .videoContainer video {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .videoText {
+        font-size: 2em;
+        padding: 5% 0px;
+    }
+}
+
+/* End Content Container */
