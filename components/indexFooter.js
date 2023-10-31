@@ -11,8 +11,10 @@ document.addEventListener("DOMContentLoaded", function () {
       <p>418 Broadway, Ste 4915,<br> Albany, NY 12207.</p>
       <p> <i class="yellow-icon fas fa-envelope" aria-hidden="true" style="margin-right: 5px;"></i> <a
           href="mailto:info@zconsulto.com" style="margin-right: 15px;">info@zconsulto.com</a></p>
-      <p> <i class="yellow-icon fa fa-phone" aria-hidden="true" style="margin-right: 5px;"></i> <a
-          href="tel: 1 (347) 607-4093" style="margin-right: 15px;">(347) 607-4093</a></p>
+      <p> <i class="yellow-icon fa fa-phone" aria-hidden="true" style="margin-right: 5px;"></i> 
+      <a href="tel: 1 (347) 607 4093" style="margin-right: 15px;">(347) 607 4093</a>
+
+          </p>
     </div>
     
       <div id="footer-form">

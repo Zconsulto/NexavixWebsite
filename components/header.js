@@ -17,9 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <p style="color: #21d0b3;height:auto;font-weight: bold;   margin-top: revert; ">
           <i class="fa-solid fa-phone fa-flip-horizontal fa-2xl"></i>&nbsp;&nbsp;</p>
           <b>
-               <a href="tel: 1 (838)-910-3304" style="color: black; font-style: normal;" > East: (838)-910-3304</a>
-               <br>
-               <a href="tel: 1 (408)  878-6773" style="color: black; font-style: normal;" > West: (408) 878-6773</a>
+               <a href="tel: 1 (347) 607 4093" style="color: black; font-style: normal;" >(347) 607 4093</a>
           </b>
           </p>
                </div>
@@ -37,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <span class="fab fa-linkedin-in"></span>
         </a>     </div>
           <a href="blogs.html" style="border:1px;">BLOG</a>
-          <a href="wholesale.html" style="border:1px;">WHOLESALE</a>
+          
           <a href="trial.html" class="special-link"> FREE TRIAL</a>
           <a href="../index.html#Contact">
           <button class="zBtn"> Request a Demo</button></a>

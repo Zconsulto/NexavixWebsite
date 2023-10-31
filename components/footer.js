@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <p> <i class="yellow-icon fas fa-envelope" aria-hidden="true" style="margin-right: 5px;"></i> <a
           href="mailto:info@zconsulto.com" style="margin-right: 15px;">info@zconsulto.com</a></p>
       <p> <i class="yellow-icon fa fa-phone" aria-hidden="true" style="margin-right: 5px;"></i> <a
-          href="tel: 1 (347) 607-4093" style="margin-right: 15px;">(347) 607-4093</a></p>
+          href="tel: 1 (347) 607 4093" style="margin-right: 15px;">(347) 607 4093</a></p>
     </div>
 
       <div id="footer-form">
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div><a href="services.html?tab=tab1">Services</a></div>
         <div><a href="about.html">About Us</a></div>
         <div><a href="blogs.html">Blog</a></div>
-        <div><a href="wholesale.html">Wholesale</a></div>
+        
         <div><a href="trial.html">Free Trial</a></div>
       </div>
   </div>
