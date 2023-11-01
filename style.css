@@ -35,7 +35,6 @@
 	/* High value to ensure it's above most other elements */
 }
 
-
 .icon {
 	width: 2.8rem;
 	height: 2.8rem;
@@ -88,12 +87,11 @@ body .top_bar {
 body,
 html {
 	height: 100%;
-	width: 1920px;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	font-weight: 600;
 }
-
 
 .top_bar {
 	padding: 0px 0;
@@ -200,11 +198,11 @@ html {
 
 .topnav a:not(.logo):hover {
 	/* border-bottom: 2px solid #f0ab00; */
-	color: #21d0b3
+	color: #21d0b3;
 }
 
 .topnav a.active {
-	border-bottom: 2px solid #21d0b3 ;
+	border-bottom: 2px solid #21d0b3;
 	color: #21d0b3;
 }
 
@@ -818,7 +816,6 @@ section {
 	margin-bottom: 20px;
 }
 
-
 .zBtn {
 	background-color: #21d0b3;
 	padding: 10px 35px;
@@ -828,8 +825,9 @@ section {
 	cursor: pointer;
 	border-radius: 10px;
 	border: 2px solid #21d0b3;
-	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-	transition: .4s;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	transition: 0.4s;
 	font-size: 15px;
 }
 
@@ -838,7 +836,7 @@ section {
 }
 
 .zBtn:hover {
-	transition: .4s;
+	transition: 0.4s;
 	border: 2px solid #21d0b3;
 	background-color: #fff;
 	color: #21d0b3;
@@ -847,4 +845,3 @@ section {
 .zBtn:active {
 	background-color: #21d0b3;
 }
-

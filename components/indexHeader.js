@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
           align-items: center;">
           <p style="color: #21d0b3;height:auto;font-weight: bold;   margin-top: revert; "><i class="fa-solid fa-phone fa-flip-horizontal fa-2xl"></i>&nbsp;&nbsp;</p>
           <b>
-               <a href="tel: 1 (347) 607 4093" style="color: black; font-style: normal;" >(347) 607 4093</a>
+               <a href="tel: 1 (929) 332-7886" style="color: black; font-style: normal;" >(929) 332-7886</a>
           </b>
           </p>
                </div>
