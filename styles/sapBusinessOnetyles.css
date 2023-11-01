@@ -249,7 +249,10 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    html,
+        body {
     width: 100%;
+        }
 }
 
 /* End Why SAP B1 */
