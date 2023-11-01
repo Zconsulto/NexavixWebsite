@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <h6>Quick links</h6>
         <br>
         <div><a href="index.html">Home</a></div>
-        <div><a href="pages/sapBusinessOne.html">Sap Business One</a></div>
+        <div><a href="pages/sapBusinessOne.html">SAP Business One</a></div>
         <div><a href="pages/industries.html?tab=tab1">Industries</a></div>
         <div><a href="pages/services.html?tab=tab1">Services</a></div>
         <div><a href="pages/about.html">About Us</a></div>
