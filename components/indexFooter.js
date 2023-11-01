@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="footContainer" id="footer-container">
   <div class="wrapper">
     <div id="footer-icon">
-      <img src="../images/zcons/logo.png" alt="Nexavix" width="255">
+      <img src="../images/zcons/logo.png" alt="Zconsulto-Logo" width="255">
     </div>
     <div id="footer-contact">
       <h6>Contact Us</h6>
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
   </div>
   <div class="wrapper credits">
-    <div id="credits-left"> © Copyright 2023 Nexavix. All Rights Reserved.</div>
+    <div id="credits-left"> © Copyright 2023 ZConsulto. All Rights Reserved.</div>
   </div>
       `;
 
