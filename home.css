@@ -448,11 +448,6 @@ img.d-block.img-fluid.lead {
 	/* Modified */
 }
 
-.mandatory-star {
-	color: #024172;
-	margin-left: 5px;
-	/* providing a little space between the placeholder and the star */
-}
 
 @media (max-width: 767px) {
 	.contact .content .info h4:nth-of-type(2) {

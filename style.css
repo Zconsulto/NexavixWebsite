@@ -1,3 +1,7 @@
+.mandatory-star {
+	color: #024172;
+	margin-left: 5px;
+}
 .backdrop {
 	position: fixed;
 	top: 0;
