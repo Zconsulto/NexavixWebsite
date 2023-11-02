@@ -131,6 +131,12 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
+	.contact-text {
+			display: none;
+		}
+	.zBtn{
+		display: none;
+	}
 	.popup-card {
 		display: none;
 	}
@@ -140,6 +146,10 @@ html {
 	.top_bar {
 		padding: 10px 15px;
 		font-size: 8.5px;
+	}
+	.icons {
+		margin: 0 30px;
+		display: contents;
 	}
 
 	.top_bar_left_col {
@@ -295,7 +305,7 @@ html {
 
 	.topnav.responsive a.icon {
 		position: absolute;
-		right: 2px;
+		right: 0px;
 		top: 20px;
 	}
 
