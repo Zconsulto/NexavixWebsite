@@ -33,6 +33,9 @@ document.addEventListener("DOMContentLoaded", function () {
           <div class="icons">
 <a class="header-social" href="https://www.linkedin.com/company/zconsulto/" target="_blank">
           <span class="fab fa-linkedin-in"></span>
+        </a> 
+        <a class="header-social" href="https://www.facebook.com/people/Zconsulto/100094921483542/" target="_blank">
+          <span class="fab fa-facebook"></span>
         </a>     </div>
           <a href="blogs.html" style="border:1px;">BLOG</a>
 

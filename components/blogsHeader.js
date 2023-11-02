@@ -32,7 +32,10 @@ document.addEventListener("DOMContentLoaded", function () {
           <div class="icons">
 <a class="header-social" href="https://www.linkedin.com/company/zconsulto/" target="_blank">
           <span class="fab fa-linkedin-in"></span>
-        </a>     </div>
+        </a> 
+        <a class="header-social" href="https://www.facebook.com/people/Zconsulto/100094921483542/" target="_blank">
+          <span class="fab fa-facebook"></span>
+        </a>    </div>
           <a href="../pages/blogs.html" style="border:1px;">BLOG</a>
 
           <a href="../pages/trial.html" class="special-link"> FREE TRIAL</a>
