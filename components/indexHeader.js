@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <a href="pages/blogs.html" style="border:1px;">BLOG</a>
           <a href="pages/trial.html" class="special-link"> FREE TRIAL</a>
           <a href="#Contact">
-          <button class="zBtn"> Request a Demo</button>
+          <button class="zBtn no"> Request a Demo</button>
           </a>
 
           </div>
