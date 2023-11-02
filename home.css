@@ -449,7 +449,7 @@ img.d-block.img-fluid.lead {
 }
 
 .mandatory-star {
-	color: red;
+	color: #024172;
 	margin-left: 5px;
 	/* providing a little space between the placeholder and the star */
 }
