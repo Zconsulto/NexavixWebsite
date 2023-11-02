@@ -1,21 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
-	// Extracting the 'tab' parameter from the URL
-	const urlParams = new URLSearchParams(window.location.search);
-	const tab = urlParams.get("tab");
+  // Extracting the 'tab' parameter from the URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const tab = urlParams.get("tab");
 
-	// Check if tab parameter is available
-	if (tab) {
-		loadContent(tab);
-	}
-	attachAccordionEventListeners();
+  // Check if tab parameter is available
+  if (tab) {
+    loadContent(tab);
+  }
+  attachAccordionEventListeners();
 });
 
 function loadContent(tabId) {
-	var contentDiv = document.getElementById("content");
+  var contentDiv = document.getElementById("content");
 
-	switch (tabId) {
-		case "tab1":
-			contentDiv.innerHTML = `<div class="image-banner">
+  switch (tabId) {
+    case "tab1":
+      contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/car7.jpg" alt="Manufacturing Industries Background">
             <div class="image-caption"><br>Optimized Manufacturing with<br> <strong>SAP Business one</strong></div>
         </div>
@@ -210,9 +210,9 @@ function loadContent(tabId) {
                 </div>
             </div>
         </div>`;
-			break;
-		case "tab2":
-			contentDiv.innerHTML = `<div class="image-banner">
+      break;
+    case "tab2":
+      contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind2.jpg" alt="Wholesale Industries Background">
             <div class="image-caption" style="left: 36% !important;"> <br>Streamlined Wholesale Distribution with<br> <strong>SAP Business one</strong></div>
         </div>
@@ -392,9 +392,9 @@ function loadContent(tabId) {
             </div>
         </div>
 `;
-			break;
-		case "tab3":
-			contentDiv.innerHTML = `<div class="image-banner">
+      break;
+    case "tab3":
+      contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind3.jpeg" alt="Retail Industries Background">
             <div class="image-caption" > <br>Elevating Retail Success with<br> <strong>SAP Business one</strong></div>
         </div>
@@ -597,9 +597,9 @@ function loadContent(tabId) {
             </div>
         </div>
         `;
-			break;
-		case "tab4":
-			contentDiv.innerHTML = `<div class="image-banner">
+      break;
+    case "tab4":
+      contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind4.jpeg" alt="Chemistry Industries Background">
             <div class="image-caption" style="left: 36% !important;"> <br>Navigating the Chemical Industry's Complexities with<br> <strong>SAP Business one</strong></div>
         </div>
@@ -785,9 +785,9 @@ function loadContent(tabId) {
                     </div>
                 </div>
 `;
-			break;
-		case "tab5":
-			contentDiv.innerHTML = `<div class="image-banner">
+      break;
+    case "tab5":
+      contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind5.jpeg" alt="Oil & Gas Industries Background">
             <div class="image-caption" style="left: 36% !important;"><br>Propelling the Oil & Gas Industry Forward with<br> <strong>SAP Business one</strong></div>
         </div>
@@ -984,9 +984,9 @@ function loadContent(tabId) {
             </div>
         </div>
 `;
-			break;
-		case "tab6":
-			contentDiv.innerHTML = `<div class="image-banner">
+      break;
+    case "tab6":
+      contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind6.jpeg" alt="Automotive Industries Background">
             <div class="image-caption" style="left: 36% !important;"><br>Accelerating Success in the Automotive Industry with<br> <strong>SAP Business one</strong></div>
         </div>
@@ -1185,9 +1185,9 @@ function loadContent(tabId) {
             </div>
         </div>
 `;
-			break;
-		case "tab7":
-			contentDiv.innerHTML = `<div class="image-banner">
+      break;
+    case "tab7":
+      contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind7.jpeg" alt="Wholesale Industries Background">
             <div class="image-caption" style="left: 36% !important;"><br>Revolutionizing the Food & Beverage Sector with<br> <strong>SAP Business one</strong></div>
         </div>
@@ -1389,46 +1389,46 @@ function loadContent(tabId) {
             </div>
         </div>
 `;
-			break;
-		default:
-			contentDiv.innerHTML = "<p>No content available</p>";
-	}
+      break;
+    default:
+      contentDiv.innerHTML = "<p>No content available</p>";
+  }
 
-	setActiveTab(tabId);
-	attachAccordionEventListeners();
+  setActiveTab(tabId);
+  attachAccordionEventListeners();
 }
 document.addEventListener("load", function (e) {
-	attachAccordionEventListeners();
+  attachAccordionEventListeners();
 });
 function attachAccordionEventListeners() {
-	document
-		.querySelectorAll(".accordion__item-title")
-		.forEach((titleElement) => {
-			titleElement.removeEventListener("click", accordionToggle);
-			titleElement.addEventListener("click", accordionToggle);
-		});
+  document
+    .querySelectorAll(".accordion__item-title")
+    .forEach((titleElement) => {
+      titleElement.removeEventListener("click", accordionToggle);
+      titleElement.addEventListener("click", accordionToggle);
+    });
 }
 
 function accordionToggle() {
-	const contentElement = this.nextElementSibling;
-	this.parentElement.classList.toggle("js--active");
-	// contentElement.style.display =
-	// 	contentElement.style.display === "block" ? "none" : "block";
+  const contentElement = this.nextElementSibling;
+  this.parentElement.classList.toggle("js--active");
+  // contentElement.style.display =
+  // 	contentElement.style.display === "block" ? "none" : "block";
 }
 function setActiveTab(tabId) {
-	var buttons = document.querySelectorAll("#tabBar button");
-	buttons.forEach(function (button) {
-		// Only modify the DOM if necessary to prevent unnecessary reflows/repaints
-		if (
-			button.classList.contains("active") &&
-			button.getAttribute("onclick") !== `loadContent('${tabId}')`
-		) {
-			button.classList.remove("active");
-		} else if (
-			!button.classList.contains("active") &&
-			button.getAttribute("onclick") === `loadContent('${tabId}')`
-		) {
-			button.classList.add("active");
-		}
-	});
+  var buttons = document.querySelectorAll("#tabBar button");
+  buttons.forEach(function (button) {
+    // Only modify the DOM if necessary to prevent unnecessary reflows/repaints
+    if (
+      button.classList.contains("active") &&
+      button.getAttribute("onclick") !== `loadContent('${tabId}')`
+    ) {
+      button.classList.remove("active");
+    } else if (
+      !button.classList.contains("active") &&
+      button.getAttribute("onclick") === `loadContent('${tabId}')`
+    ) {
+      button.classList.add("active");
+    }
+  });
 }

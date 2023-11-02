@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-	var footerTemplate = `
+  var footerTemplate = `
     <div class="footContainer" id="footer-container">
   <div class="wrapper">
     <div id="footer-icon">
@@ -33,9 +33,9 @@ document.addEventListener("DOMContentLoaded", function () {
   </div>
       `;
 
-	// Find all divs with class "footer-placeholder" and replace them with the footer
-	var placeholders = document.querySelectorAll(".footer-placeholder");
-	placeholders.forEach(function (placeholder) {
-		placeholder.outerHTML = footerTemplate;
-	});
+  // Find all divs with class "footer-placeholder" and replace them with the footer
+  var placeholders = document.querySelectorAll(".footer-placeholder");
+  placeholders.forEach(function (placeholder) {
+    placeholder.outerHTML = footerTemplate;
+  });
 });

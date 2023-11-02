@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-	var flipBoxesTemplate = `
+  var flipBoxesTemplate = `
 
     <div class="unique_services-box">
 
@@ -96,9 +96,9 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
       `;
 
-	// Find all divs with class "footer-placeholder" and replace them with the footer
-	var placeholders = document.querySelectorAll(".flipBoxes-placeholder");
-	placeholders.forEach(function (placeholder) {
-		placeholder.outerHTML = flipBoxesTemplate;
-	});
+  // Find all divs with class "footer-placeholder" and replace them with the footer
+  var placeholders = document.querySelectorAll(".flipBoxes-placeholder");
+  placeholders.forEach(function (placeholder) {
+    placeholder.outerHTML = flipBoxesTemplate;
+  });
 });

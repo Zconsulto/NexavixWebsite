@@ -1,19 +1,19 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Extracting the 'tab' parameter from the URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const tab = urlParams.get('tab');
-    
-    // Check if tab parameter is available
-    if(tab) {
-        loadContent(tab);
-    }
+document.addEventListener("DOMContentLoaded", function () {
+  // Extracting the 'tab' parameter from the URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const tab = urlParams.get("tab");
+
+  // Check if tab parameter is available
+  if (tab) {
+    loadContent(tab);
+  }
 });
 function loadContent(tabId) {
-	var contentDiv = document.getElementById("content");
+  var contentDiv = document.getElementById("content");
 
-	switch (tabId) {
-		case "tab1":
-			contentDiv.innerHTML = `<div class="highlight-section" id="ERP-Consultation">
+  switch (tabId) {
+    case "tab1":
+      contentDiv.innerHTML = `<div class="highlight-section" id="ERP-Consultation">
             <div class="container col-xxl-9"><h1 style="color: #024172;">ERP Consultation</h1></div>
         </div>
             <div class="container col-xxl-9 ">
@@ -30,9 +30,9 @@ function loadContent(tabId) {
                     </div>
                 </div>
             </div>`;
-			break;
-		case "tab2":
-			contentDiv.innerHTML = `<div class="highlight-section" id="Implementation">
+      break;
+    case "tab2":
+      contentDiv.innerHTML = `<div class="highlight-section" id="Implementation">
             <div class="container col-xxl-9">
             <h1 style="color: #024172;">Implementation</h1>
             </div>
@@ -57,9 +57,9 @@ function loadContent(tabId) {
                 </div>
             </div>
         </div>`;
-			break;
-		case "tab3":
-			contentDiv.innerHTML = `<div class="highlight-section" id="Support">
+      break;
+    case "tab3":
+      contentDiv.innerHTML = `<div class="highlight-section" id="Support">
             <div class="container col-xxl-9">
             <h1 style="color: #024172;">Support</h1>
             </div>
@@ -79,9 +79,9 @@ function loadContent(tabId) {
             </div>
         </div>
         `;
-			break;
-		case "tab4":
-			contentDiv.innerHTML = `<div class="highlight-section" id="Integration">
+      break;
+    case "tab4":
+      contentDiv.innerHTML = `<div class="highlight-section" id="Integration">
             <div class="container col-xxl-9">
             <h1 style="color: #024172;">Integration</h1>
             </div>
@@ -100,9 +100,9 @@ function loadContent(tabId) {
                 </div>
             </div>
         </div>`;
-			break;
-		case "tab5":
-			contentDiv.innerHTML = `<div class="highlight-section" id="Cloud-Hosting">
+      break;
+    case "tab5":
+      contentDiv.innerHTML = `<div class="highlight-section" id="Cloud-Hosting">
             <div class="container col-xxl-9">
             <h1 style="color: #024172;">Cloud Hosting</h1>
             </div>
@@ -121,23 +121,26 @@ function loadContent(tabId) {
                 </div>
             </div>
         </div>`;
-			break;
-		default:
-			contentDiv.innerHTML = "<p>No content available</p>";
-	}
-    setActiveTab(tabId);
+      break;
+    default:
+      contentDiv.innerHTML = "<p>No content available</p>";
+  }
+  setActiveTab(tabId);
 }
 function setActiveTab(tabId) {
-    var buttons = document.querySelectorAll('#tabBar button');
-    buttons.forEach(function(button) {
-        // Only modify the DOM if necessary to prevent unnecessary reflows/repaints
-        if (button.classList.contains('active') && button.getAttribute('onclick') !== `loadContent('${tabId}')`) {
-            button.classList.remove('active');
-        } else if (!button.classList.contains('active') && button.getAttribute('onclick') === `loadContent('${tabId}')`) {
-            button.classList.add('active');
-        }
-    });
+  var buttons = document.querySelectorAll("#tabBar button");
+  buttons.forEach(function (button) {
+    // Only modify the DOM if necessary to prevent unnecessary reflows/repaints
+    if (
+      button.classList.contains("active") &&
+      button.getAttribute("onclick") !== `loadContent('${tabId}')`
+    ) {
+      button.classList.remove("active");
+    } else if (
+      !button.classList.contains("active") &&
+      button.getAttribute("onclick") === `loadContent('${tabId}')`
+    ) {
+      button.classList.add("active");
+    }
+  });
 }
-
-
-

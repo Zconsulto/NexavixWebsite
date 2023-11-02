@@ -39,28 +39,6 @@
 
   </head>
 <body data-current-page="index">
-<div class="backdrop"></div>
-<div class="popup-card">
-  <button class="popBtn" id="close-btn">
-    <span class="material-symbols-rounded close-icon"> X </span>
-  </button>
-
-  <div>
-    <span class="material-symbols-rounded icon">
-      <img src="images/zcons//Logo&Logomark2.png" alt="" style="max-width: 50px;">
-    </span>
-  </div>
-
-  <div class="content">
-    <h3>Experience SAP Firsthand!</h3>
-    <a href="https://dtsuap.divts.com:446/UAP" target="_blank">
-      <button type="button" class="zBtn">
-        Start Your Free Trial Now!</button></a>
-  </div>
-</div>
-
-
-
         <!-- Your website content goes here -->
 
     <!-- Other content of your HTML file -->
@@ -177,6 +155,27 @@
       </a>
   </div>
 <!-- End Carrousel -->
+
+<div class="backdrop"></div>
+<div class="popup-card">
+  <button class="popBtn" id="close-btn">
+    <span class="material-symbols-rounded close-icon"> X </span>
+  </button>
+
+  <div>
+    <span class="material-symbols-rounded icon">
+      <img src="images/zcons//Logo&Logomark2.png" alt="" style="max-width: 50px;">
+    </span>
+  </div>
+
+  <div class="content">
+    <h3>Experience SAP Firsthand!</h3>
+    <a href="https://dtsuap.divts.com:446/UAP" target="_blank">
+      <button type="button" class="zBtn">
+        Start Your Free Trial Now!</button></a>
+  </div>
+</div>
+
 
 <!-- START SAP B1 Overview -->
 
@@ -606,10 +605,14 @@ style="border-top: 2px solid; border-image: linear-gradient(90deg, #21d0b3 0%, #
     </div>
     <div class="content">
       <form action="https://formspree.io/f/xbjvbrqz" method="POST">
-        <input class="main-input" type="text" name="Customer's Name" placeholder="Your Name" required/>
-        <input class="main-input" type="text" name="Company's Name" placeholder="Your Company's Name" required />
-        <input class="main-input" type="email" name="Customer's Email" placeholder="Your Email" required/>
-        <input class="main-input" type="text" name="Customer's Phone" placeholder="Your phone" required/>
+        <span class="mandatory-star">*</span>
+        <input class="main-input" type="text" name="Customer's Name" placeholder="Your Name" required />
+        <span class="mandatory-star">*</span>
+        <input class="main-input" type="text" name="Company's Name" placeholder="Your Company's Name" required /><span
+          class="mandatory-star">*</span>
+        <input class="main-input" type="email" name="Customer's Email" placeholder="Your Email" required /><span
+          class="mandatory-star">*</span>
+        <input class="main-input" type="text" name="Customer's Phone" placeholder="Your phone" required />
         <select class="main-input" name="Service">
           <option value="" disabled selected>Select a Service</option>
           <!-- <option value="service1">WHOLESALE DISTRIBUTION</option> -->
