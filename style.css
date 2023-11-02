@@ -274,6 +274,9 @@ html {
 }
 
 @media screen and (max-width: 768px) {
+	.br {
+		display: none;
+	}
 	.topnav a:not(:first-child) {
 		display: none;
 	}
