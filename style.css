@@ -287,12 +287,12 @@ html {
 		display: block;
 	}
 	.topnavContainer {
-		min-height: 175px;
+		min-height: 130px;
 		padding-bottom: 100px;
 	}
 
 	.topnav {
-		top: 86px;
+		top: 60px;
 	}
 }
 
