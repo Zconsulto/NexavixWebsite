@@ -7,18 +7,21 @@
     <title>Free Trial</title>
     <!-- <link rel="stylesheet" href="../trial.css" /> -->
     <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../trial.css">
     <link rel="website icon" type="png" href="../images/zcons/Logo&Logomark2.png" />
 
 
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <!-- Font Awesome (Latest) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700,700i,900" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" />
+    
+    <!-- Bootstrap (Latest) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-67B35RB9GT"></script>
     <script>
@@ -48,60 +51,111 @@
         </div>
     </div>
     <br /><br /><br /><br /><br /><br />
-    <div class="Flyout__opener--i_uwb fontBookBP" tabindex="0" role="button">
-        <div class="Flyout__icon--ZuVwv">
-            <span class="Flyout__screenReaderText--nRSVP"></span>
-        </div>
-        <a href="../index.html#Contact" style="
-					background: #21d0b3;
-					box-sizing: border-box;
-					color: #fff;
-					cursor: pointer;
-					display: inline-flex;
-					flex-direction: column;
-					align-items: center;
-					justify-content: center;
-					font-size: 14px;
-					padding: 16px 25px 13px;
-					position: fixed;
-					right: 0;
-					top: 50%;
-					transform: translateY(-50%);
-					z-index: 150;
-					text-decoration: none;
-				">
-            <i class="fas fa-paper-plane" style="margin-bottom: 8px"></i>
-            <div class="contact-text">Contact us</div>
-        </a>
-    </div>
-
     <!-- Offering the trial -->
-    <div class="px-4 pt-5 my-5 text-center border-bottom">
-        <h1 style="color: #024172 !important" class="display-4 fw-bold text-body-emphasis">
-            Experience SAP Firsthand!
-        </h1>
-        <div class="col-lg-6 mx-auto">
-            <p style="color: #024172 !important" class="lead mb-4">
+    <div class="everything">
+        
+        <div class="offer">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>Experience SAP Firsthand!</h1>
+            <p>
                 Dive into the full capabilities of our robust system with a FREE
                 trial! Uncover every functionality at your own pace and see for
                 yourself how our solution can enhance your business operations. If you
                 love what you see, registering is just a click away. Take control and
                 experience a transformative solution today!
             </p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                <a href="https://dtsuap.divts.com:446/UAP" target="_blank"><button type="button" class="zBtn">
-                        Start Your Free Trial Now!
-                    </button></a>
+            <!-- You can uncomment this if needed
+            <div>
+                <a href="https://dtsuap.divts.com:446/UAP" target="_blank">
+                    <button type="button" class="zBtn">Start Your Free Trial Now!</button>
+                </a>
+            </div>
+            -->
+            <div class="overflow-hidden">
+                <div class="container">
+                    <img src="../images/trial.jpg" class="img-fluid" alt="Example image" loading="lazy" />
+                </div>
             </div>
         </div>
-        <div class="overflow-hidden" style="max-height: 60vh">
-            <div class="container px-5">
-                <img src="../images/trial.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image"
-                    width="700" height="500" loading="lazy" />
-            </div>
-        </div>
-    </div>
+<div class="formContainer">
+    <!-- https://formspree.io/f/mbjvbyrb -->
+    <form id="contact" action="https://formspree.io/f/mleyvned" method="post">
+        <h3>Register Now!</h3>
+        <h4>Contact us today, and get reply with in 24 hours!</h4>
 
+        <fieldset>
+            <input placeholder="Your name *" type="text" name="Customer's Name" required autofocus>
+        </fieldset>
+
+        <fieldset>
+            <input placeholder="Your Email Address *" name="Customer's Email" type="email" tabindex="2" required>
+        </fieldset>
+
+        <fieldset>
+            <input placeholder="Your Phone Number *" name="Customer's number" type="tel" tabindex="3" required>
+        </fieldset>
+
+        <fieldset>
+            <input placeholder="Your Company Name *" name="Customer's Company" type="text" tabindex="4" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Annual Revenues *</legend> <!-- Added a legend for the group of radio buttons -->
+            <label>
+                <input type="radio" id="specifyColor"  name="Company's Revenues" value="less than 50M" required> Less than 50M
+            </label><br>
+            <label>
+                <input type="radio" id="specifyColor"  name="Company's Revenues" value="Between 50M and 100M" required> Between 50M and 100M
+            </label><br>
+            <label>
+                <input type="radio" id="specifyColor"  name="Company's Revenues" value="Between 100M and 500M" required> Between 100M and 500M
+            </label><br>
+            <label>
+                <input type="radio" id="specifyColor"  name="Company's Revenues" value="More than 500M" required> More than 500M
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Employees *</legend>
+            <label>
+                <input type="radio" id="specifyColor"  name="Number of Employees" value="less than 4" required> Less than 4
+            </label><br>
+            <label>
+                <input type="radio" id="specifyColor"  name="Number of Employees" value="between 4 and 10" required> Between 4 and 10
+            </label><br>
+            <label>
+                <input type="radio" id="specifyColor"  name="Number of Employees" value="between 10 and 20" required> Between 10 and 20
+            </label><br>
+            <label>
+                <input type="radio" id="specifyColor"  name="Number of Employees" value="between 30 and 50" required> Between 30 and 50
+            </label><br>
+            <label>
+                <input type="radio" id="specifyColor"  name="Number of Employees" value="between 50 and 80" required> Between 50 and 80
+            </label><br>
+            <label>
+                <input type="radio" id="specifyColor"  name="Number of Employees" value="between 80 and 100" required> Between 80 and 100
+            </label><br>
+            <label>
+                <input type="radio" id="specifyColor"  name="Number of Employees" value="more than 100" required> More than 100
+            </label>
+        </fieldset>
+        <br>
+
+
+        <fieldset>
+            <textarea placeholder="Type your Message Here...." name="Customer's Message" tabindex="4"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <button name="submit" type="submit" data-submit="...Sending" class="zBtn">Submit</button>
+        </fieldset>
+    </form>
+</div>
+
+</div>
     <!-- Footer -->
     <footer class="footer">
         <script src="/components/footer.js"></script>

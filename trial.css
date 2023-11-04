@@ -8,3 +8,132 @@ body {
         Times,
         serif;
 }
+
+.everything {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-left: 10%;
+}
+
+.offer {
+    flex: 1;
+    /* Take available space */
+    color: #024172;
+    max-width: 60%;
+    /* This will ensure the offer doesn't get too wide */
+    margin: 0;
+    padding: 0%;
+}
+
+.offer h1 {
+    font-size: 24px;
+    font-weight: bold;
+        text-align: center;
+}
+
+.offer p {
+    font-size: 16px;
+    line-height: 1.5;
+    /* Increase readability */
+        text-align: center;
+}
+
+.overflow-hidden {
+    max-height: 60vh;
+    overflow: hidden;
+}
+
+.container {
+    padding: 5px;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 1%;
+    position: relative;
+}
+
+#contact {
+    background: linear-gradient(135deg, #024172, #21d0b3);;
+    padding: 25px;
+    margin: 50px 0;
+}
+
+#contact h3 {
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#contact h4 {
+    color: #fff;
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+    color: #000;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #21d0b3;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    color: #000;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #AAA;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #024172;
+}
+
+legend{
+    color: #fff;
+}
+
+#specifyColor {
+    accent-color: #21d0b3;
+}
