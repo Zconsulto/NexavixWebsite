@@ -56,6 +56,22 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 767px) {
+    .img-fluid {
+            display: none;
+        }
+    .everything{
+        display: block;
+        margin: 0%;
+        max-width: 100%;
+        width: 100%;
+    }
+    .offer{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
 .formContainer {
     max-width: 400px;
     width: 100%;
@@ -137,3 +153,4 @@ legend{
 #specifyColor {
     accent-color: #21d0b3;
 }
+
