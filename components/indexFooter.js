@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var footerTemplate = `
+	var footerTemplate = `
     <div class="footContainer" id="footer-container">
   <div class="wrapper">
     <div id="footer-icon">
@@ -30,14 +30,30 @@ document.addEventListener("DOMContentLoaded", function () {
         <div><a href="pages/trial.html">Free Trial</a></div>
       </div>
   </div>
+  <div class="wrapper ">
+  <div class="icons">
+               <a class="header-social" href="https://www.linkedin.com/company/zconsulto/" target="_blank">
+          <span class="fab fa-linkedin-in"></span>
+        </a>
+        <a class="header-social" href="https://www.facebook.com/people/Zconsulto/100094921483542/" target="_blank">
+          <span class="fab fa-facebook"></span>
+        </a>
+        <a class="header-social" href="https://open.spotify.com/show/79Tt6w0oa0C2MM9STxD11W?si=lqbXsGOqRIeTJ9uj9gP20Q&nd=1&dlsi=96d1cf23ce8f4f95" target="_blank">
+           <span class="fab fa-spotify"></span>
+          </a>
+           <a class="header-social" href="https://podcasts.apple.com/" target="_blank">
+    <span class="fas fa-podcast"></span>
+  </a>
+   </div>
+   </div>
   <div class="wrapper credits">
     <div id="credits-left"> © Copyright 2023 ZConsulto. All Rights Reserved.</div>
   </div>
       `;
 
-  // Find all divs with class "footer-placeholder" and replace them with the footer
-  var placeholders = document.querySelectorAll(".footer-placeholder");
-  placeholders.forEach(function (placeholder) {
-    placeholder.outerHTML = footerTemplate;
-  });
+	// Find all divs with class "footer-placeholder" and replace them with the footer
+	var placeholders = document.querySelectorAll(".footer-placeholder");
+	placeholders.forEach(function (placeholder) {
+		placeholder.outerHTML = footerTemplate;
+	});
 });

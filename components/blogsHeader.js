@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
      <div class="row" style=" display: flex;
      flex-wrap: nowrap; ">
           <div class="tob_bar_left_col hidden-xs col-sm-6 col-md-6" style="    display: flex;
-          width: 50%;
+          width: 30%;
           align-items: center;
           justify-content: left;
           margin-left: 17px;">
@@ -25,17 +25,22 @@ document.addEventListener("DOMContentLoaded", function () {
           </div>
           <div class="tob_bar_right_col col-xs-12 col-sm-6 col-md-6" style="    display: flex;
           gap: 0.2;
-          width: 50%;
+          width: 70%;
           align-items: center;
           justify-content: right;
           margin-right: 1px;">
           <div class="icons">
 <a class="header-social" href="https://www.linkedin.com/company/zconsulto/" target="_blank">
           <span class="fab fa-linkedin-in"></span>
-        </a> 
+        </a>
         <a class="header-social" href="https://www.facebook.com/people/Zconsulto/100094921483542/" target="_blank">
           <span class="fab fa-facebook"></span>
-        </a>    </div>
+        </a>           <a class="header-social" href="https://open.spotify.com/show/79Tt6w0oa0C2MM9STxD11W?si=lqbXsGOqRIeTJ9uj9gP20Q&nd=1&dlsi=96d1cf23ce8f4f95" target="_blank">
+           <span class="fab fa-spotify"></span>
+          </a>
+           <a class="header-social" href="https://podcasts.apple.com/" target="_blank">
+    <span class="fas fa-podcast"></span>
+  </a> </div>
           <a href="../pages/blogs.html" style="border:1px;">BLOG</a>
 
           <a href="../pages/trial.html" class="special-link"> FREE TRIAL</a>
