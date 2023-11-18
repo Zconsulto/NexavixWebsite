@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <a class="header-social" href="https://open.spotify.com/show/79Tt6w0oa0C2MM9STxD11W?si=lqbXsGOqRIeTJ9uj9gP20Q&nd=1&dlsi=96d1cf23ce8f4f95" target="_blank">
            <span class="fab fa-spotify"></span>
           </a>
-           <a class="header-social" href="https://podcasts.apple.com/" target="_blank">
+           <a class="header-social" href="https://apple.co/3u1iRTf" target="_blank">
     <span class="fas fa-podcast"></span>
   </a> </div>
           <a href="pages/blogs.html" style="border:1px;">BLOG</a>
