@@ -23,9 +23,7 @@ function loadContent(tabId) {
                     </div>
                     <div class="col-lg-8">
                         <p class="lead">
-                            Choosing software can be intricate and time-consuming for businesses.
-                            So, our ERP consultation lets determine which
-                            software can support your processes and your industry requirements.
+                        During our ERP consultation, we assess which software, including SAP Business One, best supports your unique processes and industry requirements.
                         </p>
                     </div>
                 </div>
@@ -72,8 +70,7 @@ function loadContent(tabId) {
                 </div>
                 <div class="col-lg-8">
                     <p class="lead">
-                        Beyond implementation, we offer exceptional daily support, minimizing disruptions. Focus on your core business while we
-                        maximize system uptime for your growth and success
+                    Beyond just implementation, we offer daily support for SAP B1, ensuring minimal disruptions and maximizing system uptime for your business's growth and success.
                     </p>
                 </div>
             </div>
@@ -115,8 +112,7 @@ function loadContent(tabId) {
                 </div>
                 <div class="col-lg-8">
                     <p class="lead">
-                        Experience flexible, secure cloud hosting with ZConsulto. Access your resources anytime, anywhere while we handle IT
-                        infrastructure complexities, enabling your business to thrive with enhanced efficiency and agility.
+                    Experience flexible, secure cloud hosting with ZConsulto for SAP Business One. Access your resources anytime, anywhere, while we handle the complexities of IT infrastructure, enabling enhanced efficiency and agility for your business.
                     </p>
                 </div>
             </div>
