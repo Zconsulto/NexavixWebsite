@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
           align-items: center;
           justify-content: right;
           margin-right: 1px;">
-          <div class="icons">
+          <div class="icons no">
 <a class="header-social" href="https://www.linkedin.com/company/zconsulto/" target="_blank">
           <span class="fab fa-linkedin-in"></span>
         </a>

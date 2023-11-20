@@ -132,24 +132,24 @@ html {
 
 @media only screen and (max-width: 768px) {
 	.contact-text {
-			display: none;
-		}
-	.no{
+		display: none;
+	}
+	.no {
 		display: none;
 	}
 	.popup-card {
 		display: none;
 	}
-		.backdrop {
-			display: none;
-		}
+	.backdrop {
+		display: none;
+	}
 	.top_bar {
 		padding: 10px 15px;
 		font-size: 8.5px;
 	}
 	.icons {
 		margin: 0 30px;
-		display: contents;
+		display: none;
 	}
 
 	.top_bar_left_col {
@@ -281,9 +281,9 @@ html {
 		display: none;
 	}
 
-		.logo img {
-			width: 220px;
-		}
+	.logo img {
+		width: 220px;
+	}
 
 	.topnav a.icon {
 		float: right;
@@ -301,11 +301,11 @@ html {
 
 @media screen and (max-width: 768px) {
 	.topnav {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			width: 90%;
-		}
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 90%;
+	}
 
 	.topnav.responsive {
 		position: relative;
