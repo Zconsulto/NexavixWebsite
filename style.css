@@ -151,6 +151,13 @@ html {
 		margin: 0 30px;
 		display: none;
 	}
+	.footContainer .wrapper .icons {
+		display: flex;
+		text-align: center;
+		flex: 1 1 100%;
+		justify-content: center;
+		gap: inherit;
+	}
 
 	.top_bar_left_col {
 		margin-left: 0 !important;

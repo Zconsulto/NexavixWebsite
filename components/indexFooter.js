@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
   </div>
   <div class="wrapper ">
-  <div class="icons">
+  <div class="icons " style="    margin-left: 20px;">
                <a class="header-social" href="https://www.linkedin.com/company/zconsulto/" target="_blank">
           <i class="fab fa-linkedin-in"></i>
         </a>
