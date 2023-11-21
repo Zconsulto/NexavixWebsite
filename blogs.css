@@ -191,3 +191,26 @@ body {
     color: #024172;
     font-size: 1.1em;
 }
+
+.verified-symbol {
+    display: inline-block;
+    width: 15px;  /* size of the circle */
+    height: 15px; /* size of the circle */
+    background-color: #21d0b3; /* your specified color */
+    border-radius: 50%; /* makes it a circle */
+    color: #024172;
+    text-align: center;
+    line-height: 15px; /* centers the content vertically */
+    font-size: 0; /* removes default font size */
+    margin-left: 2px; /* space from the text */
+    vertical-align: middle; /* vertical alignment */
+}
+
+.verified-symbol::after {
+    content: '✓';
+    font-size: 12px; /* size of the checkmark */
+    line-height: 15px; /* centers the checkmark vertically */
+}
+
+
+}
