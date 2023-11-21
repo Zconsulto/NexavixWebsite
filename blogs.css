@@ -212,5 +212,10 @@ img
     line-height: 15px; /* centers the checkmark vertically */
 }
 
+.blog_section .blog_content .blog_item {
+    min-height: 700px; /* Set this to the desired minimum height */
+    /* Other styles remain unchanged */
+}
+
 
 }
