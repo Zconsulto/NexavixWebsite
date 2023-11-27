@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Your font-family here', sans-serif;
+            color: #Your primary color hex;
+            background-color: #Your background color hex;
+        }
+        .calculator-container {
+            width: 70%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #Your secondary color hex;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        select, input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .total-estimate {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="calculator-container">
+    <div class="form-group">
+        <label for="licenseType">License Type:</label>
+        <select id="licenseType">
+            <option value="3200">Professional License ($3,200 per user)</option>
+            <option value="1650">Limited License ($1,650 per user)</option>
+            <option value="1350">Starter License ($1,350 per user)</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="numUsers">Number of Users:</label>
+        <input type="number" id="numUsers" min="1" value="1">
+    </div>
+    <div class="form-group">
+        <label for="implementationHours">Implementation Hours:</label>
+        <input type="range" id="implementationHours" min="150" max="500" value="150">
+    </div>
+    <div class="total-estimate">
+        Total Estimate: $<span id="totalCost">0</span>
+    </div>
+</div>
+
+<script>
+    // JavaScript for dynamic calculation will go here
+</script>
+
+</body>
+</html>
