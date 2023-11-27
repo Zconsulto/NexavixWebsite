@@ -25,11 +25,11 @@ body {
 
 #tabBar button i {
 	margin-right: 10px;
-	color: #21D0B3;
+	color: #21d0b3;
 }
 /* Hover effects */
 #tabBar button:hover {
-	background-color: #21D0B3;
+	background-color: #21d0b3;
 	transform: scale(1.05);
 }
 #tabBar button:hover i {
@@ -39,7 +39,7 @@ body {
 /* Active state */
 #tabBar button.active {
 	/* background-color: #21D0B3; */
-	border-bottom: 2px solid #21D0B3;
+	border-bottom: 2px solid #21d0b3;
 	transform: scale(1.05);
 	color: #000;
 }
@@ -53,11 +53,20 @@ body {
 	border: 1px solid #ccc;
 }
 @media only screen and (max-width: 768px) {
+	#tabBar {
+		flex-direction: column;
+		align-items: center; /* Centers items when in a column layout */
+	}
+	#tabBar button {
+		align-self: flex-start; /* Aligns buttons to the start when in a column layout */
+	}
+}
+/* @media only screen and (max-width: 768px) {
 
 	#tabBar {
 		flex-direction: column;
 	}
-}
+} */
 /* Start Accordion */
 /* img */
 .image-banner {
@@ -103,7 +112,7 @@ body {
 }
 /* img */
 .faq-accordion__title {
-	color: #21D0B3 !important;
+	color: #21d0b3 !important;
 	text-align: center;
 	font-weight: bolder !important;
 }
@@ -117,11 +126,11 @@ body {
 }
 
 .faq-accordion__container {
-    display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-        width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
 }
 .faq-accordion__content {
 	flex-basis: 50%;
@@ -130,13 +139,13 @@ body {
 }
 
 .faq-accordion__content::after {
-    content: "";
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 2px;
-        height: 120%;
-        background-image: linear-gradient(0deg, #21D0B3 0%, #024172 100%);
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2px;
+	height: 120%;
+	background-image: linear-gradient(0deg, #21d0b3 0%, #024172 100%);
 }
 
 .faq-accordion__accordion {
@@ -154,7 +163,7 @@ body {
 	padding: 10px;
 	background-color: #f8f8f8;
 	position: relative;
-	color: #21D0B3;
+	color: #21d0b3;
 	font-weight: bolder;
 }
 
@@ -179,7 +188,6 @@ body {
 /* End Accordion */
 
 @media (max-width: 768px) {
-
 	.faq-accordion,
 	.faq-accordion__container {
 		flex-direction: column;
@@ -193,15 +201,15 @@ body {
 	.faq-accordion__content::after {
 		display: none;
 	}
-		.image-banner {
-			height: 200px;
-		}
+	.image-banner {
+		height: 200px;
+	}
 
-		.accordion__item-title,
-		.accordion__item-content {
-			font-size: 14px;
-		}
-		.container{
-			margin-top: 66px;
-		}
+	.accordion__item-title,
+	.accordion__item-content {
+		font-size: 14px;
+	}
+	.container {
+		margin-top: 66px;
+	}
 }
