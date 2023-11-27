@@ -18,4 +18,10 @@ ul li p {
 	.container {
 		margin-top: 66px;
 	}
+	/* .containerx {
+		flex-direction: column;
+	}
+	.containerx .pan {
+		padding: 10px;
+	} */
 }
