@@ -1,0 +1,297 @@
+.pricing-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .pricing-container {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .pricing-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px; /* Adjust width as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-card h2 {
+    color: #21d0b3;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .price {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #777;
+    margin-right: 5px;
+  }
+  
+  .buy-btn,
+  .try-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #21d0b3;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .try-btn {
+    background-color: transparent;
+    color: #21d0b3;
+    border: 1px solid #21d0b3;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features li {
+    margin-bottom: 5px;
+  }
+  
+  /* You can add media queries to make it responsive */
+  @media (max-width: 768px) {
+    .pricing-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .center-toggle {
+    text-align: center;
+    margin-top: 10px; /* Adjust as needed for vertical spacing */
+    margin-bottom: 10px;
+}
+
+  .toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 70px; /* Width of the switch */
+    height: 24px; /* Height of the switch */
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-switch label {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 24px; /* Rounded corners for the switch */
+}
+
+.toggle-switch label:before {
+    position: absolute;
+    content: "";
+    height: 20px; /* Diameter of the slider */
+    width: 20px; /* Diameter of the slider */
+    left: 2px;
+    bottom: 2px;
+    background-color: #024172;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%; /* Makes the slider circular */
+}
+
+.center-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-text {
+    font-size: 0.8em; /* Smaller text */
+    color: #aaa; /* Default color */
+    padding: 0 10px; /* Spacing around text */
+}
+
+.toggle-checkbox:checked + .toggle-label + .right-text {
+    color: #000; /* Darker color when toggle is on */
+}
+
+.toggle-checkbox:not(:checked) + .toggle-label + .right-text + .left-text {
+    color: #aaa; /* Darker color when toggle is off */
+}
+
+.light-color {
+    color: #aaa; /* Replace with your lighter color code */
+    font-weight: bold;
+}
+
+.dark-color {
+    color: #000; /* Replace with your darker color code */
+    font-weight: bold;
+}
+
+
+input:checked + label {
+    background-color: #21d0b3;
+}
+
+input:focus + label {
+    box-shadow: 0 0 1px #21d0b3;
+}
+
+input:checked + label:before {
+    -webkit-transform: translateX(46px);
+    -ms-transform: translateX(46px);
+    transform: translateX(46px);
+}
+
+
+  
+.border-line {
+    border-top: 2px solid #21d0b3; /* 2px solid border with the specified color */
+    width: 100%; /* Full width */
+    margin: 20px 0; /* Adjust the vertical spacing as needed */
+}
+
+  
+  .hidden {
+    display: none;
+}
+  
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Checkmark styling if you're using FontAwesome icons */
+  .fas.fa-check {
+    color: green;
+  }
+  
+  /* Responsive table */
+  @media (max-width: 768px) {
+    .table-responsive {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  
+
+  /* Target the anchor tags directly */
+a[href="../index.html#Contact"], a[href="trial.html"] {
+    text-decoration: none !important; /* Force override */
+}
+
+/* Apply to the buttons for good measure */
+.buy-btn, .try-btn {
+    text-decoration: none !important;
+}
+
+/* Ensure it applies in all states */
+a[href="../index.html#Contact"]:hover, a[href="trial.html"]:hover,
+a[href="../index.html#Contact"]:focus, a[href="trial.html"]:focus {
+    text-decoration: none !important;
+}
+/* Normal state styles for buttons */
+.buy-btn, .try-btn {
+    /* Add other styling properties as needed */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Initial shadow for 3D effect */
+}
+
+/* Hover state styles for buttons */
+.buy-btn:hover, .try-btn:hover {
+    transform: scale(1.05); /* Slightly increase size */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Increase shadow for pop out effect */
+}
+
+.accordion .accordion-button:focus {
+    outline: none;
+    box-shadow: none; /* If the highlight is due to a box-shadow */
+    background-color: transparent; /* If the highlight changes the background color */
+}
+
+div.accordion-item .accordion-button {
+    border: 2px solid #000 !important; /* Adjust the color and thickness as needed */
+}
+
+#tabBar {
+	display: flex;
+	justify-content: center;
+}
+
+#tabBar button {
+	background-color: transparent;
+	color: #024172;
+	padding: 10px 20px;
+	margin: 5px;
+	cursor: pointer;
+	border: none;
+	transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+	font-size: 16px;
+	border-radius: 25px;
+	/* Adjusted for a more "button-like" feel */
+	position: relative;
+	overflow: hidden;
+}
+
+#tabBar button i {
+	margin-right: 10px;
+	color: #21d0b3;
+}
+
+/* Hover effects */
+#tabBar button:hover {
+	background-color: #21d0b3;
+	transform: scale(1.05);
+}
+
+#tabBar button:hover i {
+	color: #024172;
+}
+
+/* Active state */
+#tabBar button.active {
+	border-bottom: 2px solid #21d0b3;
+	transform: scale(1.05);
+	color: #024172;
+}
+
+#tabBar button.active i {
+	color: #024172;
+}
+
+ul {
+    list-style: none; /* Removes default list styling */
+    padding: 0;
+    text-align: left; /* Aligns content to the right */
+}
+
+ul li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+ul li strong {
+    display: inline-block; /* Aligns the checkmarks and text */
+}
+
+
