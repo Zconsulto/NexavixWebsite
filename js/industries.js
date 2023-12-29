@@ -1,27 +1,27 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Extracting the 'tab' parameter from the URL
-  const urlParams = new URLSearchParams(window.location.search);
-  const tab = urlParams.get("tab");
+	// Extracting the 'tab' parameter from the URL
+	const urlParams = new URLSearchParams(window.location.search);
+	const tab = urlParams.get("tab");
 
-  // Check if tab parameter is available
-  if (tab) {
-    loadContent(tab);
-  }
-  attachAccordionEventListeners();
+	// Check if tab parameter is available
+	if (tab) {
+		loadContent(tab);
+	}
+	attachAccordionEventListeners();
 });
 
 function loadContent(tabId) {
-  var contentDiv = document.getElementById("content");
+	var contentDiv = document.getElementById("content");
 
-  switch (tabId) {
-    case "tab1":
-      contentDiv.innerHTML = `<div class="image-banner">
+	switch (tabId) {
+		case "tab1":
+			contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/car7.jpg" alt="Manufacturing Industries Background">
             <div class="image-caption"><br>Optimized Manufacturing with<br> <strong>SAP Business one</strong></div>
         </div>
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
             <div class="faq-accordion__container">
-      
+
                 <div class="faq-accordion__content" data-aos="fade-right">
                     <h2 class="faq-accordion__title h3"><br> <span style="color: #024172;">Unlock efficient production and operational transparency with SAP Business One.</span><br> Guiding your manufacturing towards
                     sustainable success and growth.</h2>
@@ -210,9 +210,9 @@ function loadContent(tabId) {
                 </div>
             </div>
         </div>`;
-      break;
-    case "tab2":
-      contentDiv.innerHTML = `<div class="image-banner">
+			break;
+		case "tab2":
+			contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind2.jpg" alt="Wholesale Industries Background">
             <div class="image-caption" style="left: 36% !important;"> <br>Streamlined Wholesale Distribution with<br> <strong>SAP Business one</strong></div>
         </div>
@@ -247,7 +247,7 @@ function loadContent(tabId) {
                             <p><span style="font-weight: bolder;">Challenge</span><br><br>Inventory Overstock and Understock Issues: <br> Balancing stock levels to avoid excess inventory and stock-outs remains a persistent challenge.</p>
                             <p>&nbsp;</p>
                             <p><span style="font-weight: bolder;">Solution:</span><br><br>
-                            - Automated Stock-Level Monitoring: Implementing Automated Alerts to Efficiently Manage and Avoid Overstock and Stock-outs.  
+                            - Automated Stock-Level Monitoring: Implementing Automated Alerts to Efficiently Manage and Avoid Overstock and Stock-outs.
                             <br>
                             <Br>
                             - Data-Driven Procurement: Utilize historical data to make informed purchasing decisions, aligning stock with demand.
@@ -281,9 +281,9 @@ function loadContent(tabId) {
                                 <p>&nbsp;</p>
                             <p><span style="font-weight: bolder;">Solution:</span><br><br>- Centralized Vendor Data: Centralize all vendor data, negotiations, and contracts in one platform to streamline vendor interactions.
                             <br>
-                            <Br>  
+                            <Br>
                             - Quality Control: Employ embedded analytics to assess vendor performance and ensure product quality consistency.
-                            
+
                             </p>
                         </div>
                     </div>
@@ -311,7 +311,7 @@ function loadContent(tabId) {
                         <div>
                             <p><span style="font-weight: bolder;">Challenge</span><br><br>Demand Forecasting: <br> Anticipating market demand accurately to optimize inventory and sales strategies.</p>
                             <p>&nbsp;</p>
-                            <p><span style="font-weight: bolder;">Solution:</span><br><br>- Predictive Analytics: Leverage predictive analytics to understand market trends and anticipate customer demand accurately.  
+                            <p><span style="font-weight: bolder;">Solution:</span><br><br>- Predictive Analytics: Leverage predictive analytics to understand market trends and anticipate customer demand accurately.
                             <br>
                             <br>
                             - Sales Forecasting: Use historical sales data to inform future sales strategies and optimize inventory.
@@ -345,10 +345,10 @@ function loadContent(tabId) {
 </p>
                                 <p>&nbsp;</p>
                                 <p><span style="font-weight: bolder;">Solution:</span><br><br>
-                                - Logistics Optimization: Utilize SAP B1 to coordinate efficient and timely shipping, reducing delays and managing costs.  
+                                - Logistics Optimization: Utilize SAP B1 to coordinate efficient and timely shipping, reducing delays and managing costs.
                                 <br><br>
                                 - Integration with Shipping Carriers: Integrate with various shipping carriers and platforms to streamline logistics management and tracking.
-                                
+
                             </p>
                         </div>
                     </div>
@@ -378,10 +378,10 @@ function loadContent(tabId) {
                     Combining sales, purchasing, and financial data for accurate and real-time financial insights.
 </p>
                         <p>&nbsp;</p>
-                    <p><span style="font-weight: bolder;">Solution</span> <br><br>- Unified Financial Data: Centralize financial operations in a single platform, ensuring consistency and real-time access to crucial financial data. 
-                    <br><br> 
+                    <p><span style="font-weight: bolder;">Solution</span> <br><br>- Unified Financial Data: Centralize financial operations in a single platform, ensuring consistency and real-time access to crucial financial data.
+                    <br><br>
                     - Profitability Analysis: Leverage integrated data to analyze the profitability of products, customers, and regions, enabling informed strategic decisions.
-                    
+
                     </p>
                                 </div>
                             </div>
@@ -392,9 +392,9 @@ function loadContent(tabId) {
             </div>
         </div>
 `;
-      break;
-    case "tab3":
-      contentDiv.innerHTML = `<div class="image-banner">
+			break;
+		case "tab3":
+			contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind3.jpeg" alt="Retail Industries Background">
             <div class="image-caption" > <br>Elevating Retail Success with<br> <strong>SAP Business one</strong></div>
         </div>
@@ -597,9 +597,9 @@ function loadContent(tabId) {
             </div>
         </div>
         `;
-      break;
-    case "tab4":
-      contentDiv.innerHTML = `<div class="image-banner">
+			break;
+		case "tab4":
+			contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind4.jpeg" alt="Chemistry Industries Background">
             <div class="image-caption" style="left: 36% !important;"> <br>Navigating the Chemical Industry's Complexities with<br> <strong>SAP Business one</strong></div>
         </div>
@@ -785,10 +785,10 @@ function loadContent(tabId) {
                     </div>
                 </div>
 `;
-      break;
-    case "tab5":
-      contentDiv.innerHTML = `<div class="image-banner">
-            <img src="../images/ind5.jpeg" alt="Oil & Gas Industries Background">
+			break;
+		case "tab5":
+			contentDiv.innerHTML = `<div class="image-banner">
+            <img src="../images/ind5.jpg" alt="Oil & Gas Industries Background">
             <div class="image-caption" style="left: 36% !important;"><br>Propelling the Oil & Gas Industry Forward with<br> <strong>SAP Business one</strong></div>
         </div>
         <div id="faq" class="faq-accordion" data-controller="blocks/faq-accordion">
@@ -984,9 +984,9 @@ function loadContent(tabId) {
             </div>
         </div>
 `;
-      break;
-    case "tab6":
-      contentDiv.innerHTML = `<div class="image-banner">
+			break;
+		case "tab6":
+			contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind6.jpeg" alt="Automotive Industries Background">
             <div class="image-caption" style="left: 36% !important;"><br>Accelerating Success in the Automotive Industry with<br> <strong>SAP Business one</strong></div>
         </div>
@@ -1185,9 +1185,9 @@ function loadContent(tabId) {
             </div>
         </div>
 `;
-      break;
-    case "tab7":
-      contentDiv.innerHTML = `<div class="image-banner">
+			break;
+		case "tab7":
+			contentDiv.innerHTML = `<div class="image-banner">
             <img src="../images/ind7.jpeg" alt="Wholesale Industries Background">
             <div class="image-caption" style="left: 36% !important;"><br>Revolutionizing the Food & Beverage Sector with<br> <strong>SAP Business one</strong></div>
         </div>
@@ -1317,7 +1317,7 @@ function loadContent(tabId) {
                                         <p><span style="font-weight: bolder;">Solution:</span><br><br>- Use resource planning tools to optimize production schedules.
                                         <br><br>
                                         - Ensure efficient resource allocation and reduce downtime.
-                                        
+
                                     </p>
                                 </div>
                             </div>
@@ -1382,53 +1382,53 @@ function loadContent(tabId) {
                         <p><span style="font-weight: bolder;">Solution</span> <br><br>- Manage customer data, orders, and feedback efficiently.
                         <br><br>
                         - Facilitate better communication and order management with suppliers.
-                        
+
                         </p>
                     </div>
                 </div>
             </div>
         </div>
 `;
-      break;
-    default:
-      contentDiv.innerHTML = "<p>No content available</p>";
-  }
+			break;
+		default:
+			contentDiv.innerHTML = "<p>No content available</p>";
+	}
 
-  setActiveTab(tabId);
-  attachAccordionEventListeners();
+	setActiveTab(tabId);
+	attachAccordionEventListeners();
 }
 document.addEventListener("load", function (e) {
-  attachAccordionEventListeners();
+	attachAccordionEventListeners();
 });
 function attachAccordionEventListeners() {
-  document
-    .querySelectorAll(".accordion__item-title")
-    .forEach((titleElement) => {
-      titleElement.removeEventListener("click", accordionToggle);
-      titleElement.addEventListener("click", accordionToggle);
-    });
+	document
+		.querySelectorAll(".accordion__item-title")
+		.forEach((titleElement) => {
+			titleElement.removeEventListener("click", accordionToggle);
+			titleElement.addEventListener("click", accordionToggle);
+		});
 }
 
 function accordionToggle() {
-  const contentElement = this.nextElementSibling;
-  this.parentElement.classList.toggle("js--active");
-  // contentElement.style.display =
-  // 	contentElement.style.display === "block" ? "none" : "block";
+	const contentElement = this.nextElementSibling;
+	this.parentElement.classList.toggle("js--active");
+	// contentElement.style.display =
+	// 	contentElement.style.display === "block" ? "none" : "block";
 }
 function setActiveTab(tabId) {
-  var buttons = document.querySelectorAll("#tabBar button");
-  buttons.forEach(function (button) {
-    // Only modify the DOM if necessary to prevent unnecessary reflows/repaints
-    if (
-      button.classList.contains("active") &&
-      button.getAttribute("onclick") !== `loadContent('${tabId}')`
-    ) {
-      button.classList.remove("active");
-    } else if (
-      !button.classList.contains("active") &&
-      button.getAttribute("onclick") === `loadContent('${tabId}')`
-    ) {
-      button.classList.add("active");
-    }
-  });
+	var buttons = document.querySelectorAll("#tabBar button");
+	buttons.forEach(function (button) {
+		// Only modify the DOM if necessary to prevent unnecessary reflows/repaints
+		if (
+			button.classList.contains("active") &&
+			button.getAttribute("onclick") !== `loadContent('${tabId}')`
+		) {
+			button.classList.remove("active");
+		} else if (
+			!button.classList.contains("active") &&
+			button.getAttribute("onclick") === `loadContent('${tabId}')`
+		) {
+			button.classList.add("active");
+		}
+	});
 }
